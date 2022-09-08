@@ -5,12 +5,9 @@
 
   <mode name="fin-smn" install="yes" gendebug="yes">
     <pipeline>
-
-      <program name="lt-proc -w">
-        <file name="fin-smn.automorf.bin"/>
+      <program name="hfst-proc --weight-classes 1 -w -e">
+        <file name="fin-smn.automorf.hfst"/>
       </program>
-
-
       <program name="cg-proc -w -1 -n">
         <file name="fin-smn.rlx.bin"/>
       </program>
@@ -21,14 +18,11 @@
       <program name="lrx-proc -m">
         <file name="fin-smn.autolex.bin"/>
       </program>
-
-
       <program name="rtx-proc">
         <file name="fin-smn.rtx.bin"/>
       </program>
-
       <program name="hfst-proc $1">
-	<file name="fin-smn.autogen.hfst"/>
+        <file name="fin-smn.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>
@@ -37,9 +31,8 @@
 
   <mode name="smn-fin" install="yes" gendebug="yes">
     <pipeline>
-
       <program name="hfst-proc --weight-classes 1 -w -e">
-	<file name="smn-fin.automorf.hfst"/>
+        <file name="smn-fin.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
         <file name="smn-fin.mor.rlx.bin"/>
@@ -47,15 +40,6 @@
       <program name="cg-proc -n -1 -w">
         <file name="smn-fin.syn.rlx.bin"/>
       </program>
-
-
-      <program name="cg-proc -w">
-        <file name="smn-fin.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="smn-fin.prob"/>
-      </program>
-
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="smn-fin.autobil.bin"/>
@@ -63,14 +47,11 @@
       <program name="lrx-proc -m">
         <file name="smn-fin.autolex.bin"/>
       </program>
-
-
       <program name="rtx-proc">
         <file name="smn-fin.rtx.bin"/>
       </program>
-
-      <program name="lt-proc $1">
-        <file name="smn-fin.autogen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="smn-fin.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>

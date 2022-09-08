@@ -32,5 +32,5 @@ export ACLOCAL_PATH
 
 
 # Pass on all args to configure
-autoreconf -fi && ./configure "$@"
-
+autoreconf -fi
+echo you can now say ./configure $@

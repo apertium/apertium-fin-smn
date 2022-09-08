@@ -13,18 +13,16 @@ TARGETS_DIR1 =		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX1).autobil.bin	\
 	$(PREFIX1).autolex.bin	\
-	$(PREFIX1).autogen.bin	\
+	$(PREFIX1).autogen.hfst	\
 	$(PREFIX1).rtx.bin
 
 TRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf.bin
+	$(PREFIX1).automorf.hfst
 
 UNTRIMMED_TARGETS_DIR1 = \
-	$(PREFIX1).automorf-untrimmed.bin
+	$(PREFIX1).automorf-untrimmed.hfst
 
 TARGETS_DIR2 =		\
-	$(PREFIX2).prob		\
-	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).mor.rlx.bin  \
 	$(PREFIX2).syn.rlx.bin  \
 	$(PREFIX2).autobil.bin	\
@@ -63,18 +61,17 @@ untrimmed: $(TARGETS_DIR1) $(UNTRIMMED_TARGETS_DIR1) $(TARGETS_DIR2) $(UNTRIMMED
 # Finnish analysis:
 # -------------------
 
-.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.att.gz .deps/.d
-	$(ZCAT) $< | hfst-txt2fst > $@
+.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(LANG1).automorf.hfst
+	hfst-fst2fst -f openfst -i $< -o $@
 
 $(PREFIX1).automorf-untrimmed.bin: $(AP_SRC1)/$(LANG1).automorf.att.gz
 	@$(ZCAT) $< > $@.att
 	lt-comp lr $@.att $@
 	@rm $@.att
 
-$(PREFIX1).automorf.bin: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
-	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
-	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
-	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
+$(PREFIX1).automorf.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
+	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst \
+		-2 .deps/$(PREFIX1).autobil.prefixes | hfst-fst2fst -f olw -o $@
 
 # -------------------
 # Finnish generation:
@@ -116,16 +113,6 @@ $(PREFIX1).autogen.hfst: .deps/$(LANG2).autogen.hfst
 	hfst-fst2fst -O -i $< -o $@
 
 ###############################################################################
-## Tagger models
-###############################################################################
-
-$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
-	cp $< $@
-
-$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
-	cp $< $@
-
-###############################################################################
 ## Disambiguation rules
 ###############################################################################
 
@@ -157,11 +144,9 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
-	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
-	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 
