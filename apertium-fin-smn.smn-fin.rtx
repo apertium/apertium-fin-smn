@@ -2,41 +2,67 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg pl sp ND;
-gender = (GD m) m f mf GD;
-det_type = def ind dem itg;
+number = sg pl du sp;
+gender = m f mf;
 tense = pres past fut ifi pri fti;
+person = p1 p2 p3 ;
+case = nom gen acc par ine ela ill ade abl all loc com abe tra ess ;
+tensemood = cond pot imp pres pri past ;
+sem = sem_dummytag ;
+nptype = ant top cog al ;
+comparison = (COMP pst) pst comp sup COMP ;
+voice = (VOICE actv) actv pasv VOICE ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
-det_default: _.det_type;
-det_def: _.det_type.number;
+n: _.number.case;
+prn: _.number.case;
+num: _.number.case;
+adj: _.comparison.number.case;
+np: _.nptype.gender.number.case;
+vblex: _.voice.tensemood.person.number;
+ij: _;
+adv: _;
+cnjcoo: _;
+cnjsub: _;
 
-NP: _.number;
+ADV: _;
+A: _;
+IJ: _;
+N: _;
+PRN: _;
+V: _;
+C: _;
+NUM: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tensemood > tensemood: pres pri ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
 
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
+V -> vblex { 1 } ;
+PRN -> prn { 1 } ;
+N -> n { 1 } |
+     np { 1 } ;
+A -> adj { 1 } ;
+IJ -> ij { 1 } ;
+ADV -> adv { 1 } ;
+NUM -> num { 1 } ;
+
+C -> cnjcoo { 1 } |
+     cnjsub { 1 } ;
 ! Example rule:
 ! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><nt><sg>$
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
