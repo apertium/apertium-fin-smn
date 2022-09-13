@@ -112,6 +112,7 @@
 
     <e><p><l>mikä<s n="prn"/></l><r>mii<s n="prn"/></r></p></e>
     <e><p><l>kuka<s n="prn"/></l><r>kii<s n="prn"/></r></p></e>
+    <e><p><l>joka<s n="prn"/></l><r>jyehi<s n="prn"/></r></p></e>
     <e><p><l>tämä<s n="prn"/></l><r>taat<s n="prn"/></r></p></e>
     <e><p><l>tuo<s n="prn"/></l><r>tot<s n="prn"/></r></p></e>
     <e><p><l>toinen<s n="prn"/></l><r>nubbe<s n="prn"/></r></p></e>
@@ -126,11 +127,14 @@
 
     <!-- co-ordinating or coördinating conjunctions -->
 
+    <e><p><l>tai<s n="cnjcoo"/></l><r>teikâ<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>mut<s n="cnjcoo"/></r></p></e>
     <e><p><l>entä<s n="cnjcoo"/></l><r>nabai<s n="cnjcoo"/></r></p></e>
 
     <!-- adverbs -->
 
+    <e><p><l>myös<s n="adv"/></l><r>meiddei<s n="adv"/></r></p></e>
+    <e><p><l>hyvin<s n="adv"/></l><r>pyereest<s n="adv"/></r></p></e>
     <e><p><l>ihan<s n="adv"/></l><r>aaibâs<s n="adv"/></r></p></e>
     <e><p><l>täällä<s n="adv"/></l><r>tääbbin<s n="adv"/></r></p></e>
     <e><p><l>vain<s n="adv"/></l><r>peri<s n="adv"/></r></p></e>
@@ -141,10 +145,12 @@
     <e><p><l>tänään<s n="adv"/></l><r>onne<s n="adv"/></r></p></e>
     <e><p><l>niin<s n="adv"/></l><r>nuuvt<s n="adv"/></r></p></e>
     <e><p><l>miksi<s n="adv"/></l><r>mondiet<s n="adv"/></r></p></e>
+    <e><p><l>miten<s n="adv"/></l><r>maht<s n="adv"/></r></p></e>
     <e><p><l>enemmän<s n="adv"/></l><r>eenâb<s n="adv"/></r></p></e>
     <e><p><l>taas<s n="adv"/></l><r>vist<s n="adv"/></r></p></e>
     <e><p><l>jo<s n="adv"/></l><r>jo<s n="adv"/></r></p></e>
     <e><p><l>melkein<s n="adv"/></l><r>masa<s n="adv"/></r></p></e>
+    <e><p><l>mistä<s n="adv"/></l><r>kost<s n="adv"/></r></p></e>
 
     <!-- numerals -->
 
@@ -153,7 +159,9 @@
     <!-- adjectives -->
 
     <e><p><l>hauska<s n="adj"/></l><r>hitruus<s n="adj"/></r></p></e>
+    <e><p><l>iso<s n="adj"/></l><r>styeres<s n="adj"/></r></p></e>
     <e><p><l>hyvä<s n="adj"/></l><r>pyeri<s n="adj"/></r></p></e>
+    <e><p><l>hyvä<s n="adj"/></l><r>šiev<s n="adj"/></r></p></e>
     <e><p><l>uusi<s n="adj"/></l><r>uuđâs<s n="adj"/></r></p></e>
     <e><p><l>pieni<s n="adj"/></l><r>ucce<s n="adj"/></r></p></e>
     <e><p><l>mukava<s n="adj"/></l><r>suotâs<s n="adj"/></r></p></e>
@@ -179,13 +187,28 @@
     <e><p><l>kahvi<s n="n"/></l><r>kähvi<s n="n"/></r></p></e>
     <e><p><l>hyvä<s n="n"/></l><r>pyeri<s n="n"/></r></p></e>
     <e><p><l>tee<s n="n"/></l><r>teejâ<s n="n"/></r></p></e>
+    <e><p><l>ranta<s n="n"/></l><r>riddo<s n="n"/></r></p></e>
+    <e><p><l>kalastaja<s n="n"/></l><r>kuálásteijee<s n="n"/></r></p></e>
+    <e><p><l>kala<s n="n"/></l><r>kyeli<s n="n"/></r></p></e>
+    <e><p><l>vene<s n="n"/></l><r>käärbis<s n="n"/></r></p></e>
+    <e><p><l>päivä<s n="n"/></l><r>peivi<s n="n"/></r></p></e>
+    <e><p><l>ilta<s n="n"/></l><r>eehid<s n="n"/></r></p></e>
     <e><p><l>alkeiskurssi<s n="n"/></l><r>algâkurssâ<s n="n"/></r></p></e>
 
     <!-- proper nouns -->
 
     <e><i>Jovnâ<s n="np"/></i></e>
     <e><i>Márjá<s n="np"/></i></e>
+    <e><i>Hendâ<s n="np"/></i></e>
     <e><i>Oulu<s n="np"/></i></e>
+    <e><i>Helsinki<s n="np"/></i></e>
+    <e><i>Joensuu<s n="np"/></i></e>
+    <e><i>Romsa<s n="np"/></i></e>
+    <e><i>Mari<s n="np"/></i></e>
+
+
+    <e><p><l>Inari<s n="np"/></l><r>Aanaar<s n="np"/></r></p></e>
+    <e><p><l>Inarinjärvi<s n="np"/></l><r>Aanaarjävri<s n="np"/></r></p></e>
 
     <!-- verbs -->
 
@@ -195,6 +218,7 @@
     <!-- normal verbs -->
 
     <e><p><l>kuulua<s n="vblex"/></l><r>kulluđ<s n="vblex"/></r></p></e>
+    <e><p><l>mennä<s n="vblex"/></l><r>moonnâđ<s n="vblex"/></r></p></e>
     <e><p><l>tulla<s n="vblex"/></l><r>puáttiđ<s n="vblex"/></r></p></e>
     <e><p><l>juoda<s n="vblex"/></l><r>juuhâđ<s n="vblex"/></r></p></e>
     <e><p><l>saada<s n="vblex"/></l><r>uážžuđ<s n="vblex"/></r></p></e>
@@ -205,6 +229,11 @@
     <e><p><l>haluta<s n="vblex"/></l><r>halijdiđ<s n="vblex"/></r></p></e>
     <e><p><l>tietää<s n="vblex"/></l><r>tiettiđ<s n="vblex"/></r></p></e>
     <e><p><l>lähteä<s n="vblex"/></l><r>vyelgiđ<s n="vblex"/></r></p></e>
+    <e><p><l>asua<s n="vblex"/></l><r>aassâđ<s n="vblex"/></r></p></e>
+    <e><p><l>syödä<s n="vblex"/></l><r>puurrâđ<s n="vblex"/></r></p></e>
+    <e><p><l>paistaa<s n="vblex"/></l><r>passeeđ<s n="vblex"/></r></p></e>
+    <e><p><l>kalastaa<s n="vblex"/></l><r>kuálástiđ<s n="vblex"/></r></p></e>
+    <e><p><l>keitän<s n="vblex"/></l><r>vuoššâđ<s n="vblex"/></r></p></e>
     <e><p><l>kahvitella<s n="vblex"/></l><r>káhvástâllâđ<s n="vblex"/></r></p></e>
 
     <!-- interjections -->
