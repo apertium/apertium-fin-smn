@@ -42,6 +42,7 @@ NUM: _;
 !!!!!!!!!!!!!!!
 
 tensemood > tensemood: pres pri ;
+case > case: loc ine, acc gen ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
