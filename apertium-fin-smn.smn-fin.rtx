@@ -27,7 +27,9 @@ ij: _;
 adv: _;
 cnjcoo: _;
 cnjsub: _;
+post: _;
 
+ADP: _;
 ADV: _;
 A: _;
 IJ: _;
@@ -61,6 +63,7 @@ A -> adj { 1 } ;
 IJ -> ij { 1 } ;
 ADV -> adv { 1 } ;
 NUM -> num { 1 } ;
+ADP -> post { 1 } ;
 
 C -> cnjcoo { 1 } |
      cnjsub { 1 } ;
