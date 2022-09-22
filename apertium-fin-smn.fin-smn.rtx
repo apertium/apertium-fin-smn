@@ -2,45 +2,60 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg pl sp ND;
-gender = (GD m) m f mf GD;
-det_type = def ind dem itg;
+number = sg pl du sp;
+gender = m f mf;
 tense = pres past fut ifi pri fti;
+person = p1 p2 p3 ;
+case = nom gen acc par ine ela ill ade abl all loc com abe tra ess ;
+sem = sem_dummytag ;
+mood = cond pot imp pri ;
+comparison = pst comp sup ;
+clitic = qst foc_uv ;
+
+ones = ohtâ 1 ;
+twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
-adj: _.gender.number;
-det_default: _.det_type;
-det_def: _.det_type.number;
+n: _.number.case.clitic;
+n_par: _.case;   !! hack to get partitive without number tag?
+adj: _.comparison.number.case;
+num: _.number.case;
 
-NP: _.number;
+! singletons
+NUM: _;
+N: _;
+
+! phrases
+NP: _;
+NUMP: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : ifi past, pri pres, fti fut;
+tense > tense : pri pres;
+case > case : ine loc;
+
 
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
 
-det: (if (1.det_type = def or 1.det_type = ind)
-         1(det_def)
-      else
-         1(det_default));
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-! Example rule:
-! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><m><sg>$
-! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
-! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+NUMP -> num.*.nom n.*.par ?(1.lem in ones) { 1 _ 2 } |
+        num.*.nom n.*.par ?(1.lem in twosixes) { 1 _ 2[case=gen] } |
+        num.*.nom n.*.par { 1 _ 2(n_par) } ;
+
+N -> n.*.par { 1(n_par) } |
+     n { 1 } ;
+NUM -> num { 1 } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
