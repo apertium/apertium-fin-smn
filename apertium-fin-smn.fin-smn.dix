@@ -18,6 +18,7 @@
     <sdef n="pr"              c="Preposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
+    <sdef n="pcle"            c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="post"            c="Postposition"/>
@@ -104,6 +105,7 @@
 
     <e><p><l>no<s n="ij"/></l><r>na<s n="n"/></r></p></e>
     <e><p><l>montako<s n="adv"/></l><r>kalle<s n="num"/></r></p></e>
+    <e><p><l>yksi<s n="det"/></l><r>ohtâ<s n="num"/></r></p></e>
 
 
     <!-- pronouns -->
@@ -149,6 +151,7 @@
     <e><p><l>puolella<s n="post"/></l><r>peln<s n="post"/></r></p></e>
     <e><p><l>päässä<s n="post"/></l><r>keččin<s n="post"/></r></p></e>
     <e><p><l>sisään<s n="post"/></l><r>siisâ<s n="post"/></r></p></e>
+    <e><p><l>lähellä<s n="post"/></l><r>alda<s n="post"/></r></p></e>
 
     <!-- adverbs -->
 
@@ -163,7 +166,7 @@
     <e><p><l>ihan<s n="adv"/></l><r>aaibâs<s n="adv"/></r></p></e>
     <e><p><l>täällä<s n="adv"/></l><r>tääbbin<s n="adv"/></r></p></e>
     <e><p><l>vain<s n="adv"/></l><r>peri<s n="adv"/></r></p></e>
-    <e><p><l>aina<s n="adv"/></l><r>ain<s n="adv"/></r></p></e>
+    <e><p><l>yhä<s n="adv"/></l><r>ain<s n="adv"/></r></p></e>
     <e><p><l>tänne<s n="adv"/></l><r>teehin<s n="adv"/></r></p></e>
     <e><p><l>nyt<s n="adv"/></l><r>tääl<s n="adv"/></r></p></e>
     <e><p><l>sitten<s n="adv"/></l><r>te<s n="adv"/></r></p></e>
@@ -186,6 +189,9 @@
     <e><p><l>vähän<s n="adv"/></l><r>váhá<s n="adv"/></r></p></e>
     <e><p><l>sitten<s n="adv"/></l><r>talle<s n="adv"/></r></p></e>
     <e><p><l>kyllä<s n="adv"/></l><r>kal<s n="adv"/></r></p></e>
+    <e><p><l>missäpäin<s n="adv"/></l><r>kogobeht<s n="adv"/></r></p></e>
+    <e><p><l>yksin<s n="adv"/></l><r>ohtuu<s n="adv"/></r></p></e>
+    <e><p><l>huomiseen<s n="adv"/></l><r>ittáážân<s n="adv"/></r></p></e>
 
     <!-- numerals -->
 
@@ -200,10 +206,25 @@
     <e><p><l>kuusi<s n="num"/></l><r>kuttâ<s n="num"/></r></p></e>
     <e><p><l>seitsemän<s n="num"/></l><r>čiččâm<s n="num"/></r></p></e>
     <e><p><l>kahdeksan<s n="num"/></l><r>käävci<s n="num"/></r></p></e>
-    <e><p><l>yhdeksäm<s n="num"/></l><r>oovce<s n="num"/></r></p></e>
+    <e><p><l>yhdeksän<s n="num"/></l><r>oovce<s n="num"/></r></p></e>
     <e><p><l>kymmenen<s n="num"/></l><r>love<s n="num"/></r></p></e>
+    <e><p><l>yksitoista<s n="num"/></l><r>ohtnubáloh<s n="num"/></r></p></e>
+    <e><p><l>kaksitoista<s n="num"/></l><r>kyehtnubáloh<s n="num"/></r></p></e>
+    <e><p><l>kolmetoista<s n="num"/></l><r>kulmânubáloh<s n="num"/></r></p></e>
+    <e><p><l>neljätoista<s n="num"/></l><r>neljinubáloh<s n="num"/></r></p></e>
+    <e><p><l>viisitoista<s n="num"/></l><r>vittânubáloh<s n="num"/></r></p></e>
+    <e><p><l>kuusitoista<s n="num"/></l><r>kuttânubáloh<s n="num"/></r></p></e>
+    <e><p><l>seitsemäntoista<s n="num"/></l><r>čiccâmnubáloh<s n="num"/></r></p></e>
+    <e><p><l>kahdeksantoista<s n="num"/></l><r>käävcinubáloh<s n="num"/></r></p></e>
+    <e><p><l>yhdeksäntoista<s n="num"/></l><r>oovcenubáloh<s n="num"/></r></p></e>
     <e><p><l>kaksikymmentä<s n="num"/></l><r>kyehtlov<s n="num"/></r></p></e>
     <e><p><l>kolmekymmentä<s n="num"/></l><r>kulmâlov<s n="num"/></r></p></e>
+    <e><p><l>neljäkymmentä<s n="num"/></l><r>neljilov<s n="num"/></r></p></e>
+    <e><p><l>viisikymmentä<s n="num"/></l><r>vittâlov<s n="num"/></r></p></e>
+    <e><p><l>kuusikymmentä<s n="num"/></l><r>kuttâlov<s n="num"/></r></p></e>
+    <e><p><l>seitsemänkymmentä<s n="num"/></l><r>čiččâmlov<s n="num"/></r></p></e>
+    <e><p><l>kahdeksankymmentä<s n="num"/></l><r>käävcilov<s n="num"/></r></p></e>
+    <e><p><l>yhdeksänkymmentä<s n="num"/></l><r>ohcelov<s n="num"/></r></p></e>
 
     <!-- adjectives -->
 
@@ -221,6 +242,9 @@
     <e><p><l>raskas<s n="adj"/></l><r>lussâd<s n="adj"/></r></p></e>
     <e><p><l>vanha<s n="adj"/></l><r>puáris<s n="adj"/></r></p></e>
     <e><p><l>sitkeä<s n="adj"/></l><r>siđhes<s n="adj"/></r></p></e>
+    <e><p><l>terve<s n="adj"/></l><r>tiervâs<s n="adj"/></r></p></e>
+    <e><p><l>virkeä<s n="adj"/></l><r>virkkuu<s n="adj"/></r></p></e>
+    <e><p><l>korkea<s n="adj"/></l><r>olluv<s n="adj"/></r></p></e>
 
     <!-- nouns -->
 
@@ -301,9 +325,20 @@
     <e><p><l>terveinen<s n="n"/></l><r>tiervuođah<s n="n"/></r></p></e>
     <e><p><l>perhe<s n="n"/></l><r>peerâ<s n="n"/></r></p></e>
     <e><p><l>syntymäpäivä<s n="n"/></l><r>šoddâmpeivi<s n="n"/></r></p></e>
+    <e><p><l>teksti<s n="n"/></l><r>tekstâ<s n="n"/></r></p></e>
+    <e><p><l>tuttu<s n="n"/></l><r>uápis<s n="n"/></r></p></e>
+    <e><p><l>parru<s n="n"/></l><r>vuoli<s n="n"/></r></p></e>
+    <e><p><l>kirkko<s n="n"/></l><r>kirkko<s n="n"/></r></p></e>
+    <e><p><l>mieli<s n="n"/></l><r>mielâ<s n="n"/></r></p></e>
+    <e><p><l>kutsu<s n="n"/></l><r>povdim<s n="n"/></r></p></e>
+    <e><p><l>kuusi<s n="n"/></l><r>kuosâ<s n="n"/></r></p></e>
+
+    <e><p><l>b<s n="n"/></l><r c="giella">balphabet<s n="n"/></r></p></e>
+
 
     <!-- proper nouns -->
 
+    <e><i>Avveel<s n="np"/></i></e>
     <e><i>Ákku<s n="np"/></i></e>
     <e><i>Maarit<s n="np"/></i></e>
     <e><i>Ánná<s n="np"/></i></e>
@@ -316,9 +351,16 @@
     <e><i>Romsa<s n="np"/></i></e>
     <e><i>Mari<s n="np"/></i></e>
     <e><i>Radio<s n="np"/></i></e>
+    <e><i>Iidá<s n="np"/></i></e>
+    <e><i>Elli<s n="np"/></i></e>
+    <e><i>Aantiš<s n="np"/></i></e>
+    <e><i>Saammâl<s n="np"/></i></e>
+    <e><i>Vuoli<s n="np"/></i></e>
+    <e><i>Erkki<s n="np"/></i></e>
     <e><i>Äijihjävri<s n="np"/></i></e>
 
 
+    <e><p><l>Ivalo<s n="np"/></l><r>Avveel<s n="np"/></r></p></e>
     <e><p><l>Inari<s n="np"/></l><r>Aanaar<s n="np"/></r></p></e>
     <e><p><l>Inarinjärvi<s n="np"/></l><r>Aanaarjävri<s n="np"/></r></p></e>
 
@@ -373,16 +415,27 @@
     <e><p><l>kiirehtiä<s n="vblex"/></l><r>toommâđ<s n="vblex"/></r></p></e>
     <e><p><l>ajatella<s n="vblex"/></l><r>jurdâččiđ<s n="vblex"/></r></p></e>
     <e><p><l>kahvitella<s n="vblex"/></l><r>káhvástâllâđ<s n="vblex"/></r></p></e>
+    <e><p><l>vaikuttaa<s n="vblex"/></l><r>orroođ<s n="vblex"/></r></p></e>
+    <e><p><l>muistaa<s n="vblex"/></l><r>mušteđ<s n="vblex"/></r></p></e>
+    <e><p><l>ehtiä<s n="vblex"/></l><r>ostâđ<s n="vblex"/></r></p></e>
+    <e><p><l>kiittää<s n="vblex"/></l><r>kijtteđ<s n="vblex"/></r></p></e>
+    <e><p><l>odottaa<s n="vblex"/></l><r>vyerdiđ<s n="vblex"/></r></p></e>
 
     <!-- interjections -->
 
+    <e><p><l>niin<s n="ij"/></l><r>naa<s n="ij"/></r></p></e>
+    <e><p><l>hei<s n="ij"/></l><r>hei<s n="ij"/></r></p></e>
+    <e><p><l>jaa<s n="ij"/></l><r>jáá<s n="ij"/></r></p></e>
+    <e><p><l>joo<s n="ij"/></l><r>joo<s n="ij"/></r></p></e>
     <e><p><l>terve<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>tervetuloa<s n="ij"/></l><r>tiervâpuáttim<s n="ij"/></r></p></e>
+    <e><p><l>tervetuloa<s n="ij"/></l><r>pyeripuáttim<s n="ij"/></r></p></e>
     <e><p><l>jaha<s n="ij"/></l><r>jáhá<s n="ij"/></r></p></e>
     <e><p><l>voi<s n="ij"/></l><r>vuoi<s n="ij"/></r></p></e>
     <e><p><l>hitsi<s n="ij"/></l><r>sittágin<s n="ij"/></r></p></e>
     <e><p><l>kiitos<s n="ij"/></l><r>takkâ<s n="ij"/></r></p></e>
     <e><p><l>ainii<s n="ij"/></l><r>amahmis<s n="ij"/></r></p></e>
+    <e><p><l>vain<s n="ij"/></l><r>peri<s n="pcle"/></r></p></e>
 
     <!-- digits and stuff -->
 
@@ -390,6 +443,7 @@
 
     <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e><p><l>...<s n="punct"/></l><r>...<s n="sent"/></r></p></e>
+    <e><p><l>…<s n="punct"/></l><r>…<s n="sent"/></r></p></e>
     <e><p><l>"<s n="punct"/></l><r>"<s n="punct"/></r></p></e>
     <e><p><l>”<s n="punct"/></l><r>”<s n="punct"/></r></p></e>
     <e><p><l>“<s n="punct"/></l><r>“<s n="lquot"/></r></p></e>
