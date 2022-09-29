@@ -6,12 +6,16 @@ number = sg pl du sp;
 gender = m f mf;
 tense = pres past fut ifi pri fti;
 person = p1 p2 p3 ;
-case = nom gen acc par ine ela ill ade abl all loc com abe tra ess ;
+case = nom gen acc par ine ela ill ade abl all loc com abe tra ess lat ;
 tensemood = cond pot imp pres pri past ;
 sem = sem_dummytag ;
 nptype = ant top cog al ;
+numtype = card ord ;
 comparison = (COMP pst) pst comp sup COMP ;
 voice = (VOICE actv) actv pasv VOICE ;
+clitics = qst foc_uv ;
+inf = inf infa infe infma ;
+pcp = prfprc pp pprs ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -19,15 +23,18 @@ voice = (VOICE actv) actv pasv VOICE ;
 
 n: _.number.case;
 prn: _.number.case;
-num: _.number.case;
+num: _.numtype.number.case;
 adj: _.comparison.number.case;
 np: _.nptype.gender.number.case;
 vblex: _.voice.tensemood.person.number;
+vblex_inf: _.voice.inf.number.case;
+vblex_pcp: _.voice.pcp.comparison.number.case;
 ij: _;
 adv: _;
 cnjcoo: _;
 cnjsub: _;
 post: _;
+pr: _;
 
 ADP: _;
 ADV: _;
@@ -39,12 +46,16 @@ V: _;
 C: _;
 NUM: _;
 
+NUMP: _;
+
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
 tensemood > tensemood: pres pri ;
 case > case: loc ine, acc gen ;
+inf > inf: inf infa ; 
+pcp > pcp: prfprc pp ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -55,15 +66,23 @@ case > case: loc ine, acc gen ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-V -> vblex { 1 } ;
+NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
+        num n { 1 _ 2[number=sg,case=par] } ;
+
+V -> vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
+     vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
+    vblex { 1 } ;
 PRN -> prn { 1 } ;
-N -> n { 1 } |
+N -> n.*.cmp n { 1[number=sg,case=gen] 2 } |
+     n { 1 } |
      np { 1 } ;
-A -> adj { 1 } ;
+A -> adj.*.attr { 1[case=nom,number=sg] } |
+     adj { 1 } ;
 IJ -> ij { 1 } ;
 ADV -> adv { 1 } ;
 NUM -> num { 1 } ;
-ADP -> post { 1 } ;
+ADP -> post { 1 } |
+       pr { 1 } ;
 
 C -> cnjcoo { 1 } |
      cnjsub { 1 } ;

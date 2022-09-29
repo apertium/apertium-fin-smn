@@ -4,13 +4,14 @@
 
 number = sg pl du sp;
 gender = m f mf;
-tense = pres past fut ifi pri fti;
+tense = pres past fut ifi pri fti pret ;
 person = p1 p2 p3 ;
 case = nom gen acc par ine ela ill ade abl all loc com abe tra ess ;
 sem = sem_dummytag ;
-mood = cond pot imp pri ;
+mood = indic cond pot imp pri past ;
 comparison = pst comp sup ;
 clitic = qst foc_uv ;
+tviv = tv iv ;
 
 ones = ohtâ 1 ;
 twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
@@ -21,12 +22,17 @@ twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
 
 n: _.number.case.clitic;
 n_par: _.case;   !! hack to get partitive without number tag?
-adj: _.comparison.number.case;
+adj: _.number.case;
+adj_attr: _.<attr>;
 num: _.number.case;
+vblex: _.tviv.mood.tense.person.number;
+vblex_inf: _.tviv.<inf>;
 
 ! singletons
 NUM: _;
 N: _;
+A: _;
+V: _;
 
 ! phrases
 NP: _;
@@ -36,9 +42,9 @@ NUMP: _;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : pri pres;
-case > case : ine loc;
-
+tense > tense : pri pres, past pret ;
+case > case : ine loc ;
+mood > mood : pri indic, past indic ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -53,6 +59,9 @@ NUMP -> num.*.nom n.*.par ?(1.lem in ones) { 1 _ 2 } |
         num.*.nom n.*.par ?(1.lem in twosixes) { 1 _ 2[case=gen] } |
         num.*.nom n.*.par { 1 _ 2(n_par) } ;
 
+V -> vblex.*.infa { 1(vblex_inf) } | 
+     vblex { 1 } ;
+A -> adj { 1 } ;
 N -> n.*.par { 1(n_par) } |
      n { 1 } ;
 NUM -> num { 1 } ;
