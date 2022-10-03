@@ -140,7 +140,6 @@
     <!-- co-ordinating or coördinating conjunctions -->
 
     <e><p><l>ja<s n="cnjcoo"/></l><r>já<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>ja<s n="cnjcoo"/></l><r>ja<s n="cnjcoo"/></r></p></e>
     <e><p><l>tai<s n="cnjcoo"/></l><r>teikâ<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>mut<s n="cnjcoo"/></r></p></e>
     <e><p><l>entä<s n="cnjcoo"/></l><r>nabai<s n="cnjcoo"/></r></p></e>
@@ -242,6 +241,10 @@
     <e><p><l>kahdeksankymmentä<s n="num"/></l><r>käävcilov<s n="num"/></r></p></e>
     <e><p><l>yhdeksänkymmentä<s n="num"/></l><r>ohcelov<s n="num"/></r></p></e>
 
+    <!-- ordinals -->
+
+    <e><p><l>ensimmäinen<s n="adj"/></l><r>vuosmuš<s n="adj"/></r></p></e>
+
     <!-- adjectives -->
 
     <e><p><l>hauska<s n="adj"/></l><r>hitruus<s n="adj"/></r></p></e>
@@ -271,6 +274,8 @@
 
     <!-- nouns -->
 
+    <e><p><l>joukko<s n="n"/></l><r>juávkku<s n="n"/></r></p></e>
+    <e><p><l>malli<s n="n"/></l><r>myenster<s n="n"/></r></p></e>
     <e><p><l>mies<s n="n"/></l><r>almai<s n="n"/></r></p></e>
     <e><p><l>ovi<s n="n"/></l><r>uksâ<s n="n"/></r></p></e>
     <e><p><l>kello<s n="n"/></l><r>tijme<s n="n"/></r></p></e>
@@ -394,8 +399,48 @@
     <e><p><l>veli<s n="n"/></l><r>viljâ<s n="n"/></r></p></e>
     <e><p><l>tytär<s n="n"/></l><r>nieidâ<s n="n"/></r></p></e>
     <e><p><l>opettaja<s n="n"/></l><r>máttááteijee<s n="n"/></r></p></e>
+    <e><p><l>illatiivi<s n="n"/></l><r>illativ<s n="n"/></r></p></e>
+    <e><p><l>sana<s n="n"/></l><r>sääni<s n="n"/></r></p></e>
+    <e><p><l>taivutus<s n="n"/></l><r>sujâttem<s n="n"/></r></p></e>
+    <e><p><l>muoto<s n="n"/></l><r>häämi<s n="n"/></r></p></e>
+    <e><p><l>rivi<s n="n"/></l><r>raddalâs<s n="n"/></r></p></e>
+    <e><p><l>jälki<s n="n"/></l><r>luoddâ<s n="n"/></r></p></e>
+    <e><p><l>tuuli<s n="n"/></l><r>pieggâ<s n="n"/></r></p></e>
+    <e><p><l>pakka<s n="n"/></l><r>pággu<s n="n"/></r></p></e>
+    <e><p><l>rivi<s n="n"/></l><r>raddalâs<s n="n"/></r></p></e>
+    <e><p><l>sorkka<s n="n"/></l><r>kozzâ<s n="n"/></r></p></e>
+    <e><p><l>sukka<s n="n"/></l><r>sukká<s n="n"/></r></p></e>
+    <e><p><l>pilvi<s n="n"/></l><r>polvâ<s n="n"/></r></p></e>
+    <e><p><l>airo<s n="n"/></l><r>áiru<s n="n"/></r></p></e>
+    <e><p><l>karhu<s n="n"/></l><r>kuobžâ<s n="n"/></r></p></e>
+    <e><p><l>liha<s n="n"/></l><r>piärgu<s n="n"/></r></p></e>
+    <e><p><l>sauva<s n="n"/></l><r>suábbi<s n="n"/></r></p></e>
+    <e><p><l>lintu<s n="n"/></l><r>lodde<s n="n"/></r></p></e>
+    <e><p><l>tuki<s n="n"/></l><r>cagge<s n="n"/></r></p></e>
+    <e><p><l>työ<s n="n"/></l><r>tyeji<s n="n"/></r></p></e>
+    <e><p><l>tuki<s n="n"/></l><r>cagge<s n="n"/></r></p></e>
+    <e><p><l>menetelmä<s n="n"/></l><r>vyehi<s n="n"/></r></p></e>
+    <e><p><l>korva<s n="n"/></l><r>pelji<s n="n"/></r></p></e>
+    <e><p><l>määrä<s n="n"/></l><r>meeri<s n="n"/></r></p></e>
+    <e><p><l>puoli<s n="n"/></l><r>peeli<s n="n"/></r></p></e>
+    <e><p><l>kivi<s n="n"/></l><r>keđgi<s n="n"/></r></p></e>
+    <e><p><l>nenä<s n="n"/></l><r>njune<s n="n"/></r></p></e>
+    <e><p><l>kuva<s n="n"/></l><r>kove<s n="n"/></r></p></e>
+    <e><p><l>osa<s n="n"/></l><r>uási<s n="n"/></r></p></e>
+    <e><p><l>pata<s n="n"/></l><r>pääti<s n="n"/></r></p></e>
+    <e><p><l>hihna<s n="n"/></l><r>läbži<s n="n"/></r></p></e>
+    <e><p><l>kurssi<s n="n"/></l><r>kurssâ<s n="n"/></r></p></e>
+    <e><p><l>penkki<s n="n"/></l><r>peŋkkâ<s n="n"/></r></p></e>
+    <e><p><l>kortti<s n="n"/></l><r>korttâ<s n="n"/></r></p></e>
+    <e><p><l>pässi<s n="n"/></l><r>vierccâ<s n="n"/></r></p></e>
+    <e><p><l>käyttö<s n="n"/></l><r>kiävttu<s n="n"/></r></p></e>
+    <e><p><l>rinne<s n="n"/></l><r>vieltti<s n="n"/></r></p></e>
+    <e><p><l>hihna<s n="n"/></l><r>läbži<s n="n"/></r></p></e>
+    <e><p><l>kenttä<s n="n"/></l><r>kieddi<s n="n"/></r></p></e>
+    <e><p><l>hihna<s n="n"/></l><r>läbži<s n="n"/></r></p></e>
+    <e><p><l>verkko<s n="n"/></l><r>viermi<s n="n"/></r></p></e>
 
-    <e><p><l>b<s n="n"/></l><r c="giella">balphabet<s n="n"/></r></p></e>
+    <e><p><l>b<s n="n"/></l><r c="giellalt">balphabet<s n="n"/></r></p></e>
 
 
     <!-- proper nouns -->
@@ -435,6 +480,9 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>taivuttaa<s n="vblex"/></l><r>sujâttiđ<s n="vblex"/></r></p></e>
+    <e><p><l>taipua<s n="vblex"/></l><r>suuijâđ<s n="vblex"/></r></p></e>
+    <e><p><l>näyttää<s n="vblex"/></l><r>čäittiđ<s n="vblex"/></r></p></e>
     <e><p><l>kuulua<s n="vblex"/></l><r>kulluđ<s n="vblex"/></r></p></e>
     <e><p><l>mennä<s n="vblex"/></l><r>moonnâđ<s n="vblex"/></r></p></e>
     <e><p><l>tulla<s n="vblex"/></l><r>puáttiđ<s n="vblex"/></r></p></e>
