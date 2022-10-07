@@ -35,6 +35,7 @@ cnjcoo: _;
 cnjsub: _;
 post: _;
 pr: _;
+pcle: _;
 
 ADP: _;
 ADV: _;
@@ -78,11 +79,12 @@ V -> vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
     vblex { 1 } ;
 PRN -> prn { 1 } ;
 N -> n.*.cmp %n { 1[number=sg,case=gen] 2 } |
-     %n { %1 } |
+     %n { %1[number=(if (1.case=com) "" else 1.number)] } |
      %np { %1 } ;
 A -> adj.*.attr { 1[case=nom,number=sg] } |
      adj { 1 } ;
-IJ -> ij { 1 } ;
+IJ -> ij { 1 } |
+      pcle { 1 } ;
 ADV -> adv { 1 } ;
 NUM -> num { 1 } ;
 ADP -> post { 1 } |
