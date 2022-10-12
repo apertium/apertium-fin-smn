@@ -353,6 +353,24 @@
     <e><p><l>suomalainen<s n="adj"/></l><r>syemmilâš<s n="adj"/></r></p></e>
     <e><p><l>kolmas<s n="adj"/></l><r>koolmâs<s n="adj"/></r></p></e>
     <e><p><l>tuore<s n="adj"/></l><r>voorâs<s n="adj"/></r></p></e>
+    <e><p><l>heikko<s n="adj"/></l><r>raše<s n="adj"/></r></p></e>
+    <e><p><l>paksu<s n="adj"/></l><r>assaa<s n="adj"/></r></p></e>
+    <e><p><l>likainen<s n="adj"/></l><r>tuolvâs<s n="adj"/></r></p></e>
+    <e><p><l>viitseliäs<s n="adj"/></l><r>viiššâl<s n="adj"/></r></p></e>
+    <e><p><l>vahva<s n="adj"/></l><r>kievrâ<s n="adj"/></r></p></e>
+    <e><p><l>puhdas<s n="adj"/></l><r>putes<s n="adj"/></r></p></e>
+    <e><p><l>halpa<s n="adj"/></l><r>hälbi<s n="adj"/></r></p></e>
+    <e><p><l>varakas<s n="adj"/></l><r>várálâš<s n="adj"/></r></p></e>
+    <e><p><l>kestävä<s n="adj"/></l><r>nanos<s n="adj"/></r></p></e>
+    <e><p><l>hävytön<s n="adj"/></l><r>nyeski<s n="adj"/></r></p></e>
+    <e><p><l>ujo<s n="adj"/></l><r>uine<s n="adj"/></r></p></e>
+    <e><p><l>tavallinen<s n="adj"/></l><r>táválâš<s n="adj"/></r></p></e>
+    <e><p><l>ruma<s n="adj"/></l><r>faste<s n="adj"/></r></p></e>
+    <e><p><l>huono<s n="adj"/></l><r>hyeni<s n="adj"/></r></p></e>
+    <e><p><l>kallis<s n="adj"/></l><r>tiivrâs<s n="adj"/></r></p></e>
+    <e><p><l>likainen<s n="adj"/></l><r>tuolvâs<s n="adj"/></r></p></e>
+    <e><p><l>nopea<s n="adj"/></l><r>jotteel<s n="adj"/></r></p></e>
+    <e><p><l>viisas<s n="adj"/></l><r>jiärmáá<s n="adj"/></r></p></e>
 
 
 
@@ -624,12 +642,31 @@
     <e><p><l>elin<s n="n"/></l><r>orgaan<s n="n"/></r></p></e>
     <e><p><l>vamma<s n="n"/></l><r>vahe<s n="n"/></r></p></e>
     <e><p><l>toivo<s n="n"/></l><r>tuáivu<s n="n"/></r></p></e>
+    <e><p><l>predikatiivi<s n="n"/></l><r>predikativ<s n="n"/></r></p></e>
+    <e><p><l>attribuutti<s n="n"/></l><r>attribuut<s n="n"/></r></p></e>
+    <e><p><l>perusmuoto<s n="n"/></l><r>vuáđuhäämi<s n="n"/></r></p></e>
+    <e><p><l>sijamuoto<s n="n"/></l><r>sajehäämi<s n="n"/></r></p></e>
+    <e><p><l>lause<s n="n"/></l><r>ceelhâ<s n="n"/></r></p></e>
+    <e><p><l>verbi<s n="n"/></l><r>verbâ<s n="n"/></r></p></e>
+    <e><p><l>luku<s n="n"/></l><r>loho<s n="n"/></r></p></e>
+    <e><p><l>monikko<s n="n"/></l><r>maaŋgâloho<s n="n"/></r></p></e>
+    <e><p><l>naru<s n="n"/></l><r>päddi<s n="n"/></r></p></e>
+    <e><p><l>harjoitustehtävä<s n="n"/></l><r>pargopittá<s n="n"/></r></p></e>
+    <e><p><l>sula<s n="n"/></l><r>sudde<s n="n"/></r></p></e>
+    <e><p><l>ukkonen<s n="n"/></l><r>äijih<s n="n"/></r></p></e>
+    <e><p><l>adjektiivi<s n="n"/></l><r>adjektiv<s n="n"/></r></p></e>
+    <e><p><l>taulukko<s n="n"/></l><r>tavlustáh<s n="n"/></r></p></e>
+    <e><p><l>hullu<s n="n"/></l><r>jollâ<s n="n"/></r></p></e>
 
     <e><p><l>b<s n="n"/></l><r c="giellalt">balphabet<s n="n"/></r></p></e>
+    <e><p><l>pred<s n="n"/></l><r>pred<s n="n"/></r></p></e>
+    <e><p><l>attr<s n="n"/></l><r>attr<s n="n"/></r></p></e>
+    <e><p><l>e.m.<s n="n"/></l><r>om<s n="n"/></r></p></e>
 
 
     <!-- proper nouns -->
 
+    <e><i>Äijih<s n="np"/></i></e>
     <e><i>Vale<s n="np"/></i></e>
     <e><i>Jussá<s n="np"/></i></e>
     <e><i>Ville<s n="np"/></i></e>
@@ -806,6 +843,11 @@
     <e><p><l>palkata<s n="vblex"/></l><r>pálkkááttiđ<s n="vblex"/></r></p></e>
     <e><p><l>kuljettaa<s n="vblex"/></l><r>kuljâttiđ<s n="vblex"/></r></p></e>
     <e><p><l>leikata<s n="vblex"/></l><r>čuoppâđ<s n="vblex"/></r></p></e>
+    <e><p><l>pärjätä<s n="vblex"/></l><r>piergiđ<s n="vblex"/></r></p></e>
+    <e><p><l>tarvita<s n="vblex"/></l><r>tarbâšiđ<s n="vblex"/></r></p></e>
+    <e><p><l>kuvata<s n="vblex"/></l><r>kuvviđ<s n="vblex"/></r></p></e>
+    <e><p><l>muuttaa<s n="vblex"/></l><r>mutteđ<s n="vblex"/></r></p></e>
+
 
     <!-- interjections -->
 
@@ -828,6 +870,7 @@
     <!-- digits and stuff -->
 
     <e><re>[0-9]+</re><i><s n="num"/></i></e>
+    <e><re>[0-9]+</re><p><l>.<s n="adj"/></l><r><s n="adj"/></r></p></e>
 
     <e><p><l>.<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e><p><l>...<s n="punct"/></l><r>...<s n="sent"/></r></p></e>
