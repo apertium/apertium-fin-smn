@@ -171,6 +171,8 @@
 
     <!-- adpositions -->
 
+    <e><p><l>puolesta<s n="post"/></l><r>peeleest<s n="post"/></r></p></e>
+    <e><p><l>päällä<s n="post"/></l><r>alne<s n="post"/></r></p></e>
     <e><p><l>lähellä<s n="post"/></l><r>aldasijn<s n="post"/></r></p></e>
     <e><p><l>varten<s n="post"/></l><r>várás<s n="post"/></r></p></e>
     <e><p><l>takia<s n="post"/></l><r>tet<s n="post"/></r></p></e>
@@ -201,6 +203,15 @@
 
     <!-- adverbs -->
 
+    <e><p><l>huonosti<s n="adv"/></l><r>hyeneeht<s n="adv"/></r></p></e>
+    <e><p><l>siinä<s n="adv"/></l><r>togobeht<s n="adv"/></r></p></e>
+    <e><p><l>alas<s n="adv"/></l><r>vuálus<s n="adv"/></r></p></e>
+    <e><p><l>piakkoin<s n="adv"/></l><r>forgâpalij<s n="adv"/></r></p></e>
+    <e><p><l>todellakin<s n="adv"/></l><r>uštus<s n="adv"/></r></p></e>
+    <e><p><l>vinottain<s n="adv"/></l><r>vinnood<s n="adv"/></r></p></e>
+    <e><p><l>äkkiä<s n="adv"/></l><r>kivkked<s n="adv"/></r></p></e>
+    <e><p><l>kerran<s n="adv"/></l><r>ohtii<s n="adv"/></r></p></e>
+    <e><p><l>koskaan<s n="adv"/></l><r>kuássin<s n="adv"/></r></p></e>
     <e><p><l>näköjään<s n="adv"/></l><r>kustoo<s n="adv"/></r></p></e>
     <e><p><l>tuolla<s n="adv"/></l><r>tovben<s n="adv"/></r></p></e>
     <e><p><l>terveenä<s n="adv"/></l><r>tiervân<s n="adv"/></r></p></e>
@@ -249,6 +260,7 @@
     <e><p><l>tänään<s n="adv"/></l><r>onne<s n="adv"/></r></p></e>
     <e><p><l>niin<s n="adv"/></l><r>nuuvt<s n="adv"/></r></p></e>
     <e><p><l>miksi<s n="adv"/></l><r>mondiet<s n="adv"/></r></p></e>
+    <e><p><l>miksi<s n="adv"/></l><r>mondet<s n="adv"/></r></p></e>
     <e><p><l>miten<s n="adv"/></l><r>maht<s n="adv"/></r></p></e>
     <e><p><l>enemmän<s n="adv"/></l><r>eenâb<s n="adv"/></r></p></e>
     <e><p><l>taas<s n="adv"/></l><r>vist<s n="adv"/></r></p></e>
@@ -346,6 +358,7 @@
 
     <!-- adjectives -->
 
+    <e><p><l>märkä<s n="adj"/></l><r>njuoskâs<s n="adj"/></r></p></e>
     <e><p><l>iloinen<s n="adj"/></l><r>ilolâš<s n="adj"/></r></p></e>
     <e><p><l>vähä<s n="adj"/></l><r>váháš<s n="adj"/></r></p></e>
     <e><p><l>rauhallinen<s n="adj"/></l><r>rávhálâš<s n="adj"/></r></p></e>
@@ -441,6 +454,18 @@
 
     <!-- nouns -->
 
+    <e><p><l>koivu<s n="n"/></l><r>suáhi<s n="n"/></r></p></e>
+    <e><p><l>patja<s n="n"/></l><r>madrâs<s n="n"/></r></p></e>
+    <e><p><l>maa<s n="n"/></l><r>eennâm<s n="n"/></r></p></e>
+    <e><p><l>juusto<s n="n"/></l><r>vuástá<s n="n"/></r></p></e>
+    <e><p><l>puu<s n="n"/></l><r>muorâ<s n="n"/></r></p></e>
+    <e><p><l>tikapuu<s n="n"/></l><r>raailâs<s n="n"/></r></p></e>
+    <e><p><l>piippu<s n="n"/></l><r>poccee<s n="n"/></r></p></e>
+    <e><p><l>savu<s n="n"/></l><r>suovâ<s n="n"/></r></p></e>
+    <e><p><l>ääni<s n="n"/></l><r>jienâ<s n="n"/></r></p></e>
+    <e><p><l>loppu<s n="n"/></l><r>loppâ<s n="n"/></r></p></e>
+    <e><p><l>valo<s n="n"/></l><r>čuovâ<s n="n"/></r></p></e>
+    <e><p><l>polku<s n="n"/></l><r>päälgis<s n="n"/></r></p></e>
     <e><p><l>vapaa-aika<s n="n"/></l><r>rijjâäigi<s n="n"/></r></p></e>
     <e><p><l>ostos<s n="n"/></l><r>uástus<s n="n"/></r></p></e>
     <e><p><l>lista<s n="n"/></l><r>listo<s n="n"/></r></p></e>
@@ -872,6 +897,17 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>oikaista<s n="vblex"/></l><r>njuolgiđ<s n="vblex"/></r></p></e>
+    <e><p><l>kuivua<s n="vblex"/></l><r>kuškâđ<s n="vblex"/></r></p></e>
+    <e><p><l>langeta<s n="vblex"/></l><r>juurrâđ<s n="vblex"/></r></p></e>
+    <e><p><l>liukastua<s n="vblex"/></l><r>njalahistiđ<s n="vblex"/></r></p></e>
+    <e><p><l>kaatua<s n="vblex"/></l><r>viirrâđ<s n="vblex"/></r></p></e>
+    <e><p><l>suuttua<s n="vblex"/></l><r>suttâđ<s n="vblex"/></r></p></e>
+    <e><p><l>kiivetä<s n="vblex"/></l><r>kuárŋuđ<s n="vblex"/></r></p></e>
+    <e><p><l>kaataa<s n="vblex"/></l><r>njeidiđ<s n="vblex"/></r></p></e>
+    <e><p><l>puuhata<s n="vblex"/></l><r>roossâđ<s n="vblex"/></r></p></e>
+    <e><p><l>rysähtää<s n="vblex"/></l><r>ruáškáđ<s n="vblex"/></r></p></e>
+    <e><p><l>pestä<s n="vblex"/></l><r>poossâđ<s n="vblex"/></r></p></e>
     <e><p><l>munia<s n="vblex"/></l><r>monniđ<s n="vblex"/></r></p></e>
     <e><p><l>tahtoa<s n="vblex"/></l><r>táttuđ<s n="vblex"/></r></p></e>
     <e><p><l>loppua<s n="vblex"/></l><r>nuuhâđ<s n="vblex"/></r></p></e>
