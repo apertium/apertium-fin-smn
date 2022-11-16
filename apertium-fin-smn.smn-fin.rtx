@@ -26,9 +26,11 @@ prn: _.number.case;
 num: _.numtype.number.case;
 adj: _.comparison.number.case;
 np: _.nptype.gender.number.case;
+vaux: _.voice.tensemood.person.number;
 vblex: _.voice.tensemood.person.number;
 vblex_inf: _.voice.inf.number.case;
 vblex_pcp: _.voice.pcp.comparison.number.case;
+vblex_massa: _.<actv>.<infma>.<sg>.<ine>;
 ij: _;
 adv: _;
 cnjcoo: _;
@@ -42,11 +44,12 @@ ADV: _;
 A: _;
 IJ: _;
 N: _.case;
-PRN: _;
+PRN: _.case;
 V: _;
 C: _;
 NUM: _;
 
+S: _;
 VP: _;
 NP: _.case;
 NUMP: _;
@@ -69,15 +72,21 @@ pcp > pcp: prfprc pp ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-VP -> NP.loc leđe@vblex { 1[case=ade] _ 2[number=sg] } ;
+S -> VP NP { 1 _ 2 } ;
+VP -> NP.loc leđe@vblex { 1[case=ade] _ 2[number=sg] } |
+      PRN.loc leđe@vblex { 1[case=ade] _ 2[number=1.number] } |
+      NP VP { 1 _ 2 } ;
 NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
         num n { 1 _ 2[number=sg,case=par] } ;
 NP -> %N { %1 } ;
 
-V -> vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
+V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
+     leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=sg,case=nom] } |
+     vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
-    vblex { 1 } ;
-PRN -> prn { 1 } ;
+     vblex { 1 } |
+     vaux { 1 } ;
+PRN -> %prn { 1 } ;
 N -> n.*.cmp %n { 1[number=sg,case=gen] 2 } |
      %n { %1[number=(if (1.case=com) "" else 1.number)] } |
      %np { %1 } ;
