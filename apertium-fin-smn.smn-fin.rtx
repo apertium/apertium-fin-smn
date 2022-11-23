@@ -86,9 +86,12 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
      vblex { 1 } |
      vaux { 1 } ;
-PRN -> %prn { 1 } ;
+PRN -> %prn { %1 } ;
 N -> n.*.cmp %n { 1[number=sg,case=gen] 2 } |
-     %n { %1[number=(if (1.case=com) "" else 1.number)] } |
+     %n { %1[number=(
+            if (1.case=com) ""
+            elif (1.case=ess) "sg" 
+            else 1.number)] } |
      %np { %1 } ;
 A -> adj.*.attr { 1[case=nom,number=sg] } |
      adj { 1 } ;
@@ -101,12 +104,4 @@ ADP -> post { 1 } |
 
 C -> cnjcoo { 1 } |
      cnjsub { 1 } ;
-! Example rule:
-! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><nt><sg>$
-! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
-! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
 
-! Resources:
-! https://wiki.apertium.org/wiki/Apertium-recursive
-! https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
-! https://wiki.apertium.org/wiki/Apertium-recursive/Cookbook

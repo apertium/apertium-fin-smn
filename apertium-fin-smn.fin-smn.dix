@@ -505,6 +505,10 @@
 
     <!-- nouns -->
 
+    <e><p><l>korjaamo<s n="n"/></l><r>tivottâh<s n="n"/></r></p></e>
+    <e><p><l>insinööri<s n="n"/></l><r>insner<s n="n"/></r></p></e>
+    <e><p><l>hoitaja<s n="n"/></l><r>tipšoo<s n="n"/></r></p></e>
+    <e><p><l>elokuva<s n="n"/></l><r>čuovâkove<s n="n"/></r></p></e>
     <e><p><l>pylly<s n="n"/></l><r>pottâ<s n="n"/></r></p></e>
     <e><p><l>huuli<s n="n"/></l><r>poovsâ<s n="n"/></r></p></e>
     <e><p><l>silmä<s n="n"/></l><r>čalme<s n="n"/></r></p></e>
@@ -1059,6 +1063,8 @@
 
     <!-- proper nouns -->
 
+    <e><i>Vesa<s n="np"/></i></e>
+    <e><i>Maija<s n="np"/></i></e>
     <e><i>Mato<s n="np"/></i></e>
     <e><i>Jari<s n="np"/></i></e>
     <e><i>Heikkâ<s n="np"/></i></e>
@@ -1125,6 +1131,7 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>näytellä<s n="vblex"/></l><r>čájáttàllâđ<s n="vblex"/></r></p></e>
     <e><p><l>nuotata<s n="vblex"/></l><r>pottâđ<s n="vblex"/></r></p></e>
     <e><p><l>koota<s n="vblex"/></l><r>čokkiđ<s n="vblex"/></r></p></e>
     <e><p><l>tyhjentää<s n="vblex"/></l><r>kuorriđ<s n="vblex"/></r></p></e>
