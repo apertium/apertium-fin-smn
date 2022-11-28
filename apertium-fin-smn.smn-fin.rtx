@@ -7,7 +7,7 @@ gender = m f mf;
 tense = pres past fut ifi pri fti;
 person = p1 p2 p3 ;
 case = nom gen acc par ine ela ill ade abl all loc com abe tra ess lat ;
-tensemood = cond pot imp pres pri past ;
+tensemood = cond pot imp pres pri past pret ;
 sem = sem_dummytag ;
 nptype = ant top cog al ;
 numtype = card ord ;
@@ -58,7 +58,7 @@ NUMP: _;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tensemood > tensemood: pres pri ;
+tensemood > tensemood: pres pri , pret past ;
 case > case: loc ine, acc gen ;
 inf > inf: inf infa ; 
 pcp > pcp: prfprc pp ;
