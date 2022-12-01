@@ -177,6 +177,7 @@
 
     <!-- adpositions -->
 
+    <e><p><l>vieressä<s n="post"/></l><r>piällást<s n="post"/></r></p></e>
     <e><p><l>puolelle<s n="post"/></l><r>pel<s n="post"/></r></p></e>
     <e><p><l>kuluessa<s n="post"/></l><r>ääigi<s n="post"/></r></p></e>
     <e><p><l>puolesta<s n="post"/></l><r>peeleest<s n="post"/></r></p></e>
@@ -216,6 +217,13 @@
 
     <!-- adverbs -->
 
+    <e><p><l>eteenpäin<s n="adv"/></l><r>ovdâskulij<s n="adv"/></r></p></e>
+    <e><p><l>kiinni<s n="adv"/></l><r>kiddâ<s n="adv"/></r></p></e>
+    <e><p><l>kiinni<s n="adv"/></l><r>kiddâ<s n="adv"/></r></p></e>
+    <e><p><l>vasemmalle<s n="adv"/></l><r>čižetpel<s n="adv"/></r></p></e>
+    <e><p><l>takaisin<s n="adv"/></l><r>maasâd<s n="adv"/></r></p></e>
+    <e><p><l>tuonne<s n="adv"/></l><r>tovho<s n="adv"/></r></p></e>
+    <e><p><l>syrjässä<s n="adv"/></l><r>tuárispeln<s n="adv"/></r></p></e>
     <e><p><l>heti<s n="adv"/></l><r>tállân<s n="adv"/></r></p></e>
     <e><p><l>mukana<s n="adv"/></l><r>mieldi<s n="adv"/></r></p></e>
     <e><p><l>vaan<s n="adv"/></l><r>peic<s n="adv"/></r></p></e>
@@ -384,6 +392,7 @@
     <e><p><l>kahdeksantoista<s n="num"/><s n="card"/></l><r>käävcinubáloh<s n="num"/></r></p></e>
     <e><p><l>yhdeksäntoista<s n="num"/><s n="card"/></l><r>oovcenubáloh<s n="num"/></r></p></e>
     <e><p><l>kaksikymmentä<s n="num"/><s n="card"/></l><r>kyehtlov<s n="num"/></r></p></e>
+    <e><p><l>kaksikymmentäyksi<s n="num"/><s n="card"/></l><r>kyehtlovohtâ<s n="num"/></r></p></e>
     <e><p><l>kolmekymmentä<s n="num"/><s n="card"/></l><r>kulmâlov<s n="num"/></r></p></e>
     <e><p><l>kolmekymmentäneljä<s n="num"/><s n="card"/></l><r>kulmâlovnelji<s n="num"/></r></p></e>
     <e><p><l>neljäkymmentä<s n="num"/><s n="card"/></l><r>neljilov<s n="num"/></r></p></e>
@@ -401,6 +410,10 @@
 
     <!-- adjectives -->
 
+    <e><p><l>kuiva<s n="adj"/></l><r>koškes<s n="adj"/></r></p></e>
+    <e><p><l>epätavallinen<s n="adj"/></l><r>epitáválâš<s n="adj"/></r></p></e>
+    <e><p><l>aito<s n="adj"/></l><r>olmâ<s n="adj"/></r></p></e>
+    <e><p><l>oikea<s n="adj"/></l><r>rievtis<s n="adj"/></r></p></e>
     <e><p><l>väkevä<s n="adj"/></l><r>viehâv<s n="adj"/></r></p></e>
     <e><p><l>kärsivällinen<s n="adj"/></l><r>kierdâvâš<s n="adj"/></r></p></e>
     <e><p><l>kirkas<s n="adj"/></l><r>kirkkâd<s n="adj"/></r></p></e>
@@ -513,6 +526,28 @@
 
     <!-- nouns -->
 
+    <e><p><l>sormus<s n="n"/></l><r>suormâhâs<s n="n"/></r></p></e>
+    <e><p><l>kulta<s n="n"/></l><r>kolle<s n="n"/></r></p></e>
+    <e><p><l>tomaatti<s n="n"/></l><r>toomaat<s n="n"/></r></p></e>
+    <e><p><l>rasia<s n="n"/></l><r>rasijâš<s n="n"/></r></p></e>
+    <e><p><l>jälkiruoka<s n="n"/></l><r>pajalâš<s n="n"/></r></p></e>
+    <e><p><l>viini<s n="n"/></l><r>viini<s n="n"/></r></p></e>
+    <e><p><l>mineraali<s n="n"/></l><r>mineraal<s n="n"/></r></p></e>
+    <e><p><l>juoma<s n="n"/></l><r>juhâmâš<s n="n"/></r></p></e>
+    <e><p><l>salaatti<s n="n"/></l><r>saalaat<s n="n"/></r></p></e>
+    <e><p><l>aloite<s n="n"/></l><r>aalgâ<s n="n"/></r></p></e>
+    <e><p><l>alku<s n="n"/></l><r>algâ<s n="n"/></r></p></e>
+    <e><p><l>tarjoilija<s n="n"/></l><r>falâdeijee<s n="n"/></r></p></e>
+    <e><p><l>kyltti<s n="n"/></l><r>kolbâ<s n="n"/></r></p></e>
+    <e><p><l>matka<s n="n"/></l><r>mokke<s n="n"/></r></p></e>
+    <e><p><l>ystävä<s n="n"/></l><r>ustev<s n="n"/></r></p></e>
+    <e><p><l>ehdotus<s n="n"/></l><r>iävtuttâs<s n="n"/></r></p></e>
+    <e><p><l>baari<s n="n"/></l><r>baari<s n="n"/></r></p></e>
+    <e><p><l>hotelli<s n="n"/></l><r>hooteel<s n="n"/></r></p></e>
+    <e><p><l>ravintola<s n="n"/></l><r>ravintola<s n="n"/></r></p></e>
+    <e><p><l>kokemus<s n="n"/></l><r>fiäráán<s n="n"/></r></p></e>
+    <e><p><l>alunen<s n="n"/></l><r>vuálááš<s n="n"/></r></p></e>
+    <e><p><l>sydän<s n="n"/></l><r>váimu<s n="n"/></r></p></e>
     <e><p><l>roska<s n="n"/></l><r>lyeni<s n="n"/></r></p></e>
     <e><p><l>roskakori<s n="n"/></l><r>lyenilitte<s n="n"/></r></p></e>
     <e><p><l>haju<s n="n"/></l><r>haajâ<s n="n"/></r></p></e>
@@ -897,6 +932,7 @@
     <e><p><l>taivutus<s n="n"/></l><r>sujâttem<s n="n"/></r></p></e>
     <e><p><l>muoto<s n="n"/></l><r>häämi<s n="n"/></r></p></e>
     <e><p><l>rivi<s n="n"/></l><r>raddalâs<s n="n"/></r></p></e>
+    <e><p><l>reitti<s n="n"/></l><r>luoddâ<s n="n"/></r></p></e>
     <e><p><l>jälki<s n="n"/></l><r>luoddâ<s n="n"/></r></p></e>
     <e><p><l>tuuli<s n="n"/></l><r>pieggâ<s n="n"/></r></p></e>
     <e><p><l>pakka<s n="n"/></l><r>pággu<s n="n"/></r></p></e>
@@ -1141,6 +1177,7 @@
 
 
 
+    <e><p><l>Matias<s n="np"/></l><r>Matjâs<s n="np"/></r></p></e>
     <e><p><l>Leena<s n="np"/></l><r>Liäiná<s n="np"/></r></p></e>
     <e><p><l>Tromssa<s n="np"/></l><r>Romssa<s n="np"/></r></p></e>
     <e><p><l>Suomi<s n="np"/></l><r>Suomâ<s n="np"/></r></p></e>
@@ -1158,6 +1195,10 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>keskustella<s n="vblex"/></l><r>sárnudiđ<s n="vblex"/></r></p></e>
+    <e><p><l>suosittaa<s n="vblex"/></l><r>avžuuttiđ<s n="vblex"/></r></p></e>
+    <e><p><l>saattaa<s n="vblex"/></l><r>laiđiđ<s n="vblex"/></r></p></e>
+    <e><p><l>kääntyä<s n="vblex"/></l><r>jorgettiđ<s n="vblex"/></r></p></e>
     <e><p><l>näkyä<s n="vblex"/></l><r>oinuđ<s n="vblex"/></r></p></e>
     <e><p><l>avautua<s n="vblex"/></l><r>lekkâsiđ<s n="vblex"/></r></p></e>
     <e><p><l>syttyä<s n="vblex"/></l><r>puálláđ<s n="vblex"/></r></p></e>
@@ -1472,6 +1513,7 @@
     <e><p><l>vain<s n="ij"/></l><r>peri<s n="pcle"/></r></p></e>
     <e><p><l>entä<s n="ij"/></l><r>nabai<s n="pcle"/></r></p></e>
     <e><p><l>niinku<s n="ij"/></l><r>tego<s n="pcle"/></r></p></e>
+    <e><p><l>tahansa<s n="adv"/></l><r>ihenis<s n="pcle"/></r></p></e>
 
     <!-- digits and stuff -->
 
