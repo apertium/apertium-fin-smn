@@ -177,6 +177,8 @@
 
     <!-- adpositions -->
 
+    <e><p><l>verran<s n="post"/></l><r>verd<s n="post"/></r></p></e>
+    <e><p><l>eteen<s n="post"/></l><r>oovdân<s n="post"/></r></p></e>
     <e><p><l>vieressä<s n="post"/></l><r>piällást<s n="post"/></r></p></e>
     <e><p><l>puolelle<s n="post"/></l><r>pel<s n="post"/></r></p></e>
     <e><p><l>kuluessa<s n="post"/></l><r>ääigi<s n="post"/></r></p></e>
@@ -217,6 +219,12 @@
 
     <!-- adverbs -->
 
+
+    <e><p><l>tarkasti<s n="adv"/></l><r>tárkká<s n="adv"/></r></p></e>
+    <e><p><l>varovasti<s n="adv"/></l><r>várugávt<s n="adv"/></r></p></e>
+    <e><p><l>kuinkaan<s n="adv"/></l><r>mahten<s n="adv"/></r></p></e>
+    <e><p><l>lisäksi<s n="adv"/></l><r>oolâ<s n="adv"/></r></p></e>
+    <e><p><l>lähinnä<s n="adv"/></l><r>iänááš<s n="adv"/></r></p></e>
     <e><p><l>eteenpäin<s n="adv"/></l><r>ovdâskulij<s n="adv"/></r></p></e>
     <e><p><l>kiinni<s n="adv"/></l><r>kiddâ<s n="adv"/></r></p></e>
     <e><p><l>kiinni<s n="adv"/></l><r>kiddâ<s n="adv"/></r></p></e>
@@ -393,6 +401,7 @@
     <e><p><l>yhdeksäntoista<s n="num"/><s n="card"/></l><r>oovcenubáloh<s n="num"/></r></p></e>
     <e><p><l>kaksikymmentä<s n="num"/><s n="card"/></l><r>kyehtlov<s n="num"/></r></p></e>
     <e><p><l>kaksikymmentäyksi<s n="num"/><s n="card"/></l><r>kyehtlovohtâ<s n="num"/></r></p></e>
+    <e><p><l>kaksikymmentäkaksi<s n="num"/><s n="card"/></l><r>kyehtlovkyehti<s n="num"/></r></p></e>
     <e><p><l>kolmekymmentä<s n="num"/><s n="card"/></l><r>kulmâlov<s n="num"/></r></p></e>
     <e><p><l>kolmekymmentäneljä<s n="num"/><s n="card"/></l><r>kulmâlovnelji<s n="num"/></r></p></e>
     <e><p><l>neljäkymmentä<s n="num"/><s n="card"/></l><r>neljilov<s n="num"/></r></p></e>
@@ -410,6 +419,8 @@
 
     <!-- adjectives -->
 
+    <e><p><l>siisti<s n="adj"/></l><r>sijvuu<s n="adj"/></r></p></e>
+    <e><p><l>mielenkiintoinen<s n="adj"/></l><r>mielâkiddiivâš<s n="adj"/></r></p></e>
     <e><p><l>kuiva<s n="adj"/></l><r>koškes<s n="adj"/></r></p></e>
     <e><p><l>epätavallinen<s n="adj"/></l><r>epitáválâš<s n="adj"/></r></p></e>
     <e><p><l>aito<s n="adj"/></l><r>olmâ<s n="adj"/></r></p></e>
@@ -526,6 +537,39 @@
 
     <!-- nouns -->
 
+    <e><p><l>markkina<s n="n"/></l><r>markkân<s n="n"/></r></p></e>
+    <e><p><l>ilo<s n="n"/></l><r>ilo<s n="n"/></r></p></e>
+    <e><p><l>viesti<s n="n"/></l><r>viestâ<s n="n"/></r></p></e>
+    <e><p><l>luukku<s n="n"/></l><r>luŋkká<s n="n"/></r></p></e>
+    <e><p><l>avustaja<s n="n"/></l><r>išedeijee<s n="n"/></r></p></e>
+    <e><p><l>toivomus<s n="n"/></l><r>tuoivâ<s n="n"/></r></p></e>
+    <e><p><l>joululahja<s n="n"/></l><r>juovlâskeŋkkâ<s n="n"/></r></p></e>
+    <e><p><l>joulukuu<s n="n"/></l><r>juovlâmáánu<s n="n"/></r></p></e>
+    <e><p><l>pukki<s n="n"/></l><r>pukki<s n="n"/></r></p></e>
+    <e><p><l>kalenteri<s n="n"/></l><r>kalender<s n="n"/></r></p></e>
+    <e><p><l>joulu<s n="n"/></l><r>juovlah<s n="n"/></r></p></e>
+    <e><p><l>tonttu<s n="n"/></l><r>tonttu<s n="n"/></r></p></e>
+    <e><p><l>onnettomuus<s n="n"/></l><r>pärtti<s n="n"/></r></p></e>
+    <e><p><l>merkki<s n="n"/></l><r>merkkâ<s n="n"/></r></p></e>
+    <e><p><l>pyyntö<s n="n"/></l><r>pivdem<s n="n"/></r></p></e>
+    <e><p><l>sakko<s n="n"/></l><r>sákku<s n="n"/></r></p></e>
+    <e><p><l>liikennemerkki<s n="n"/></l><r>jotolâhmerkkâ<s n="n"/></r></p></e>
+    <e><p><l>loppupää<s n="n"/></l><r>loppâkeeči<s n="n"/></r></p></e>
+    <e><p><l>traktori<s n="n"/></l><r>traktor<s n="n"/></r></p></e>
+    <e><p><l>risteys<s n="n"/></l><r>ratkuuttâh<s n="n"/></r></p></e>
+    <e><p><l>vauhti<s n="n"/></l><r>liähtu<s n="n"/></r></p></e>
+    <e><p><l>kaasu<s n="n"/></l><r>kaasu<s n="n"/></r></p></e>
+    <e><p><l>rekka<s n="n"/></l><r>rekka<s n="n"/></r></p></e>
+    <e><p><l>liikenne<s n="n"/></l><r>jotolâh<s n="n"/></r></p></e>
+    <e><p><l>ajaja<s n="n"/></l><r>vyeijee<s n="n"/></r></p></e>
+    <e><p><l>suojatie<s n="n"/></l><r>syejiluoddâ<s n="n"/></r></p></e>
+    <e><p><l>henkilöauto<s n="n"/></l><r>persovnauto<s n="n"/></r></p></e>
+    <e><p><l>tulistelu<s n="n"/></l><r>tulâstâllâm<s n="n"/></r></p></e>
+    <e><p><l>kelkka<s n="n"/></l><r>kiälkká<s n="n"/></r></p></e>
+    <e><p><l>käyttö<s n="n"/></l><r>ano<s n="n"/></r></p></e>
+    <e><p><l>autotalli<s n="n"/></l><r>autotalli<s n="n"/></r></p></e>
+    <e><p><l>moottori<s n="n"/></l><r>moottor<s n="n"/></r></p></e>
+    <e><p><l>korjaaja<s n="n"/></l><r>tivvoo<s n="n"/></r></p></e>
     <e><p><l>sormus<s n="n"/></l><r>suormâhâs<s n="n"/></r></p></e>
     <e><p><l>kulta<s n="n"/></l><r>kolle<s n="n"/></r></p></e>
     <e><p><l>tomaatti<s n="n"/></l><r>toomaat<s n="n"/></r></p></e>
@@ -1195,6 +1239,22 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>väistää<s n="vblex"/></l><r>čahhiđ<s n="vblex"/></r></p></e>
+    <e><p><l>painaista<s n="vblex"/></l><r>teddiliđ<s n="vblex"/></r></p></e>
+    <e><p><l>katsella<s n="vblex"/></l><r>kejâdiđ<s n="vblex"/></r></p></e>
+    <e><p><l>vähentää<s n="vblex"/></l><r>kepidiđ<s n="vblex"/></r></p></e>
+    <e><p><l>polkaista<s n="vblex"/></l><r>tuolmâstiđ<s n="vblex"/></r></p></e>
+    <e><p><l>hermostua<s n="vblex"/></l><r>jierestuđ<s n="vblex"/></r></p></e>
+    <e><p><l>saavuttaa<s n="vblex"/></l><r>juksâđ<s n="vblex"/></r></p></e>
+    <e><p><l>huristella<s n="vblex"/></l><r>hurgottiđ<s n="vblex"/></r></p></e>
+    <e><p><l>jarruttaa<s n="vblex"/></l><r>kooccâđ<s n="vblex"/></r></p></e>
+    <e><p><l>toimia<s n="vblex"/></l><r>toimâđ<s n="vblex"/></r></p></e>
+    <e><p><l>paistaa<s n="vblex"/></l><r>päštiđ<s n="vblex"/></r></p></e>
+    <e><p><l>purkaa<s n="vblex"/></l><r>raččođ<s n="vblex"/></r></p></e>
+    <e><p><l>kuluttaa<s n="vblex"/></l><r>kulâttiđ<s n="vblex"/></r></p></e>
+    <e><p><l>hoitaa<s n="vblex"/></l><r>hoittáđ<s n="vblex"/></r></p></e>
+    <e><p><l>tottua<s n="vblex"/></l><r>hárjániđ<s n="vblex"/></r></p></e>
+    <e><p><l>korjata<s n="vblex"/></l><r>tipšođ<s n="vblex"/></r></p></e>
     <e><p><l>keskustella<s n="vblex"/></l><r>sárnudiđ<s n="vblex"/></r></p></e>
     <e><p><l>suosittaa<s n="vblex"/></l><r>avžuuttiđ<s n="vblex"/></r></p></e>
     <e><p><l>saattaa<s n="vblex"/></l><r>laiđiđ<s n="vblex"/></r></p></e>
@@ -1494,6 +1554,7 @@
 
     <!-- interjections -->
 
+    <e><p><l>oho<s n="ij"/></l><r>oho<s n="ij"/></r></p></e>
     <e><p><l>terve<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>niin<s n="ij"/></l><r>naa<s n="ij"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>na<s n="ij"/></r></p></e>
