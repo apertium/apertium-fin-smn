@@ -31,6 +31,8 @@ vblex: _.voice.tensemood.person.number;
 vblex_inf: _.voice.inf.number.case;
 vblex_pcp: _.voice.pcp.comparison.number.case;
 vblex_massa: _.<actv>.<infma>.<sg>.<ine>;
+negv: _.<neg>.<actv>.person.number;
+conneg: _.<actv>.tensemood.number.<conneg>;
 ij: _;
 adv: _;
 cnjcoo: _;
@@ -62,6 +64,7 @@ tensemood > tensemood: pres pri , pret past ;
 case > case: loc ine, acc gen ;
 inf > inf: inf infa ; 
 pcp > pcp: prfprc pp ;
+number > number: du pl ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -81,9 +84,11 @@ NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
 NP -> %N { %1 } ;
 
 V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
-     leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=sg,case=nom] } |
+     leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=1.number,case=nom] } |
+     leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=1.number,case=nom] } |
      vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
+     ij@vblex vblex.*.conneg { 1(negv) _ 2(conneg)[number=1.number] } |
      vblex { 1 } |
      vaux { 1 } ;
 PRN -> %prn { %1 } ;
