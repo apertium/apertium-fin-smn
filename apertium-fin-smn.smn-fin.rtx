@@ -52,20 +52,22 @@ C: _;
 NUM: _;
 
 S: _;
+SFRAC: _;
 VP: _;
 NP: _.case;
+ADVP: _;
 NUMP: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tensemood > tensemood: pres pri , pret past ;
+tensemood > tensemood: pres pri , pret past, cond cni ;
 case > case: loc ine, acc gen ;
 inf > inf: inf infa ; 
 pcp > pcp: prfprc pp ;
 number > number: du pl ;
-
+clitics > clitics: foc_uv qst;
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
@@ -75,13 +77,15 @@ number > number: du pl ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-S -> VP NP { 1 _ 2 } ;
+S -> VP %NP { 1 _ 2 } ;
+SFRAC -> ADVP NP { 1 _ 2 } ;
 VP -> NP.loc leđe@vblex { 1[case=ade] _ 2[number=sg] } |
       PRN.loc leđe@vblex { 1[case=ade] _ 2[number=1.number] } |
       NP VP { 1 _ 2 } ;
 NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
         num n { 1 _ 2[number=sg,case=par] } ;
 NP -> %N { %1 } ;
+ADVP -> n.sem_time num.sem_year { 1 _ 2 } ;
 
 V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=1.number,case=nom] } |
@@ -89,17 +93,26 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
      ij@vblex vblex.*.conneg { 1(negv) _ 2(conneg)[number=1.number] } |
+     vblex.*.qst { 1 +ko@qst } |
+     vblex.*.foc_uv { 1 +ko@qst } |
      vblex { 1 } |
      vaux { 1 } ;
 PRN -> %prn { %1 } ;
-N -> n.*.cmp %n { 1[number=sg,case=gen] 2 } |
+N -> n.*.cmp %n { 1[number=sg,case=gen] 2[number=(
+            if (2.case=com) ""
+            elif (2.case=ess) "sg"
+            elif (2.case=par) "sg"
+            else 2.number)] } |
      %n { %1[number=(
             if (1.case=com) ""
             elif (1.case=ess) "sg" 
+            elif (1.case=par) "sg" 
             else 1.number)] } |
      %np { %1 } ;
 A -> adj.*.attr { 1[case=nom,number=sg] } |
-     adj { 1 } ;
+     adj { 1[number=(
+        if (1.case=ess) "sg"
+        else 1.number)] } ;
 IJ -> ij { 1 } |
       pcle { 1 } ;
 ADV -> adv { 1 } ;
