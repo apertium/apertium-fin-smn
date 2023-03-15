@@ -1,3 +1,20 @@
+# apertiums
+/*.bin
+/*.cache
+/*.hfst
+/*.mode
+/*.status
+/.deps
+/ap_include.am
+dev/*
+/modes
+t/*.html
+t/.git
+/*.gz
+/*.zhfst
+/*-*.prob
+/test/*-output.txt
+
 # http://www.gnu.org/software/automake
 
 Makefile.in
