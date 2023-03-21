@@ -43,7 +43,7 @@ NUMP: _;
 !!!!!!!!!!!!!!!
 
 tense > tense : pri pres, past pret ;
-case > case : ine loc ;
+case > case : ine loc , tra ess;
 mood > mood : pri indic, past indic ;
 
 !!!!!!!!!!!!!!!
