@@ -97,7 +97,8 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      vblex.*.foc_uv { 1 +ko@qst } |
      vblex { 1 } |
      vaux { 1 } ;
-PRN -> %prn { %1 } ;
+PRN -> 10: %prn.pers.*.du.* { %1 _ molemmat@prn.pl.[1.case] } |
+        1: %prn { %1 } ;
 N -> n.*.cmp %n { 1[number=sg,case=gen] 2[number=(
             if (2.case=com) ""
             elif (2.case=ess) "sg"
