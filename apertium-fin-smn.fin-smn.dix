@@ -126,6 +126,8 @@
     <e><p><l>itse<s n="prn"/></l><r>jieš<s n="pcle"/></r></p></e>
     <e><p><l>ko<s n="qst"/></l><r><s n="qst"/></r></p></e>
 
+    <e><p><l>Suomessa<s n="adv"/></l><r>Suomâ<b/>peln<s n="adv"/></r></p></e>
+    <e><p><l>Norjassa<s n="adv"/></l><r>Taažâ<b/>peln<s n="adv"/></r></p></e>
 
     <!-- pronouns -->
 
@@ -133,17 +135,22 @@
 
     <e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
           <r>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-    <e><p><l>sinä<s n="prn"/></l><r>tun<s n="prn"/></r></p></e>
+    <e><p><l>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
+          <r>tun<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
     <e><p><l>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
           <r>sun<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
     <e><p><l>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
-          <r>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></r></p></e>
-    <e><p><l>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
           <r>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l>
-          <r>sun<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></r></p></e>
+    <e><p><l>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
+          <r>tun<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
     <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l>
           <r>sun<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e><p><l>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l>
+          <r>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></r></p></e>
+    <e><p><l>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
+          <r>tun<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></r></p></e>
+    <e><p><l>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l>
+          <r>sun<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></r></p></e>
 
     <!-- these are not in current smn analyser-generator? -->
 
@@ -184,6 +191,7 @@
     <e><p><l>eräs<s n="prn"/></l><r>mottoom<s n="prn"/></r></p></e>
     <e><p><l>montako<s n="prn"/></l><r>kalle<s n="prn"/></r></p></e>
     <e><p><l>sama<s n="prn"/></l><r>siämmáš<s n="prn"/></r></p></e>
+    <e><p><l>kumpikin<s n="prn"/></l><r>kuábáš-uv<s n="prn"/></r></p></e>
 
     <!-- conjunctions -->
 
@@ -228,6 +236,7 @@
 
     <!-- post -->
 
+    <e><p><l>puolella<s n="post"/></l><r>pelni<s n="post"/></r></p></e>
     <e><p><l>mukana<s n="post"/></l><r>fáárust<s n="post"/></r></p></e>
     <e><p><l>välillä<s n="post"/></l><r>kooskâ<s n="post"/></r></p></e>
     <e><p><l>takia<s n="post"/></l><r>tiet<s n="post"/></r></p></e>
@@ -293,6 +302,7 @@
 
     <!-- pr -->
 
+    <e><p><l>paitsi<s n="pr"/></l><r>eereeb<s n="pr"/></r></p></e>
     <e><p><l>ympäri<s n="pr"/></l><r>pirrâ<s n="pr"/></r></p></e>
     <e><p><l>lähellä<s n="pr"/></l><r>alda<s n="pr"/></r></p></e>
     <e><p><l>ennen<s n="pr"/></l><r>ovdil<s n="pr"/></r></p></e>
@@ -303,6 +313,7 @@
 
     <e c="FIXME"><p><l>esiin<s n="adv"/></l><r>vuotân<s n="adv"/></r></p></e>
 
+    <e><p><l>kiinni<s n="adv"/></l><r>kidâ<s n="adv"/></r></p></e>
     <e><p><l>siksi<s n="adv"/></l><r>tondet<s n="adv"/></r></p></e>
     <e><p><l>nimittäin<s n="adv"/></l><r>nomâlâsân<s n="adv"/></r></p></e>
     <e><p><l>kaikkiaan<s n="adv"/></l><r>puohnâssân<s n="adv"/></r></p></e>
@@ -627,6 +638,12 @@
 
     <e><p><l>ns.<s n="adj"/></l><r>nk<s n="adj"/></r></p></e>
 
+    <e><p><l>inarinsaamenkielinen<s n="adj"/></l><r>anarâškiel<s n="adj"/></r></p></e>
+    <e><p><l>pohjoissaamelainen<s n="adj"/></l><r>orjâlâš<s n="adj"/></r></p></e>
+    <e><p><l>kuuluisa<s n="adj"/></l><r>peeggâlm<s n="adj"/></r></p></e>
+    <e><p><l>ahkera<s n="adj"/></l><r>viššâl<s n="adj"/></r></p></e>
+    <e><p><l>kirjallinen<s n="adj"/></l><r>kirjálâš<s n="adj"/></r></p></e>
+    <e><p><l>voimallinen<s n="adj"/></l><r>vuáimálâš<s n="adj"/></r></p></e>
     <e><p><l>väliaikainen<s n="adj"/></l><r>koskâpuddâsâš<s n="adj"/></r></p></e>
     <e><p><l>ainoa<s n="adj"/></l><r>áinoo<s n="adj"/></r></p></e>
     <e><p><l>arvoisa<s n="adj"/></l><r>áárvustoonnum<s n="adj"/></r></p></e>
@@ -862,8 +879,65 @@
 
 
     <e c="check?"><p><l>kulttuurirahasto<s n="n"/></l><r>kulttuurruttârááju<s n="n"/></r></p></e>
+    <e c="check?"><p><l>min<s n="n"/></l><r>min<s n="n"/></r></p></e>
 
 
+    <e><p><l>piirtäjä<s n="n"/></l><r>sárgoo<s n="n"/></r></p></e>
+    <e><p><l>leipoja<s n="n"/></l><r>liäiboo<s n="n"/></r></p></e>
+    <e><p><l>vihannes<s n="n"/></l><r>ruonâs<s n="n"/></r></p></e>
+    <e><p><l>tunturi<s n="n"/></l><r>tuodâr<s n="n"/></r></p></e>
+    <e><p><l>pulla<s n="n"/></l><r>niisu<s n="n"/></r></p></e>
+    <e><p><l>uuni<s n="n"/></l><r>uvnâ<s n="n"/></r></p></e>
+    <e><p><l>avain<s n="n"/></l><r>čoovdâ<s n="n"/></r></p></e>
+    <e><p><l>vankila<s n="n"/></l><r>faŋgâl<s n="n"/></r></p></e>
+    <e><p><l>sanaristikko<s n="n"/></l><r>säniruossâlâs<s n="n"/></r></p></e>
+    <e><p><l>kakkonen<s n="n"/></l><r>kuávtáš<s n="n"/></r></p></e>
+    <e><p><l>toissapäivä<s n="n"/></l><r>oovdebpeivi<s n="n"/></r></p></e>
+    <e><p><l>laatu<s n="n"/></l><r>šlaajâ<s n="n"/></r></p></e>
+    <e><p><l>rivi<s n="n"/></l><r>ráiđu<s n="n"/></r></p></e>
+    <e><p><l>palkka<s n="n"/></l><r>pälkki<s n="n"/></r></p></e>
+    <e><p><l>pora<s n="n"/></l><r>poorá<s n="n"/></r></p></e>
+    <e><p><l>ulko-ovi<s n="n"/></l><r>olgouksâ<s n="n"/></r></p></e>
+    <e><p><l>kansallistunne<s n="n"/></l><r>aalmuglâštobdo<s n="n"/></r></p></e>
+    <e><p><l>tulkki<s n="n"/></l><r>tulkkâ<s n="n"/></r></p></e>
+    <e><p><l>käsite<s n="n"/></l><r>toopâ<s n="n"/></r></p></e>
+    <e><p><l>oikeus<s n="n"/></l><r>vuoigâdvuotâ<s n="n"/></r></p></e>
+    <e><p><l>status<s n="n"/></l><r>status<s n="n"/></r></p></e>
+    <e><p><l>kiela<s n="n"/></l><r>kielâs<s n="n"/></r></p></e>
+    <e><p><l>säveltäjä<s n="n"/></l><r>nyettejeijee<s n="n"/></r></p></e>
+    <e><p><l>tekijä<s n="n"/></l><r>rähtee<s n="n"/></r></p></e>
+    <e><p><l>edustaja<s n="n"/></l><r>ovdâsteijee<s n="n"/></r></p></e>
+    <e><p><l>polvi<s n="n"/></l><r>puolvâ<s n="n"/></r></p></e>
+    <e><p><l>joiku<s n="n"/></l><r>juoigâ<s n="n"/></r></p></e>
+    <e><p><l>käännös<s n="n"/></l><r>jurgâlus<s n="n"/></r></p></e>
+    <e><p><l>tukkakoskelo<s n="n"/></l><r>kuálsi<s n="n"/></r></p></e>
+    <e><p><l>kansalaiseepos<s n="n"/></l><r>aalmuglâšeepos<s n="n"/></r></p></e>
+    <e><p><l>kokoelma<s n="n"/></l><r>čuágáldâh<s n="n"/></r></p></e>
+    <e><p><l>tundra<s n="n"/></l><r>tundra<s n="n"/></r></p></e>
+    <e><p><l>jokiranta<s n="n"/></l><r>juhâriddo<s n="n"/></r></p></e>
+    <e><p><l>näky<s n="n"/></l><r>uáinus<s n="n"/></r></p></e>
+    <e><p><l>vaikeus<s n="n"/></l><r>vädisvuotâ<s n="n"/></r></p></e>
+    <e><p><l>eepos<s n="n"/></l><r>eepos<s n="n"/></r></p></e>
+    <e><p><l>sukupolvi<s n="n"/></l><r>suhâpuolvâ<s n="n"/></r></p></e>
+    <e><p><l>saamelaisnuori<s n="n"/></l><r>säminuorâ<s n="n"/></r></p></e>
+    <e><p><l>taiteilija<s n="n"/></l><r>taaidâr<s n="n"/></r></p></e>
+    <e><p><l>romaani<s n="n"/></l><r>roomaan<s n="n"/></r></p></e>
+    <e><p><l>renessanssi<s n="n"/></l><r>renessans<s n="n"/></r></p></e>
+    <e><p><l>runo<s n="n"/></l><r>tihtâ<s n="n"/></r></p></e>
+    <e><p><l>suomi<s n="n"/></l><r>suomâ<s n="n"/></r></p></e>
+    <e><p><l>saamelaiskulttuuri<s n="n"/></l><r>sämikulttuur<s n="n"/></r></p></e>
+    <e><p><l>aamurusko<s n="n"/></l><r>kuávsui<s n="n"/></r></p></e>
+    <e><p><l>kaunokirjallisuus<s n="n"/></l><r>čaabâkirjálâšvuotâ<s n="n"/></r></p></e>
+    <e><p><l>perinne<s n="n"/></l><r>ärbivyehi<s n="n"/></r></p></e>
+    <e><p><l>klassikko<s n="n"/></l><r>klassikko<s n="n"/></r></p></e>
+    <e><p><l>juuri<s n="n"/></l><r>ruotâs<s n="n"/></r></p></e>
+    <e><p><l>hiillos<s n="n"/></l><r>áššu<s n="n"/></r></p></e>
+    <e><p><l>vuosisata<s n="n"/></l><r>ihečyeti<s n="n"/></r></p></e>
+    <e><p><l>traditio<s n="n"/></l><r>traditio<s n="n"/></r></p></e>
+    <e><p><l>valvonta<s n="n"/></l><r>kocceem<s n="n"/></r></p></e>
+    <e><p><l>pohjoismaa<s n="n"/></l><r>tave-eennâm<s n="n"/></r></p></e>
+    <e><p><l>enemmistö<s n="n"/></l><r>eenâbloho<s n="n"/></r></p></e>
+    <e><p><l>kansa<s n="n"/></l><r>aalmug<s n="n"/></r></p></e>
     <e><p><l>elo<s n="n"/></l><r>iälu<s n="n"/></r></p></e>
     <e><p><l>elanto<s n="n"/></l><r>áigápuátu<s n="n"/></r></p></e>
     <e><p><l>marjastus<s n="n"/></l><r>muorjim<s n="n"/></r></p></e>
@@ -2143,6 +2217,7 @@
     <e><p><l>juoma<s n="n"/></l><r>juhâmuš<s n="n"/></r></p></e>
 
 
+    <e><p><l>a<s n="n"/></l><r c="giellalt">aalphabet<s n="n"/></r></p></e>
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>
     <e><p><l>b<s n="n"/></l><r c="giellalt">balphabet<s n="n"/></r></p></e>
     <e><p><l>c<s n="n"/></l><r>c<s n="n"/></r></p></e>
@@ -2152,6 +2227,7 @@
     <e><p><l>g<s n="n"/></l><r>g<s n="n"/></r></p></e>
     <e><p><l>h<s n="n"/></l><r>h<s n="n"/></r></p></e>
     <e><p><l>i<s n="n"/></l><r>i<s n="n"/></r></p></e>
+    <e><p><l>i<s n="n"/></l><r c="giellalt">ialphabet<s n="n"/></r></p></e>
     <e><p><l>j<s n="n"/></l><r>j<s n="n"/></r></p></e>
     <e><p><l>k<s n="n"/></l><r>k<s n="n"/></r></p></e>
     <e><p><l>l<s n="n"/></l><r>l<s n="n"/></r></p></e>
@@ -2164,9 +2240,12 @@
     <e><p><l>q<s n="n"/></l><r>q<s n="n"/></r></p></e>
     <e><p><l>r<s n="n"/></l><r>r<s n="n"/></r></p></e>
     <e><p><l>s<s n="n"/></l><r>s<s n="n"/></r></p></e>
+    <e><p><l>š<s n="n"/></l><r c="giellalt">šalphabet<s n="n"/></r></p></e>
     <e><p><l>t<s n="n"/></l><r>t<s n="n"/></r></p></e>
+    <e><p><l>t<s n="n"/></l><r c="giellalt">talphabet<s n="n"/></r></p></e>
     <e><p><l>u<s n="n"/></l><r>u<s n="n"/></r></p></e>
     <e><p><l>v<s n="n"/></l><r>v<s n="n"/></r></p></e>
+    <e><p><l>v<s n="n"/></l><r c="giellalt">valphabet<s n="n"/></r></p></e>
     <e><p><l>w<s n="n"/></l><r>w<s n="n"/></r></p></e>
     <e><p><l>y<s n="n"/></l><r>y<s n="n"/></r></p></e>
     <e><p><l>pred<s n="n"/></l><r>pred<s n="n"/></r></p></e>
@@ -2176,6 +2255,54 @@
 
     <!-- proper nouns -->
 
+    <e><i>Jalvi<s n="np"/></i></e>
+    <e><i>Ávvir<s n="np"/></i></e>
+    <e><i>Nuorttanaste<s n="np"/></i></e>
+    <e><i>Sápmelaš-lostâ<s n="np"/></i></e>
+    <e><i>Lesk-Ant<b/>Uulá<s n="np"/></i></e>
+    <e><i>Uula<s n="np"/></i></e>
+    <e><i>Turi<s n="np"/></i></e>
+    <e><i>Anders<s n="np"/></i></e>
+    <e><i>Pedar<s n="np"/></i></e>
+    <e><i>Larsen<s n="np"/></i></e>
+    <e><i>Eino<s n="np"/></i></e>
+    <e><i>Hans<s n="np"/></i></e>
+    <e><i>Kirsti<s n="np"/></i></e>
+    <e><i>Guttorm<s n="np"/></i></e>
+    <e><i>Rauni<s n="np"/></i></e>
+    <e><i>Magga<s n="np"/></i></e>
+    <e><i>Lukkari<s n="np"/></i></e>
+    <e><i>Rauna<s n="np"/></i></e>
+    <e><i>Leivo<s n="np"/></i></e>
+    <e><i>Jovnna<s n="np"/></i></e>
+    <e><i>Ánde<s n="np"/></i></e>
+    <e><i>Vest<s n="np"/></i></e>
+    <e><i>Kanada<s n="np"/></i></e>
+    <e><i>Siberia<s n="np"/></i></e>
+    <e><i>Vuolab<s n="np"/></i></e>
+    <e><i>Kerttu<s n="np"/></i></e>
+    <e><i>Inger<s n="np"/></i></e>
+    <e><i>Aslak<s n="np"/></i></e>
+    <e><i>Nils<s n="np"/></i></e>
+    <e><i>Koskimies<s n="np"/></i></e>
+    <e><i>Nils-Aslak<s n="np"/></i></e>
+    <e><i>Valkeapää<s n="np"/></i></e>
+    <e><i>Saari<s n="np"/></i></e>
+    <e><i>Wimme<s n="np"/></i></e>
+    <e><i>Hirvasvuopio<s n="np"/></i></e>
+    <e><i>Laiti<s n="np"/></i></e>
+    <e><i>Ulla<s n="np"/></i></e>
+    <e><i>Pirttijärvi<s n="np"/></i></e>
+    <e><i>Annukka<s n="np"/></i></e>
+    <e><i>Aune<s n="np"/></i></e>
+    <e><i>Boine<s n="np"/></i></e>
+    <e><i>Heli<s n="np"/></i></e>
+    <e><i>Veli-Pekka<s n="np"/></i></e>
+    <e><i>Lehtola<s n="np"/></i></e>
+    <e><i>Pennanen<s n="np"/></i></e>
+    <e><i>Jukka<s n="np"/></i></e>
+    <e><i>Klemetti<s n="np"/></i></e>
+    <e><i>Näkkäläjärvi<s n="np"/></i></e>
     <e><i>Ervast<s n="np"/></i></e>
     <e><i>Fellman<s n="np"/></i></e>
     <e><i>Jacob<s n="np"/></i></e>
@@ -2329,6 +2456,11 @@
     <e><i>Vuolli<s n="np"/></i></e>
     <e><i>Rantamäki<s n="np"/></i></e>
 
+    <!-- more unusual names maybe -->
+
+    <e><i>K4<s n="np"/></i></e>
+    <e><i>IMA<s n="np"/></i></e>
+
     <e><i>II<s n="np"/></i></e>
     <e><i>III<s n="np"/></i></e>
 
@@ -2341,6 +2473,7 @@
     <!-- translated names including Inari Saami names that have Finnish
     counterparts -->
 
+    <e><p><l>Angel<s n="np"/></l><r>Aŋŋel<s n="np"/></r></p></e>
     <e><p><l>Afrikka<s n="np"/></l><r>Afrika<s n="np"/></r></p></e>
     <e><p><l>Saamelaiskäräjät<s n="np"/></l><r>Sämitigge<s n="np"/></r></p></e>
     <e><p><l>Saara<s n="np"/></l><r>Sárá<s n="np"/></r></p></e>
@@ -2394,6 +2527,14 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>irrottaa<s n="vblex"/></l><r>luuppâđ<s n="vblex"/></r></p></e>
+    <e><p><l>varjella<s n="vblex"/></l><r>varjâliđ<s n="vblex"/></r></p></e>
+    <e><p><l>laueta<s n="vblex"/></l><r>paccâđ<s n="vblex"/></r></p></e>
+    <e><p><l>verrata<s n="vblex"/></l><r>verdidiđ<s n="vblex"/></r></p></e>
+    <e><p><l>joikata<s n="vblex"/></l><r>juoigâđ<s n="vblex"/></r></p></e>
+    <e><p><l>kunnioittaa<s n="vblex"/></l><r>kunnijâttiđ<s n="vblex"/></r></p></e>
+    <e><p><l>laueta<s n="vblex"/></l><r>paccâđ<s n="vblex"/></r></p></e>
+    <e><p><l>lopettaa<s n="vblex"/></l><r>lopâttiđ<s n="vblex"/></r></p></e>
     <e><p><l>laueta<s n="vblex"/></l><r>paccâđ<s n="vblex"/></r></p></e>
     <e><p><l>kuohita<s n="vblex"/></l><r>kaldiđ<s n="vblex"/></r></p></e>
     <e><p><l>elpyä<s n="vblex"/></l><r>iälláđ<s n="vblex"/></r></p></e>
