@@ -129,6 +129,9 @@
     <e><p><l>Suomessa<s n="adv"/></l><r>Suomâ<b/>peln<s n="adv"/></r></p></e>
     <e><p><l>Norjassa<s n="adv"/></l><r>Taažâ<b/>peln<s n="adv"/></r></p></e>
 
+    <e><p><l>ko<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
+    <e><p><l>kin<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
+
     <!-- pronouns -->
 
     <!-- personal -->
@@ -638,6 +641,14 @@
 
     <e><p><l>ns.<s n="adj"/></l><r>nk<s n="adj"/></r></p></e>
 
+    <e><p><l>hidas<s n="adj"/></l><r>hiđes<s n="adj"/></r></p></e>
+    <e><p><l>laiska<s n="adj"/></l><r>läški<s n="adj"/></r></p></e>
+    <e><p><l>lyhyt<s n="adj"/></l><r>uáneeh<s n="adj"/></r></p></e>
+    <e><p><l>rakastunut<s n="adj"/></l><r>rákkásâš<s n="adj"/></r></p></e>
+    <e><p><l>entinen<s n="adj"/></l><r>oovdiš<s n="adj"/></r></p></e>
+    <e><p><l>rakas<s n="adj"/></l><r>räähis<s n="adj"/></r></p></e>
+    <e><p><l>ikävä<s n="adj"/></l><r>ahheev<s n="adj"/></r></p></e>
+    <e><p><l>rohkea<s n="adj"/></l><r>ruokkâd<s n="adj"/></r></p></e>
     <e><p><l>inarinsaamenkielinen<s n="adj"/></l><r>anarâškiel<s n="adj"/></r></p></e>
     <e><p><l>pohjoissaamelainen<s n="adj"/></l><r>orjâlâš<s n="adj"/></r></p></e>
     <e><p><l>kuuluisa<s n="adj"/></l><r>peeggâlm<s n="adj"/></r></p></e>
@@ -882,6 +893,20 @@
     <e c="check?"><p><l>min<s n="n"/></l><r>min<s n="n"/></r></p></e>
 
 
+    <e><p><l>kielitiede<s n="n"/></l><r>kielâtieđâ<s n="n"/></r></p></e>
+    <e><p><l>punkki<s n="n"/></l><r>puŋkki<s n="n"/></r></p></e>
+    <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
+    <e><p><l>skootteri<s n="n"/></l><r>skootter<s n="n"/></r></p></e>
+    <e><p><l>intiaani<s n="n"/></l><r>indiaan<s n="n"/></r></p></e>
+    <e><p><l>scifi<s n="n"/></l><r>scifi<s n="n"/></r></p></e>
+    <e><p><l>fantasia<s n="n"/></l><r>fantasia<s n="n"/></r></p></e>
+    <e><p><l>bändi<s n="n"/></l><r>muusikjuávkku<s n="n"/></r></p></e>
+    <e><p><l>intiaani<s n="n"/></l><r>indiaan<s n="n"/></r></p></e>
+    <e><p><l>ikävä<s n="n"/></l><r>ahheev<s n="n"/></r></p></e>
+    <e><p><l>varsi<s n="n"/></l><r>verdi<s n="n"/></r></p></e>
+    <e><p><l>ystävä<s n="n"/></l><r>veerdi<s n="n"/></r></p></e>
+    <e><p><l>nuoruus<s n="n"/></l><r>nuorâvuotâ<s n="n"/></r></p></e>
+    <e><p><l>leiri<s n="n"/></l><r>leirâ<s n="n"/></r></p></e>
     <e><p><l>piirtäjä<s n="n"/></l><r>sárgoo<s n="n"/></r></p></e>
     <e><p><l>leipoja<s n="n"/></l><r>liäiboo<s n="n"/></r></p></e>
     <e><p><l>vihannes<s n="n"/></l><r>ruonâs<s n="n"/></r></p></e>
@@ -1332,7 +1357,7 @@
     <e><p><l>lentokenttä<s n="n"/></l><r>kirdemkieddi<s n="n"/></r></p></e>
     <e><p><l>lento<s n="n"/></l><r>kirdem<s n="n"/></r></p></e>
     <e><p><l>muuntaja<s n="n"/></l><r>muttee<s n="n"/></r></p></e>
-    <e><p><l>sukset<s n="n"/></l><r>saaveeh<s n="n"/></r></p></e>
+    <e><p><l>suksi<s n="n"/></l><r>saaveeh<s n="n"/></r></p></e>
     <e><p><l>metsästys<s n="n"/></l><r>miäcástem<s n="n"/></r></p></e>
     <e><p><l>lammas<s n="n"/></l><r>savzâ<s n="n"/></r></p></e>
     <e><p><l>lehmä<s n="n"/></l><r>kussâ<s n="n"/></r></p></e>
@@ -2473,6 +2498,7 @@
     <!-- translated names including Inari Saami names that have Finnish
     counterparts -->
 
+    <e><p><l>Vuotso<s n="np"/></l><r>Vuáčču<s n="np"/></r></p></e>
     <e><p><l>Angel<s n="np"/></l><r>Aŋŋel<s n="np"/></r></p></e>
     <e><p><l>Afrikka<s n="np"/></l><r>Afrika<s n="np"/></r></p></e>
     <e><p><l>Saamelaiskäräjät<s n="np"/></l><r>Sämitigge<s n="np"/></r></p></e>
@@ -2527,6 +2553,8 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>väitellä<s n="vblex"/></l><r>nágáttâllâđ<s n="vblex"/></r></p></e>
+    <e><p><l>hyväksyä<s n="vblex"/></l><r>tuhhiittiđ<s n="vblex"/></r></p></e>
     <e><p><l>irrottaa<s n="vblex"/></l><r>luuppâđ<s n="vblex"/></r></p></e>
     <e><p><l>varjella<s n="vblex"/></l><r>varjâliđ<s n="vblex"/></r></p></e>
     <e><p><l>laueta<s n="vblex"/></l><r>paccâđ<s n="vblex"/></r></p></e>
