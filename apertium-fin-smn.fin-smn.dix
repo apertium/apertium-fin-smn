@@ -241,6 +241,7 @@
 
     <!-- post -->
 
+    <e><p><l>kohdalla<s n="post"/></l><r>puotâ<s n="post"/></r></p></e>
     <e><p><l>vastaan<s n="post"/></l><r>vuástá<s n="post"/></r></p></e>
     <e><p><l>lähellä<s n="post"/></l><r>alda<s n="post"/></r></p></e>
     <e><p><l>lähelle<s n="post"/></l><r>aldasáid<s n="post"/></r></p></e>
@@ -910,6 +911,17 @@
     <e c="check?"><p><l>min<s n="n"/></l><r>min<s n="n"/></r></p></e>
 
 
+    <e><p><l>mäki<s n="n"/></l><r>luákká<s n="n"/></r></p></e>
+    <e><p><l>vasara<s n="n"/></l><r>veeččir<s n="n"/></r></p></e>
+    <e><p><l>silmälasit<s n="n"/></l><r>čalmelaasah<s n="n"/></r></p></e>
+    <e><p><l>sakset<s n="n"/></l><r>skerreeh<s n="n"/></r></p></e>
+    <e><p><l>naula<s n="n"/></l><r>spiijkár<s n="n"/></r></p></e>
+    <e><p><l>neula<s n="n"/></l><r>náálu<s n="n"/></r></p></e>
+    <e><p><l>pelko<s n="n"/></l><r>palo<s n="n"/></r></p></e>
+    <e><p><l>ruokahalu<s n="n"/></l><r>puurrâmlusto<s n="n"/></r></p></e>
+    <e><p><l>harja<s n="n"/></l><r>kustâ<s n="n"/></r></p></e>
+    <e><p><l>vaali<s n="n"/></l><r>valjâ<s n="n"/></r></p></e>
+    <e><p><l>komitatiivi<s n="n"/></l><r>komitativ<s n="n"/></r></p></e>
     <e><p><l>aste<s n="n"/></l><r>cekki<s n="n"/></r></p></e>
     <e><p><l>riski<s n="n"/></l><r>riskâ<s n="n"/></r></p></e>
     <e><p><l>päivänpaiste<s n="n"/></l><r>peeivipaaštâ<s n="n"/></r></p></e>
@@ -2659,6 +2671,8 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>laskea<s n="vblex"/></l><r>čierâstâllâđ<s n="vblex"/></r></p></e>
+    <e><p><l>hajottaa<s n="vblex"/></l><r>pieđgiđ<s n="vblex"/></r></p></e>
     <e><p><l>siirtyä<s n="vblex"/></l><r>sirdâšuđ<s n="vblex"/></r></p></e>
     <e><p><l>vaikuttaa<s n="vblex"/></l><r>peggiđ<s n="vblex"/></r></p></e>
     <e><p><l>pelästyttää<s n="vblex"/></l><r>paldettiđ<s n="vblex"/></r></p></e>
