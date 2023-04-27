@@ -22,6 +22,7 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="post"            c="Postposition"/>
+    <sdef n="enc"             c="enclitic"/>
     <sdef n="qst"             c="enclitic question"/>
 
     <sdef n="attr"            c="Attributive"/>
@@ -133,6 +134,7 @@
 
     <e><p><l>ko<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
     <e><p><l>kin<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
+    <e><p><l>kin<s n="enc"/></l><r>-uv<s n="pcle"/></r></p></e>
 
     <!-- pronouns -->
 
@@ -323,6 +325,7 @@
 
     <e c="FIXME"><p><l>esiin<s n="adv"/></l><r>vuotân<s n="adv"/></r></p></e>
 
+    <e><p><l>siis<s n="adv"/></l><r>talle<s n="adv"/></r></p></e>
     <e><p><l>kovasti<s n="adv"/></l><r>korrâsávt<s n="adv"/></r></p></e>
     <e><p><l>tavoin<s n="adv"/></l><r>náálá<s n="adv"/></r></p></e>
     <e><p><l>lähellä<s n="adv"/></l><r>alda<s n="adv"/></r></p></e>
@@ -651,6 +654,9 @@
 
     <e><p><l>ns.<s n="adj"/></l><r>nk<s n="adj"/></r></p></e>
 
+    <e><p><l>hyödyllinen<s n="adj"/></l><r>ávhálâš<s n="adj"/></r></p></e>
+    <e><p><l>kiukkuinen<s n="adj"/></l><r>tullâpaa<s n="adj"/></r></p></e>
+    <e><p><l>ylempi<s n="adj"/></l><r>paajeeb<s n="adj"/></r></p></e>
     <e><p><l>maantieteellinen<s n="adj"/></l><r>eennâmtieđâlâš<s n="adj"/></r></p></e>
     <e><p><l>aurinkoinen<s n="adj"/></l><r>piäiváá<s n="adj"/></r></p></e>
     <e><p><l>ylin<s n="adj"/></l><r>pajemus<s n="adj"/></r></p></e>
@@ -909,8 +915,25 @@
 
     <e c="check?"><p><l>kulttuurirahasto<s n="n"/></l><r>kulttuurruttârááju<s n="n"/></r></p></e>
     <e c="check?"><p><l>min<s n="n"/></l><r>min<s n="n"/></r></p></e>
+    <e c="check"><p><l>takatalvi<s n="n"/></l><r>moŋŋjâtälvi<s n="n"/></r></p></e>
 
 
+    <e><p><l>kätkö<s n="n"/></l><r>čiävus<s n="n"/></r></p></e>
+    <e><p><l>teko<s n="n"/></l><r>taho<s n="n"/></r></p></e>
+    <e><p><l>pääte<s n="n"/></l><r>kiäjus<s n="n"/></r></p></e>
+    <e><p><l>itu<s n="n"/></l><r>iđos<s n="n"/></r></p></e>
+    <e><p><l>ilves<s n="n"/></l><r>iilvâs<s n="n"/></r></p></e>
+    <e><p><l>nääli<s n="n"/></l><r>njaalâ<s n="n"/></r></p></e>
+    <e><p><l>näätä<s n="n"/></l><r>neeti<s n="n"/></r></p></e>
+    <e><p><l>nukke<s n="n"/></l><r>nukke<s n="n"/></r></p></e>
+    <e><p><l>näyttely<s n="n"/></l><r>čáitáldâh<s n="n"/></r></p></e>
+    <e><p><l>parta<s n="n"/></l><r>siämu<s n="n"/></r></p></e>
+    <e><p><l>pelastus<s n="n"/></l><r>kááijum<s n="n"/></r></p></e>
+    <e><p><l>joulupukki<s n="n"/></l><r>juovlâstáálu<s n="n"/></r></p></e>
+    <e><p><l>indikatiivi<s n="n"/></l><r>indikativ<s n="n"/></r></p></e>
+    <e><p><l>havu<s n="n"/></l><r>kuáccee<s n="n"/></r></p></e>
+    <e><p><l>kynttilä<s n="n"/></l><r>kiintâl<s n="n"/></r></p></e>
+    <e><p><l>tentti<s n="n"/></l><r>tentti<s n="n"/></r></p></e>
     <e><p><l>mäki<s n="n"/></l><r>luákká<s n="n"/></r></p></e>
     <e><p><l>vasara<s n="n"/></l><r>veeččir<s n="n"/></r></p></e>
     <e><p><l>silmälasit<s n="n"/></l><r>čalmelaasah<s n="n"/></r></p></e>
@@ -2332,10 +2355,13 @@
 
 
     <e><p><l>a<s n="n"/></l><r c="giellalt">aalphabet<s n="n"/></r></p></e>
+    <e><p><l>á<s n="n"/></l><r>á<s n="n"/></r></p></e>
     <e><p><l>a<s n="n"/></l><r>a<s n="n"/></r></p></e>
     <e><p><l>b<s n="n"/></l><r c="giellalt">balphabet<s n="n"/></r></p></e>
+    <e><p><l>č<s n="n"/></l><r>č<s n="n"/></r></p></e>
     <e><p><l>c<s n="n"/></l><r>c<s n="n"/></r></p></e>
     <e><p><l>d<s n="n"/></l><r>d<s n="n"/></r></p></e>
+    <e><p><l>đ<s n="n"/></l><r>đ<s n="n"/></r></p></e>
     <e><p><l>e<s n="n"/></l><r>e<s n="n"/></r></p></e>
     <e><p><l>f<s n="n"/></l><r>f<s n="n"/></r></p></e>
     <e><p><l>g<s n="n"/></l><r>g<s n="n"/></r></p></e>
@@ -2362,13 +2388,18 @@
     <e><p><l>v<s n="n"/></l><r c="giellalt">valphabet<s n="n"/></r></p></e>
     <e><p><l>w<s n="n"/></l><r>w<s n="n"/></r></p></e>
     <e><p><l>y<s n="n"/></l><r>y<s n="n"/></r></p></e>
-    <e><p><l>pred<s n="n"/></l><r>pred<s n="n"/></r></p></e>
-    <e><p><l>attr<s n="n"/></l><r>attr<s n="n"/></r></p></e>
+    <e><p><l>pred.<s n="n"/></l><r>pred<s n="n"/></r></p></e>
+    <e><p><l>attr.<s n="n"/></l><r>attr<s n="n"/></r></p></e>
+    <e><p><l>ind.<s n="n"/></l><r>ind<s n="n"/></r></p></e>
+    <e><p><l>kom.<s n="n"/></l><r>kom<s n="n"/></r></p></e>
     <e><p><l>e.m.<s n="n"/></l><r>om<s n="n"/></r></p></e>
 
 
     <!-- proper nouns -->
 
+    <e><i>Alisa<s n="np"/></i></e>
+    <e><i>Tavu<s n="np"/></i></e>
+    <e><i>Sana<s n="np"/></i></e>
     <e><i>Joovsep<s n="np"/></i></e>
     <e><i>Andersson<s n="np"/></i></e>
     <e><i>Kolehmainen<s n="np"/></i></e>
@@ -2671,6 +2702,18 @@
 
     <!-- normal verbs -->
 
+    <e><p><l>kertoa<s n="vblex"/></l><r>kiärduđ<s n="vblex"/></r></p></e>
+    <e><p><l>ansoa<s n="vblex"/></l><r>kiellâđ<s n="vblex"/></r></p></e>
+    <e><p><l>piilottaa<s n="vblex"/></l><r>čiehâđ<s n="vblex"/></r></p></e>
+    <e><p><l>avautua<s n="vblex"/></l><r>čovduđ<s n="vblex"/></r></p></e>
+    <e><p><l>tarttua<s n="vblex"/></l><r>tarvaniđ<s n="vblex"/></r></p></e>
+    <e><p><l>muodostaa<s n="vblex"/></l><r>kuálustiđ<s n="vblex"/></r></p></e>
+    <e><p><l>huomata<s n="vblex"/></l><r>muštáđ<s n="vblex"/></r></p></e>
+    <e><p><l>kiljua<s n="vblex"/></l><r>kiljođ<s n="vblex"/></r></p></e>
+    <e><p><l>taittaa<s n="vblex"/></l><r>tuáijiđ<s n="vblex"/></r></p></e>
+    <e><p><l>roikkua<s n="vblex"/></l><r>hiäŋgáđ<s n="vblex"/></r></p></e>
+    <e><p><l>puhaltaa<s n="vblex"/></l><r>posoliđ<s n="vblex"/></r></p></e>
+    <e><p><l>köhiä<s n="vblex"/></l><r>kááhuđ<s n="vblex"/></r></p></e>
     <e><p><l>laskea<s n="vblex"/></l><r>čierâstâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>hajottaa<s n="vblex"/></l><r>pieđgiđ<s n="vblex"/></r></p></e>
     <e><p><l>siirtyä<s n="vblex"/></l><r>sirdâšuđ<s n="vblex"/></r></p></e>
@@ -3390,6 +3433,8 @@
     <e><p><l>[<s n="punct"/></l><r>[<s n="lquot"/></r></p></e>
     <e><p><l>(<s n="punct"/></l><r>(<s n="lquot"/></r></p></e>
     <e><p><l>)<s n="punct"/></l><r>)<s n="punct"/></r></p></e>
+    <e><p><l>&lt;<s n="punct"/></l><r>&lt;<s n="punct"/></r></p></e>
+    <e><p><l>&gt;<s n="punct"/></l><r>&gt;<s n="punct"/></r></p></e>
     <e><p><l>]<s n="punct"/></l><r>]<s n="punct"/></r></p></e>
     <e><p><l>/<s n="punct"/></l><r>/<s n="punct"/></r></p></e>
     <e><p><l>\<s n="punct"/></l><r>\<s n="sent"/></r></p></e>
