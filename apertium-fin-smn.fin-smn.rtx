@@ -11,7 +11,11 @@ sem = sem_dummytag ;
 mood = indic cond pot imp pri past ;
 comparison = pst comp sup ;
 clitic = qst foc_uv ;
-tviv = tv iv ;
+tviv = tv iv  ;
+neg = neg conneg ;
+prntype = pers dem ind rel itg ;
+ptcp = pp pprs prfprc ;
+ntype = nomag ;
 
 ones = ohtâ 1 ;
 twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
@@ -20,21 +24,30 @@ twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.number.case.clitic;
+np: _.number.case.clitic;
+n: _.ntype.number.case.clitic;
 n_par: _.case;   !! hack to get partitive without number tag?
+prn: _.prntype.person.number.case;
 adj: _.number.case;
 adj_attr: _.<attr>;
+det: _.prntype.number.case;
 num: _.number.case;
-vblex: _.tviv.mood.tense.person.number;
+vaux: _.tviv.neg.mood.tense.person.number;
+vblex: _.tviv.neg.mood.tense.person.number;
+vblex_actio: _.tviv.<actio>.case;
 vblex_inf: _.tviv.<inf>;
+vblex_ptcp: _.tviv.ptcp;
+vblex_conneg: _.tviv.mood.tense.neg;
 
 ! singletons
 NUM: _;
 N: _;
 A: _;
 V: _;
+PRN: _;
 
 ! phrases
+VP: _;
 NP: _;
 NUMP: _;
 
@@ -43,8 +56,9 @@ NUMP: _;
 !!!!!!!!!!!!!!!
 
 tense > tense : pri pres, past pret ;
-case > case : ine loc , tra ess;
+case > case : ine loc , ela loc, abl loc, ade loc, all ill, tra ess, par acc;
 mood > mood : pri indic, past indic ;
+ptcp > ptcp : pp prfprc, pprs prsprc;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -59,12 +73,23 @@ NUMP -> num.*.nom n.*.par ?(1.lem in ones) { 1 _ 2 } |
         num.*.nom n.*.par ?(1.lem in twosixes) { 1 _ 2[case=gen] } |
         num.*.nom n.*.par { 1 _ 2(n_par) } ;
 
-V -> vblex.*.infa { 1(vblex_inf) } | 
-     vblex { 1 } ;
-A -> adj { 1 } ;
-N -> n.*.par { 1(n_par) } |
-     n { 1 } ;
-NUM -> num { 1 } ;
+
+V -> vblex.*.infa { 1(vblex_inf) } |
+     vblex.*.infma { 1(vblex_actio)[case=ess] } |
+     ei@vaux { 1[mood=indic,tviv=iv,neg=neg] } |
+     vblex.*.conneg { 1(vblex_conneg) } |
+     vaux.*.conneg { 1(vblex_conneg) } |
+     vblex.*.pp.* { 1(vblex_ptcp) } |
+     vblex.*.pprs.* { 1(vblex_ptcp) } |
+     vblex ?(1.neg not = conneg) { 1 } |
+     vaux ?(1.neg not = conneg) { 1 } ;
+A -> adj { 1[case=(if (1.case = par) nom else 1.case)] } ;
+N -> n { 1 } | 
+     np { 1 } ;
+PRN -> prn { 1[number=(if (1.number = sp) sg else 1.number)] }  |
+       se@det { 1 } ;
+NUM -> num { 1 } |
+       yksi@det { 1 } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
