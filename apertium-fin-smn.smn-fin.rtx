@@ -7,7 +7,7 @@ gender = m f mf;
 tense = pres past fut ifi pri fti;
 person = p1 p2 p3 ;
 case = nom gen acc par ine ela ill ade abl all loc com abe tra ess lat ;
-tensemood = cond pot imp pres pri past pret ;
+tensemood = cond pot imp pres pri past pret cni ;
 sem = sem_dummytag ;
 nptype = ant top cog al ;
 numtype = card ord ;
@@ -92,7 +92,9 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=1.number,case=nom] } |
      vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
-     ij@vblex vblex.*.conneg { 1(negv) _ 2(conneg)[number=1.number] } |
+     ij@vblex vblex.*.conneg { 1(negv) _ 
+                               2(conneg)[number=(if (2.tensemood = cond) ""
+                                                 else 1.number)] } |
      vblex.*.qst { 1 +ko@qst } |
      vblex.*.foc_uv { 1 +ko@qst } |
      vblex { 1 } |

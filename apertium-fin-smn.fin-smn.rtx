@@ -4,11 +4,11 @@
 
 number = sg pl du sp;
 gender = m f mf;
-tense = pres past fut ifi pri fti pret ;
+tense = pres past fut ifi pri fti pret cni ;
 person = p1 p2 p3 ;
 case = nom gen acc par ine ela ill ade abl all loc com abe tra ess ;
 sem = sem_dummytag ;
-mood = indic cond pot imp pri past ;
+mood = indic cond pot imp pri past cni ;
 comparison = pst comp sup ;
 clitic = qst foc_uv ;
 tviv = tv iv  ;
@@ -55,9 +55,9 @@ NUMP: _;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-tense > tense : pri pres, past pret ;
+tense > tense : pri pres, past pret, cni pres ;
 case > case : ine loc , ela loc, abl loc, ade loc, all ill, tra ess, par acc;
-mood > mood : pri indic, past indic ;
+mood > mood : pri indic, past indic, cni cond ;
 ptcp > ptcp : pp prfprc, pprs prsprc;
 
 !!!!!!!!!!!!!!!
