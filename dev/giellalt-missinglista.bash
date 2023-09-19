@@ -17,3 +17,18 @@ grep -E -o '@[^ ]*' < freecorpus-smn.analysed | sort | uniq -c | sort -nr \
     > freecorpus-smn.bidix.missinglist
 grep -E -o '#[^ ]*' < freecorpus-smn.analysed | sort | uniq -c | sort -nr \
     > freecorpus-smn.generations.missinglist
+
+if ! test -d "$GTLANGS/corpus-fin/" ; then
+    echo "missing $GTLANGS/corpus-fin"
+    exit 2
+fi
+
+ccat -f fin "$GTLANGS/corpus-fin" |\
+    apertium -d . @fin-smn-dgen > freecorpus-fin.analysed
+grep -E -o '\*[^ ]*' < freecorpus-fin.analysed | sort | uniq -c | sort -nr \
+    > freecorpus-fin.analyses.missinglist
+grep -E -o '@[^ ]*' < freecorpus-fin.analysed | sort | uniq -c | sort -nr \
+    > freecorpus-fin.bidix.missinglist
+grep -E -o '#[^ ]*' < freecorpus-fin.analysed | sort | uniq -c | sort -nr \
+    > freecorpus-fin.generations.missinglist
+
