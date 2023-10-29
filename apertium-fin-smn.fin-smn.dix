@@ -8753,24 +8753,36 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- interjections -->
 
+
+    <e><p><l>ah<s n="ij"/></l><r>kah<s n="ij"/></r></p></e>
     <e><p><l>ainii<s n="ij"/></l><r>amahmis<s n="ij"/></r></p></e>
     <e><p><l c="voi että">että<s n="ij"/></l><r>itám<s n="ij"/></r></p></e>
     <e><p><l>hei<s n="ij"/></l><r>hei<s n="ij"/></r></p></e>
+    <e><p><l>hei<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>hitsi<s n="ij"/></l><r>sittágin<s n="ij"/></r></p></e>
+    <e><p><l>hoi<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
+    <e><p><l>hus<s n="ij"/></l><r>fuos<s n="ij"/></r></p></e>
+    <e><p><l>hus<s n="ij"/></l><r>hos<s n="ij"/></r></p></e>
     <e><p><l>jaa<s n="ij"/></l><r>jáá<s n="ij"/></r></p></e>
     <e><p><l>jaha<s n="ij"/></l><r>jáhá<s n="ij"/></r></p></e>
     <e><p><l>joo<s n="ij"/></l><r>joo<s n="ij"/></r></p></e>
+    <e><p><l>jukolauta<s n="ij"/></l><r>motjanan<s n="ij"/></r></p></e>
     <e><p><l>kas<s n="ij"/></l><r>kiäh<s n="ij"/></r></p></e>
     <e><p><l>kiitos<s n="ij"/></l><r>takkâ<s n="ij"/></r></p></e>
+    <e><p><l>kippis<s n="ij"/></l><r>skool<s n="ij"/></r></p></e>
     <e><p><l>nappinenä<s n="ij"/></l><r>puállunjune<s n="ij"/></r></p></e>
     <e><p><l>niin<s n="ij"/></l><r>naa<s n="ij"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>na<s n="ij"/></r></p></e>
+    <e><p><l>ohhoh<s n="ij"/></l><r>o<s n="ij"/></r></p></e>
     <e><p><l>oho<s n="ij"/></l><r>oho<s n="ij"/></r></p></e>
+    <e><p><l>oi<s n="ij"/></l><r>o<s n="ij"/></r></p></e>
     <e><p><l>terve<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>terve<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>tervetuloa<s n="ij"/></l><r>pyeripuáttim<s n="ij"/></r></p></e>
     <e><p><l>tervetuloa<s n="ij"/></l><r>tiervâpuáttim<s n="ij"/></r></p></e>
     <e><p><l>voi<s n="ij"/></l><r>vuoi<s n="ij"/></r></p></e>
+    <e w="2"><p><l>joo<s n="ij"/></l><r>joo-o<s n="ij"/></r></p></e>
+    <e w="3"><p><l>jaaha<s n="ij"/></l><r>jáá nuuvt<s n="ij"/></r></p></e>
 
     <!-- digits and stuff -->
 
