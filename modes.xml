@@ -5,7 +5,7 @@
 
   <mode name="fin-smn" install="yes" gendebug="yes">
     <pipeline>
-      <program name="hfst-proc --weight-classes 1 -w -e">
+      <program name="hfst-proc -w -e">
         <file name="fin-smn.automorf.hfst"/>
       </program>
       <program name="cg-proc -w -1 -n">
@@ -31,7 +31,7 @@
 
   <mode name="smn-fin" install="yes" gendebug="yes">
     <pipeline>
-      <program name="hfst-proc --weight-classes 1 -w -e">
+      <program name="hfst-proc -w -e">
         <file name="smn-fin.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
