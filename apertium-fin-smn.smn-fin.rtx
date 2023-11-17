@@ -16,13 +16,14 @@ voice = (VOICE actv) actv pasv VOICE ;
 clitics = qst foc_uv ;
 inf = inf infa infe infma ;
 pcp = prfprc pp pprs ;
+prntype = pers dem reflex ind qu itg rel ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
 n: _.number.case;
-prn: _.number.case;
+prn: _.prntype.person.number.case;
 num: _.numtype.number.case;
 adj: _.comparison.number.case;
 np: _.nptype.gender.number.case;
@@ -45,7 +46,7 @@ ADP: _;
 ADV: _;
 A: _;
 IJ: _;
-N: _.case;
+N: _.number.case;
 PRN: _.case;
 V: _;
 C: _;
@@ -84,7 +85,8 @@ VP -> NP.loc leđe@vblex { 1[case=ade] _ 2[number=sg] } |
       NP VP { 1 _ 2 } ;
 NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
         num n { 1 _ 2[number=sg,case=par] } ;
-NP -> %N { %1 } ;
+NP ->  adj.attr %N { 1[case=2.case,number=2.number] _ %2 } |
+    %N { %1 } ;
 ADVP -> n.sem_time num.sem_year { 1 _ 2 } ;
 
 V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
@@ -95,13 +97,23 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      ij@vblex vblex.*.conneg { 1(negv) _ 
                                2(conneg)[number=(if (2.tensemood = cond) ""
                                                  else 1.number)] } |
+     ij@vblex { 1(negv) } |
+     vblex.*.conneg { 1(conneg) } |
      vblex.*.qst { 1 +ko@qst } |
      vblex.*.foc_uv { 1 +ko@qst } |
      vblex { 1 } |
      vaux { 1 } ;
 PRN -> 10: %prn.pers.*.du.* { %1 _ molemmat@prn.pl.[1.case] } |
-        1: %prn { %1 } ;
-N -> n.*.cmp %n { 1[number=sg,case=gen] 2[number=(
+        2: prn.ind.attr [$case=nom,$number=sg] { %1[case=nom,number=sg] } |
+        1: %prn { %1 } |
+        2: mii@prn.itg.$number.$case { 1[number=(if (1.case=gen) sp else 1.number)] } |
+        jieš@pcle [$case=nom,$number=sg] { %1(prn) } ;
+N -> n.*.cmp n.*.cmp %n { 1[number=sg,case=nom] 2[number=sg,case=nom] 
+               3[number=(if (3.case=com) "" 
+                         elif (3.case=ess) "sg"
+                         elif (3.case=par) "sg"
+                         else 3.number)] } |
+     n.*.cmp %n { 1[number=sg,case=nom] 2[number=(
             if (2.case=com) ""
             elif (2.case=ess) "sg"
             elif (2.case=par) "sg"
