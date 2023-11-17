@@ -55,5 +55,92 @@
       </program>
     </pipeline>
   </mode>
+
+    <!-- trä -->
+
+  <mode name="fin-smn-tree" install="no" >
+    <pipeline>
+      <program name="hfst-proc -w -e">
+        <file name="fin-smn.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -1 -n">
+        <file name="fin-smn.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="fin-smn.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="fin-smn.autolex.bin"/>
+      </program>
+      <program name="rtx-proc -T">
+        <file name="fin-smn.rtx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="smn-fin-tree" install="no" >
+    <pipeline>
+      <program name="hfst-proc -w -e">
+            <file name="smn-fin.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="smn-fin.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -1 -w">
+        <file name="smn-fin.syn.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="smn-fin.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="smn-fin.autolex.bin"/>
+      </program>
+      <program name="rtx-proc -T">
+        <file name="smn-fin.rtx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+    <!-- reasable formats -->
+
+  <mode name="fin-smn-syntaks" install="no" >
+    <pipeline>
+      <program name="hfst-proc -w -e">
+        <file name="fin-smn.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w -n">
+        <file name="fin-smn.rlx.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+    </pipeline>
+  </mode>
+
+  <mode name="smn-fin-syntaks" install="no" >
+    <pipeline>
+      <program name="hfst-proc -w -e">
+            <file name="smn-fin.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="smn-fin.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -n -w">
+        <file name="smn-fin.syn.rlx.bin"/>
+      </program>
+      <program name="cg-conv"/>
+      <program name="lt-proc -b">
+        <file name="smn-fin.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="smn-fin.autolex.bin"/>
+      </program>
+      <program name="rtx-proc -T">
+        <file name="smn-fin.rtx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 </modes>
 
