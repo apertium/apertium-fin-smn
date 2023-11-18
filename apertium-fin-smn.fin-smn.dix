@@ -142,6 +142,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>ko<s n="qst"/></l><r>uv<s n="pcle"/></r></p></e>
     <e><p><l>kuten<s n="adv"/></l><r>mahte<s n="pcle"/></r></p></e>
     <e><p><l>menossa<s n="adv"/></l><r>moonnâđ<s n="vblex"/><s n="iv"/><s n="actio"/><s n="ess"/></r></p></e>
+    <e><p><l>millainen<s n="adj"/></l><r>maggaar<s n="prn"/></r></p></e>
     <e><p><l>mitä<s n="adv"/></l><r>mađe<s n="pcle"/></r></p></e>
     <e><p><l>monesko<s n="adv"/></l><r>kallaad<s n="adj"/></r></p></e>
     <e><p><l>moni<s n="prn"/></l><r>maŋgâ<s n="num"/></r></p></e>
@@ -243,7 +244,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kuta<s n="prn"/></l><r>mađe<s n="prn"/></r></p></e>
     <e><p><l>mikä<s n="prn"/></l><r>mii<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>mikään<s n="prn"/></l><r>mihheen<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>millainen<s n="prn"/></l><r>maggaar<s n="prn"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>kuohtuuh<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>kyehtin<s n="prn"/></r></p></e>
     <e><p><l>monesko<s n="prn"/></l><r>kallaad<s n="prn"/></r></p></e>
@@ -16717,7 +16717,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>sepelkyyhky<s n="n"/></l><r>kiärdutuvvá<s n="n"/></r></p></e>
     <e><p><l>sepelrastas<s n="n"/></l><r>kiärdurástágâš<s n="n"/></r></p></e>
     <e><p><l>sepelsieppo<s n="n"/></l><r>kiärdulivkkár<s n="n"/></r></p></e>
-    <e><p><l>sepel<s n="n"/></l><r>kiärdu<s n="n"/></r></p></e>
+    <e w="2"><p><l>sepel<s n="n"/></l><r>kiärdu<s n="n"/></r></p></e>
     <e><p><l>sepelvaltimo<s n="n"/></l><r>čiergisváimusuonâ<s n="n"/></r></p></e>
     <e><p><l>seppele<s n="n"/></l><r>kiärdu<s n="n"/></r></p></e>
     <e><p><l>seppele<s n="n"/></l><r>vierâ<s n="n"/></r></p></e>
@@ -16798,7 +16798,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>signaali<s n="n"/></l><r>siŋnaal<s n="n"/></r></p></e>
     <e><p><l>sihinä<s n="n"/></l><r>šiiđđân<s n="n"/></r></p></e>
     <e><p><l>sihinä<s n="n"/></l><r>šuuđgâs<s n="n"/></r></p></e>
-    <e><p><l>sihteeri<s n="n"/></l><r>čällee<s n="n"/></r></p></e>
+    <e w="2"><p><l>sihteeri<s n="n"/></l><r>čällee<s n="n"/></r></p></e>
     <e><p><l>sihteeristö<s n="n"/></l><r>čällee<s n="n"/></r></p></e>
     <e><p><l>sihti<s n="n"/></l><r>sillee<s n="n"/></r></p></e>
     <e><p><l>siida<s n="n"/></l><r>sijdâ<s n="n"/></r></p></e>
@@ -21557,7 +21557,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>puoli<s n="n"/></l><r>tuárbumpeeli<s n="n"/></r></p></e>
     <e w="2"><p><l>puoli<s n="n"/></l><r>tuombel<s n="n"/></r></p></e>
     <e w="2"><p><l>puoliso<s n="n"/></l><r>spääjeeh<s n="n"/></r></p></e>
-    <e w="2"><p><l>puolivuotinen<s n="n"/></l><r>ihepeeli<s n="n"/></r></p></e>
+    <e><p><l>vuodenpuolikas<s n="n"/></l><r>ihepeeli<s n="n"/></r></p></e>
     <e w="2"><p><l>puro<s n="n"/></l><r>aajâ<s n="n"/></r></p></e>
     <e w="2"><p><l>puukko<s n="n"/></l><r>kulppo<s n="n"/></r></p></e>
     <e w="2"><p><l>puukko<s n="n"/></l><r>nijbenjune<s n="n"/></r></p></e>
