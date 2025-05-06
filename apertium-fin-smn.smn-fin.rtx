@@ -10,12 +10,12 @@ case = nom gen acc par ine ela ill ade abl all loc com abe tra ess lat ;
 tensemood = cond pot imp pres pri past pret cni ;
 sem = sem_dummytag ;
 nptype = ant top cog al ;
-numtype = card ord ;
+numtype = card ord arab sem_id ;
 comparison = (COMP pst) pst comp sup COMP ;
 voice = (VOICE actv) actv pasv VOICE ;
 clitics = qst foc_uv ;
 inf = inf infa infe infma ;
-pcp = prfprc pp pprs ;
+pcp = prsprc prfprc pp pprs ;
 prntype = pers dem reflex ind qu itg rel ;
 
 !!!!!!!!!!!!!!!
@@ -34,6 +34,8 @@ vblex_inf: _.voice.inf.number.case;
 vblex_pcp: _.voice.pcp.comparison.number.case;
 vblex_massa: _.<actv>.<infma>.<sg>.<ine>;
 vblex_matta: _.<actv>.<infma>.<sg>.<abe>;
+vblex_agent: _.<agent>.comparison.number.case;
+vblex_nomact: _.<infminen>;
 negv: _.<neg>.<actv>.person.number;
 conneg: _.<actv>.tensemood.number.<conneg>;
 ij: _;
@@ -68,9 +70,11 @@ NUMP: _;
 tensemood > tensemood: pres pri , pret past, cond cni ;
 case > case: loc ine, acc gen ;
 inf > inf: inf infa ; 
-pcp > pcp: prfprc pp ;
+pcp > pcp: prfprc pp, prsprc pprs ;
 number > number: du pl ;
 clitics > clitics: foc_uv qst;
+numtype > numtype: arab card, sem_id card;
+
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
@@ -86,7 +90,7 @@ VP -> NP.loc leđe@vblex { 1[case=ade] _ 2[number=sg] } |
       PRN.loc leđe@vblex { 1[case=ade] _ 2[number=1.number] } |
       NP VP { 1 _ 2 } ;
 NUMP -> num n ?(1.lem in ones) { 1 _ 2 } |
-        num n { 1 _ 2[number=sg,case=par] } ;
+        num n { 1[number=sg,case=nom,numtype=card] _ 2[number=sg,case=par] } ;
 NP ->  adj.attr %N { 1[case=2.case,number=2.number] _ %2 } |
     %N { %1 } ;
 ADVP -> n.sem_time num.sem_year { 1 _ 2 } ;
@@ -96,12 +100,19 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      leđe@vblex vblex.*.prfprc { 1 _ 2(vblex_pcp)[number=1.number,case=nom] } |
      vblex.*.inf { 1(vblex_inf)[number=sg,case=lat] } |
      vblex.*.prfprc { 1(vblex_pcp)[number=sg,case=nom] } |
+     vblex.*.prsprc { 1(vblex_pcp)[number=sg,case=nom] } |
      ij@vblex vblex.*.conneg { 1(negv) _ 2(conneg) } |
      ij@vblex { 1(negv) } |
      vblex.*.vabess { 1(vblex_matta) } |
-     vblex.*.conneg { 1(conneg) } |
+     vblex.*.conneg { 
+        1(conneg)[number=(if (1.tensemood = "pret") sg else 1.number)]
+     } |
+     vaux.*.conneg { 
+        1(conneg)[number=(if (1.tensemood = "pret") sg else 1.number)]
+     } |
      vblex.*.qst { 1 +ko@qst } |
      vblex.*.foc_uv { 1 +ko@qst } |
+     vblex.*.der_nomact { 1(vblex_nomact) } |
      vblex { 1 } |
      vaux { 1 } ;
 PRN -> 10: %prn.pers.*.du.* { %1 _ molemmat@prn.pl.[1.case] } |
@@ -124,11 +135,16 @@ N -> n.*.cmp n.*.cmp %n { 1[number=sg,case=nom] 2[number=sg,case=nom]
             if (1.case=com) ""
             elif (1.case=ess) "sg" 
             elif (1.case=par) "sg" 
-            else 1.number)] } |
+            else 1.number),
+            case=(
+            if (1.case=acc and 1.number=sg) "gen"
+            elif (1.case=acc and 1.number=pl) "nom"
+            else 1.case>case)] } |
      %np { %1 } ;
 A -> adj.*.attr { 1[case=nom,number=sg] } |
      adj { 1[number=(
         if (1.case=ess) "sg"
+        elif (1.case=com) ""
         else 1.number)] } ;
 IJ -> ij { 1 } |
       pcle { 1 } ;

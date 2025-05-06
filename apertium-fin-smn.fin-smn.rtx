@@ -16,6 +16,8 @@ neg = neg conneg ;
 prntype = pers dem ind rel itg ;
 ptcp = pp pprs prfprc ;
 ntype = nomag ;
+numtype = card ord arab ;
+poss = px1sg px2sg px3sg px1pl px2pl px3pl px3sp ;
 
 ones = ohtâ 1 ;
 twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
@@ -25,13 +27,13 @@ twosixes = kyehti kulmâ nelji vittâ kuttâ 2 3 4 5 6 ;
 !!!!!!!!!!!!!!!
 
 np: _.number.case.clitic;
-n: _.ntype.number.case.clitic;
+n: _.ntype.number.case.poss.clitic;
 n_par: _.case;   !! hack to get partitive without number tag?
 prn: _.prntype.person.number.case;
 adj: _.number.case;
 adj_attr: _.<attr>;
 det: _.prntype.number.case;
-num: _.number.case;
+num: _.number.numtype.number.case;
 vaux: _.tviv.neg.mood.tense.person.number;
 vblex: _.tviv.neg.mood.tense.person.number;
 vblex_actio: _.tviv.<actio>.case;
@@ -59,6 +61,7 @@ tense > tense : pri pres, past pret, cni pres ;
 case > case : ine loc , ela loc, abl loc, ade loc, all ill, tra ess, par acc;
 mood > mood : pri indic, past indic, cni cond ;
 ptcp > ptcp : pp prfprc, pprs prsprc;
+poss > poss : px3sp px3sg ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -77,10 +80,13 @@ NUMP -> num.*.nom n.*.par ?(1.lem in ones) { 1 _ 2 } |
 V -> vblex.*.infa { 1(vblex_inf) } |
      vblex.*.infma { 1(vblex_actio)[case=ess] } |
      ei@vaux { 1[mood=indic,tviv=iv,neg=neg] } |
+     ei@vblex { 1[mood=indic,tviv=iv,neg=neg] } |
      vblex.*.conneg { 1(vblex_conneg) } |
      vaux.*.conneg { 1(vblex_conneg) } |
      vblex.*.pp.* { 1(vblex_ptcp) } |
      vblex.*.pprs.* { 1(vblex_ptcp) } |
+     vaux.*.pp.* { 1(vblex_ptcp) } |
+     vaux.*.pprs.* { 1(vblex_ptcp) } |
      vblex ?(1.neg not = conneg) { 1 } |
      vaux ?(1.neg not = conneg) { 1 } ;
 A -> adj { 1[case=(if (1.case = par) nom else 1.case)] } ;
@@ -88,7 +94,8 @@ N -> n { 1 } |
      np { 1 } ;
 PRN -> prn { 1[number=(if (1.number = sp) sg else 1.number)] }  |
        se@det { 1 } ;
-NUM -> num { 1 } |
+NUM -> 10: num.card { 1[numtype=arab] } |
+       num { 1 } |
        yksi@det { 1 } ;
 
 ! Resources:

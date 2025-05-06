@@ -6,12 +6,14 @@ https://github.com/giellalt/dict-fin-smn/
 
 licences of original dictionary:
 
+"""
 This code is made available under a Creative Commons Attribution license
 
 Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
           and members of the language communities. Source code
-          available at
+          available at https://github.com/giellalt/dict-fin-smn/
 
+"""
 -->
 <dictionary>
    <!-- Define the alphabet below. -->
@@ -38,6 +40,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <sdef n="post"            c="Postposition"/>
     <sdef n="enc"             c="enclitic"/>
     <sdef n="qst"             c="enclitic question"/>
+    <sdef n="x"               c="foreign or hack"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -132,40 +135,51 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- problems -->
 
+    <!-- where poses mismatch -->
+
+    <e c="check"><p><l>itsessään<s n="adv"/></l><r>jiejâš<s n="pcle"/></r></p></e>
+    <e><p><l>eiköhän<s n="adv"/></l><r>amahân<s n="pcle"/></r></p></e>
     <e><p><l>eläin<s n="n"/></l><r>ellee<s n="n"/><s n="nomag"/></r></p></e>
     <e><p><l>entä<s n="adv"/></l><r>nabai<s n="pcle"/></r></p></e>
     <e><p><l>entä<s n="ij"/></l><r>nabai<s n="pcle"/></r></p></e>
+    <e><p><l>hyvänen<s n="adj"/></l><r>sittágin<s n="ij"/></r></p></e>
     <e><p><l>itse<s n="prn"/><s n="reflex"/><s n="sg"/><s n="nom"/></l><r>jieš<s n="pcle"/></r></p></e>
     <e><p><l>jokin<s n="prn"/></l><r>miinii<s n="pcle"/></r></p></e>
     <e><p><l>jopa<s n="adv"/></l><r>joba<s n="pcle"/></r></p></e>
+    <e><p><l>juurikaan<s n="post"/></l><r>eidu<s n="adv"/></r></p></e>
     <e><p><l>kai<s n="adv"/></l><r>amahân<s n="pcle"/></r></p></e>
-    <e><p><l>eiköhän<s n="adv"/></l><r>amahân<s n="pcle"/></r></p></e>
     <e><p><l>ko<s n="qst"/></l><r>uv<s n="pcle"/></r></p></e>
     <e><p><l>kuten<s n="adv"/></l><r>mahte<s n="pcle"/></r></p></e>
     <e><p><l>menossa<s n="adv"/></l><r>moonnâđ<s n="vblex"/><s n="iv"/><s n="actio"/><s n="ess"/></r></p></e>
-    <e><p><l>hyvänen<s n="adj"/></l><r>sittágin<s n="ij"/></r></p></e>
     <e><p><l>millainen<s n="adj"/></l><r>maggaar<s n="prn"/></r></p></e>
     <e><p><l>mitä<s n="adv"/></l><r>mađe<s n="pcle"/></r></p></e>
     <e><p><l>monesko<s n="adv"/></l><r>kallaad<s n="adj"/></r></p></e>
-    <e><p><l>rukka<s n="adj"/></l><r>luási<s n="n"/></r></p></e>
     <e><p><l>moni<s n="prn"/></l><r>maŋgâ<s n="num"/></r></p></e>
     <e><p><l>montako<s n="adv"/></l><r>kalle<s n="num"/></r></p></e>
     <e><p><l>muu<s n="adj"/></l><r>eres<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>niinku<s n="ij"/></l><r>tego<s n="pcle"/></r></p></e>
     <e><p><l>noin<s n="adv"/></l><r>nyevt<s n="pcle"/></r></p></e>
     <e><p><l>no<s n="ij"/></l><r>na<s n="n"/></r></p></e>
+    <e><p><l>oikea<s n="adj"/></l><r>penttâ<s n="adv"/></r></p></e>
+    <e><p><l>rukka<s n="adj"/></l><r>luási<s n="n"/></r></p></e>
+    <e><p><l>suuresti<s n="adv"/></l><r>styeresávt<s n="adj"/></r></p></e>
     <e><p><l>tahansa<s n="adv"/></l><r>ihenis<s n="pcle"/></r></p></e>
     <e><p><l>tarpeeksi<s n="adv"/></l><r>tommit<s n="pcle"/></r></p></e>
     <e><p><l>ulos<s n="post"/></l><r>olgos<s n="adv"/></r></p></e>
+    <e><p><l>usea<s n="adj"/></l><r>maŋgâ<s n="prn"/></r></p></e>
     <e><p><l>vaikka<s n="cnjcoo"/></l><r>veikkâ<s n="cnjsub"/></r></p></e>
     <e><p><l>vain<s n="ij"/></l><r>peri<s n="pcle"/></r></p></e>
-    <e><p><l>yksi<s n="det"/></l><r>ohtâ<s n="num"/></r></p></e>
     <e><p><l>vai<s n="adv"/></l><r>vâi<s n="cnjcoo"/></r></p></e>
+    <e><p><l>yksi<s n="det"/></l><r>ohtâ<s n="num"/></r></p></e>
+    <e r="RL" c="XXX"><p><l>tuolla<s n="adv"/></l><r>tuo<s n="n"/></r></p></e>
+    <e><p><l>se<s n="det"/></l><r>tiet<s n="prn"/><s n="dem"/></r></p></e>
 
     <e><p><l>Ruotsissa<s n="adv"/></l><r>Ruotâ<b/>peln<s n="adv"/></r></p></e>
     <e><p><l>Venäjällä<s n="adv"/></l><r>Ruošâ<b/>pele<s n="adv"/></r></p></e>
     <e><p><l>Suomessa<s n="adv"/></l><r>Suomâ<b/>peln<s n="adv"/></r></p></e>
     <e><p><l>Norjassa<s n="adv"/></l><r>Taažâ<b/>peln<s n="adv"/></r></p></e>
+
+    <!-- suffixes that may get tokenised -->
 
     <e><p><l>ko<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
     <e><p><l>kin<s n="adv"/></l><r>-uv<s n="pcle"/></r></p></e>
@@ -178,7 +192,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <e r="LR"><p><l>tar<s n="n"/></l><r>-târ<s n="n"/></r></p></e>
 
-    <e><p><l>se<s n="det"/></l><r>tiet<s n="prn"/><s n="dem"/></r></p></e>
 
     <!-- pronouns -->
 
@@ -402,7 +415,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>ja<s n="cnjcoo"/></l><r>jeđe<s n="cnjcoo"/></r></p></e>
     <e><p><l>jo<s n="cnjcoo"/></l><r>juo<s n="cnjcoo"/></r></p></e>
     <e><p><l>kaipa<s n="cnjcoo"/></l><r>mai<s n="cnjcoo"/></r></p></e>
-    <e><p><l>mutta<s n="cnjcoo"/></l><r>mutâ<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>mut<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>pic<s n="cnjcoo"/></r></p></e>
     <e><p><l>niin<s n="cnjcoo"/></l><r>naa<s n="cnjcoo"/></r></p></e>
@@ -429,6 +441,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
 
 
+    <e><p><l>tavoin<s n="post"/></l><r>náál<s n="post"/></r></p></e>
     <e><p><l>aiemmin<s n="post"/></l><r>ovdil<s n="post"/></r></p></e>
     <e><p><l>alapuolella<s n="post"/></l><r>vuoluubeln<s n="post"/></r></p></e>
     <e><p><l>alla<s n="post"/></l><r>vyelni<s n="post"/></r></p></e>
@@ -543,19 +556,27 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
 
 
+    <e c="abbr?"><p><l>mm<s n="adv"/></l><r>el<s n="adv"/></r></p></e>
+    <e c="adv = kun menee"><p><l>mennessä<s n="adv"/></l><r>ko<b/>mana<s n="adv"/></r></p></e>
+    <e c="check"><p><l>yleisesti<s n="adv"/></l><r>almoslávt<s n="adv"/></r></p></e>
     <e c="FIXME"><p><l>ei<s n="adv"/></l><r>ei<s n="adv"/></r></p></e>
+    <e c="FIXME"><p><l>esiin<s n="adv"/></l><r>vuotân<s n="adv"/></r></p></e>
+    <e c="FIXME"><p><l>sen<b/>verran<s n="adv"/></l><r>tommittáá<s n="adv"/></r></p></e>
+    <e c="FIXME"><p><l>tuhannesti<s n="adv"/></l><r>tuuhááttii<s n="adv"/></r></p></e>
+    <e c="intj?"><p><l>no<s n="adv"/></l><r>na<s n="adv"/></r></p></e>
+    <e c="XXX"><p><l>tuskinpa<s n="adv"/></l><r>illá<s n="adv"/></r></p></e>
+    <e><p><l>aikana<s n="adv"/></l><r>ääigi<s n="adv"/></r></p></e>
+    <e><p><l c="saada -">aikaan<s n="adv"/></l><r>vaalmâs<s n="adv"/></r></p></e>
     <e><p><l>eikä<s n="adv"/></l><r>ige<s n="adv"/></r></p></e>
     <e><p><l>enkä<s n="adv"/></l><r>jiemge<s n="adv"/></r></p></e>
+    <e><p><l>puolet<s n="adv"/></l><r>peli<s n="adv"/></r></p></e>
+    <e><p><l>todellisuudessa<s n="adv"/></l><r>tuodânálásâšvuođâst<s n="adv"/></r></p></e>
+    <e><p><l>useimmiten<s n="adv"/></l><r>távjá<s n="adv"/></r></p></e>
     <e><p><l>vain<s n="adv"/></l><r>vain<s n="adv"/></r></p></e>
-    <e c="FIXME"><p><l>sen<b/>verran<s n="adv"/></l><r>tommittáá<s n="adv"/></r></p></e>
-    <e c="FIXME"><p><l>esiin<s n="adv"/></l><r>vuotân<s n="adv"/></r></p></e>
-    <e c="intj?"><p><l>no<s n="adv"/></l><r>na<s n="adv"/></r></p></e>
-    <e c="abbr?"><p><l>mm<s n="adv"/></l><r>el<s n="adv"/></r></p></e>
+    <e><p><l>varhain<s n="adv"/></l><r>tooláá<s n="adv"/></r></p></e>
+    <e><p><l>virheellisesti<s n="adv"/></l><r>feilâlávt<s n="adv"/></r></p></e>
+    <e><p><l>ylihintaan<s n="adv"/></l><r>paijeelhaadan<s n="adv"/></r></p></e>
 
-
-
-    <e c="FIXME"><p><l>tuhannesti<s n="adv"/></l><r>tuuhááttii<s n="adv"/></r></p></e>
-    <e c="XXX"><p><l>tuskinpa<s n="adv"/></l><r>illá<s n="adv"/></r></p></e>
     <e><p><l>aamuvarhain<s n="adv"/></l><r>aarriiđeed<s n="adv"/></r></p></e>
     <e><p><l>aamuvarhain<s n="adv"/></l><r>iiđeedláá<s n="adv"/></r></p></e>
     <e><p><l>aamuvarhain<s n="adv"/></l><r>kuávsuikeejist<s n="adv"/></r></p></e>
@@ -624,6 +645,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>alituiseen<s n="adv"/></l><r>čoođâg<s n="adv"/></r></p></e>
     <e><p><l>alituiseen<s n="adv"/></l><r>eivi<s n="adv"/></r></p></e>
     <e><p><l>alituiseen<s n="adv"/></l><r>oovtmano<s n="adv"/></r></p></e>
+    <e><p><l>alkaen<s n="adv"/></l><r>rääjist<s n="adv"/></r></p></e>
     <e><p><l>alkujaan<s n="adv"/></l><r>algâaalgâst<s n="adv"/></r></p></e>
     <e><p><l>alla<s n="adv"/></l><r>miäđáábeln<s n="adv"/></r></p></e>
     <e><p><l>alla<s n="adv"/></l><r>vyelni<s n="adv"/></r></p></e>
@@ -874,6 +896,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>johtuen<s n="adv"/></l><r>keežild<s n="adv"/></r></p></e>
     <e><p><l>jokseenkin<s n="adv"/></l><r>suulân<s n="adv"/></r></p></e>
     <e><p><l>jokseenkin<s n="adv"/></l><r>viehâ<s n="adv"/></r></p></e>
+    <e><p><l>jokusen<s n="adv"/></l><r>mottoomverd<s n="adv"/></r></p></e>
     <e><p><l>jolloin<s n="adv"/></l><r>ko<s n="adv"/></r></p></e>
     <e><p><l>jolloin<s n="adv"/></l><r>kuás<s n="adv"/></r></p></e>
     <e><p><l>jonnekin<s n="adv"/></l><r>kuusnii<s n="adv"/></r></p></e>
@@ -942,6 +965,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kauan<s n="adv"/></l><r>kuhe<s n="adv"/></r></p></e>
     <e><p><l>kauan<s n="adv"/></l><r>kuhháásiähá<s n="adv"/></r></p></e>
     <e><p><l>kauan<s n="adv"/></l><r>kuhháá<s n="adv"/></r></p></e>
+    <e><p><l>kauas<s n="adv"/></l><r>káidusin<s n="adv"/></r></p></e>
     <e><p><l>kauas<s n="adv"/></l><r>kuhás<s n="adv"/></r></p></e>
     <e><p><l>kauemmas<s n="adv"/></l><r>olgoláá<s n="adv"/></r></p></e>
     <e><p><l>kauemmas<s n="adv"/></l><r>olgoláhháá<s n="adv"/></r></p></e>
@@ -1169,6 +1193,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>lähinnä<s n="adv"/></l><r>iänááš<s n="adv"/></r></p></e>
     <e><p><l>lähistöllä<s n="adv"/></l><r>aldasijn<s n="adv"/></r></p></e>
     <e><p><l>länteen<s n="adv"/></l><r>orjâlâšpiegâpelnbeln<s n="adv"/></r></p></e>
+    <e><p><l>länteen<s n="adv"/></l><r>viestârbel<s n="adv"/></r></p></e>
     <e><p><l>läsnä<s n="adv"/></l><r>mieldi<s n="adv"/></r></p></e>
     <e><p><l>lävitse<s n="adv"/></l><r>čoođâ<s n="adv"/></r></p></e>
     <e><p><l>mahdollisesti<s n="adv"/></l><r>máhđulávt<s n="adv"/></r></p></e>
@@ -1212,12 +1237,12 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>missä<s n="adv"/></l><r>kogo<s n="adv"/></r></p></e>
     <e><p><l>missä<s n="adv"/></l><r>kosten<s n="adv"/></r></p></e>
     <e><p><l>missä<s n="adv"/></l><r>kost<s n="adv"/></r></p></e>
-    <e><p><l>missä<s n="adv"/></l><r>kuál<s n="adv"/></r></p></e>
     <e><p><l>missään<s n="adv"/></l><r>kosten<s n="adv"/></r></p></e>
     <e><p><l>mistä<s n="adv"/></l><r>kost<s n="adv"/></r></p></e>
     <e><p><l>mitenkään<s n="adv"/></l><r>mahtnii<s n="adv"/></r></p></e>
     <e><p><l>miten<s n="adv"/></l><r>mahten<s n="adv"/></r></p></e>
     <e><p><l>miten<s n="adv"/></l><r>maht<s n="adv"/></r></p></e>
+    <e><p><l>miten<s n="adv"/></l><r>moin<b/>naalijn<s n="adv"/></r></p></e>
     <e><p><l>mitään<s n="adv"/></l><r>maiden<s n="adv"/></r></p></e>
     <e><p><l>mitään<s n="adv"/></l><r>mihheen<s n="adv"/></r></p></e>
     <e><p><l>monestikaan<s n="adv"/></l><r>maŋgii<s n="adv"/></r></p></e>
@@ -1320,6 +1345,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>paikoin<s n="adv"/></l><r>pááihui<s n="adv"/></r></p></e>
     <e><p><l>paikoin<s n="adv"/></l><r>páiháttuvâi<s n="adv"/></r></p></e>
     <e><p><l>paitsi<s n="adv"/></l><r>eereeb<s n="adv"/></r></p></e>
+    <e><p><l>pakoon<s n="adv"/></l><r>patârâsân<s n="adv"/></r></p></e>
     <e><p><l>palatessa<s n="adv"/></l><r>mäcidijn<s n="adv"/></r></p></e>
     <e><p><l>paljon<s n="adv"/></l><r>čuuvtijsiähá<s n="adv"/></r></p></e>
     <e><p><l>paljon<s n="adv"/></l><r>čuuvtij<s n="adv"/></r></p></e>
@@ -1562,7 +1588,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>suunnilleen<s n="adv"/></l><r>suulân<s n="adv"/></r></p></e>
     <e><p><l>suuntaan<s n="adv"/></l><r>kuávlun<s n="adv"/></r></p></e>
     <e><p><l>suuntaan<s n="adv"/></l><r>kuuvl<s n="adv"/></r></p></e>
-    <e><p><l>suuresti<s n="adv"/></l><r>styeresávt<s n="adj"/></r></p></e>
     <e><p><l>syksyllä<s n="adv"/></l><r>čohčuv<s n="adv"/></r></p></e>
     <e><p><l>sylikkäin<s n="adv"/></l><r>sollâluvâi<s n="adv"/></r></p></e>
     <e><p><l>syrjin<s n="adv"/></l><r>láskud<s n="adv"/></r></p></e>
@@ -1787,7 +1812,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>vastaan<s n="adv"/></l><r>oovdeld<s n="adv"/></r></p></e>
     <e><p><l>vastahakoisesti<s n="adv"/></l><r>illámielâi<s n="adv"/></r></p></e>
     <e><p><l>vastapäätä<s n="adv"/></l><r>puotâluvâi<s n="adv"/></r></p></e>
-    <e><p><l>vasta<s n="adv"/></l><r>eidu<s n="adv"/></r></p></e>
     <e><p><l>vasta<s n="adv"/></l><r>eskân<s n="adv"/></r></p></e>
     <e><p><l>vasta<s n="adv"/></l><r>esken<s n="adv"/></r></p></e>
     <e><p><l>vasta<s n="adv"/></l><r>esken<s n="adv"/></r></p></e>
@@ -1813,6 +1837,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>vierekkäin<s n="adv"/></l><r>paaldâi<s n="adv"/></r></p></e>
     <e><p><l>vierekkäin<s n="adv"/></l><r>paldâluvâi<s n="adv"/></r></p></e>
     <e><p><l>vieressä<s n="adv"/></l><r>piällást<s n="adv"/></r></p></e>
+    <e><p><l>vierivieressä<s n="adv"/></l><r>pald-paldluvvâi<s n="adv"/></r></p></e>
     <e><p><l>vihaisesti<s n="adv"/></l><r>vaijaht<s n="adv"/></r></p></e>
     <e><p><l>vihdoin<s n="adv"/></l><r>viijmâg<s n="adv"/></r></p></e>
     <e><p><l>viidesti<s n="adv"/></l><r>vittii<s n="adv"/></r></p></e>
@@ -1825,6 +1850,9 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>vinottain<s n="adv"/></l><r>vinnood<s n="adv"/></r></p></e>
     <e><p><l>vinottain<s n="adv"/></l><r>vinnoostuh<s n="adv"/></r></p></e>
     <e><p><l>vireillä<s n="adv"/></l><r>jotonpieijum<s n="adv"/></r></p></e>
+    <e><p><l>voimakkaasti<s n="adv"/></l><r>korrâsávt<s n="adv"/></r></p></e>
+    <e><p><l>vuoden<s n="adv"/></l><r>ihe<s n="adv"/></r></p></e>
+    <e><p><l>vuonna<s n="adv"/></l><r>ive<s n="adv"/></r></p></e>
     <e><p><l>vuorotellen<s n="adv"/></l><r>vuáruluvâi<s n="adv"/></r></p></e>
     <e><p><l>vuorotellen<s n="adv"/></l><r>vuáruttuvâi<s n="adv"/></r></p></e>
     <e><p><l>vuosittain<s n="adv"/></l><r>ihásávt<s n="adv"/></r></p></e>
@@ -1913,7 +1941,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>äkkiä<s n="adv"/></l><r>fakkâ<s n="adv"/></r></p></e>
     <e><p><l>äkkiä<s n="adv"/></l><r>fakkist<s n="adv"/></r></p></e>
     <e><p><l>äkkiä<s n="adv"/></l><r>kivkked<s n="adv"/></r></p></e>
-    <e><p><l>äsken<s n="adv"/></l><r>eidu<s n="adv"/></r></p></e>
     <e><p><l>äskettäin<s n="adv"/></l><r>eskenpalij<s n="adv"/></r></p></e>
     <e><p><l>äskettäin<s n="adv"/></l><r>kieskâd<s n="adv"/></r></p></e>
     <e><p><l>ääneen<s n="adv"/></l><r>jiänusân<s n="adv"/></r></p></e>
@@ -1938,6 +1965,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>lienee<s n="adv"/></l><r>kenski<s n="adv"/></r></p></e>
     <e w="2"><p><l>lie<s n="adv"/></l><r>kenski<s n="adv"/></r></p></e>
     <e w="2"><p><l>mihin<s n="adv"/></l><r>kuussân<s n="adv"/></r></p></e>
+    <e w="2"><p><l>missä<s n="adv"/></l><r>kuál<s n="adv"/></r></p></e>
     <e w="2"><p><l>mukana<s n="adv"/></l><r>mieldi<s n="adv"/></r></p></e>
     <e w="2"><p><l>mukana<s n="adv"/></l><r>mieldis<s n="adv"/></r></p></e>
     <e w="2"><p><l>mukana<s n="adv"/></l><r>miäldád<s n="adv"/></r></p></e>
@@ -1945,6 +1973,8 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>mukavasti<s n="adv"/></l><r>vuohâsávt<s n="adv"/></r></p></e>
     <e w="2"><p><l>niin<s n="adv"/></l><r>tego<s n="adv"/></r></p></e>
     <e w="2"><p><l>niin<s n="adv"/></l><r>tehân<s n="adv"/></r></p></e>
+    <e w="2"><p><l>vasta<s n="adv"/></l><r>eidu<s n="adv"/></r></p></e>
+    <e w="2"><p><l>äsken<s n="adv"/></l><r>eidu<s n="adv"/></r></p></e>
     <e w="3"><p><l>anteeksi<s n="adv"/></l><r>áánnuđ addâgâs<s n="vblex"/></r></p></e>
     <e w="3"><p><l>anteeksi<s n="adv"/></l><r>adde addâgâs<s n="adv"/></r></p></e>
     <e w="3"><p><l>anteeksi<s n="adv"/></l><r>pivdeđ addâgâs<s n="vblex"/></r></p></e>
@@ -1995,6 +2025,9 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>l.<s n="adv"/></l><r>l.<s n="adv"/></r></p></e>
     <e><p><l>m.<s n="adv"/></l><r>m.<s n="adv"/></r></p></e>
     <e><p><l>n.<s n="adv"/></l><r>n.<s n="adv"/></r></p></e>
+    <e><p><l>ns.<s n="adv"/></l><r>nk<s n="adv"/></r></p></e>
+    <e><p><l>to<s n="adv"/></l><r>tu<s n="adv"/></r></p></e>
+    <e><p><l>s.<s n="adv"/></l><r>s<s n="adv"/></r></p></e>
     <e><p><l>suom.<s n="adv"/></l><r>suom.<s n="adv"/></r></p></e>
     <e><p><l>tms.<s n="adv"/></l><r>tmt.<s n="adv"/></r></p></e>
 
@@ -2052,6 +2085,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kuusisataa<s n="num"/><s n="card"/></l><r>kuttčyet<s n="num"/></r></p></e>
     <e><p><l>seitsemänsataa<s n="num"/></l><r>čiččâmčyeđe<s n="num"/></r></p></e>
     <e><p><l>tuhat<s n="num"/><s n="card"/></l><r>tuhháát<s n="num"/></r></p></e>
+    <e><p><l>miljardi<s n="num"/></l><r>miljard<s n="num"/></r></p></e>
 
     <e><p><l>toistakymmentä<s n="num"/></l><r>nubáloh<s n="num"/></r></p></e>
 
@@ -2082,6 +2116,25 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>ns.<s n="adj"/></l><r>nk<s n="adj"/></r></p></e>
 
 
+    <e c="check"><p><l>automatisoitu<s n="adj"/></l><r>automaatlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>formaali<s n="adj"/></l><r>formaallâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>generatiivinen<s n="adj"/></l><r>generatiivlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>ihmismäinen<s n="adj"/></l><r>olmoošlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>kyvykäs<s n="adj"/></l><r>navcâlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>käytetty<s n="adj"/></l><r>kevttum<s n="adj"/></r></p></e>
+    <e c="check"><p><l>laskennallinen<s n="adj"/></l><r>rekinistemlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>matemaattinen<s n="adj"/></l><r>matematiiklâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>menestyksekäs<s n="adj"/></l><r>miänástuu<s n="adj"/></r></p></e>
+    <e c="check"><p><l>opittu<s n="adj"/></l><r>oppâm<s n="adj"/></r></p></e>
+    <e c="check"><p><l>rajoitettu<s n="vblex"/></l><r>raijittem<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>strateginen<s n="adj"/></l><r>strategiâlâš<s n="adj"/></r></p></e>
+    <e c="check"><p><l>suppeampi<s n="adj"/></l><r>käržeeb<s n="adj"/></r></p></e>
+    <e c="check"><p><l>tarkempi<s n="adj"/></l><r>tärkkeeb<s n="adj"/></r></p></e>
+    <e c="check"><p><l>tilastollinen<s n="adj"/></l><r>statistiiklâš<s n="adj"/></r></p></e>
+    <e c="FIXME"><p><l>itseohjautuva<s n="adj"/></l><r>jiešstivrejuvolâs<s n="adj"/></r></p></e>
+    <e><p><l c="word?">suuntatietoinen<s n="adj"/></l><r>taiđiš<s n="adj"/></r></p></e>
+    <e><p><l>totuudellinen<s n="adj"/></l><r>tuotâvuođâlâš<s n="adj"/></r></p></e>
+    <e><p><l>viranomainen<s n="adj"/></l><r>virgeomâlâš<s n="adj"/></r></p></e>
 
 
     <e c="ikäloppu tyyliin"><p><l>loppu<s n="adj"/></l><r>loppâ<s n="adj"/></r></p></e>
@@ -2175,6 +2228,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>alimmainen<s n="adj"/></l><r>vyelemus<s n="adj"/></r></p></e>
     <e><p><l>alin<s n="adj"/></l><r>vyelemus<s n="adj"/></r></p></e>
     <e><p><l>aliravittu<s n="adj"/></l><r>uccáápiemmum<s n="adj"/></r></p></e>
+    <e><p><l>alisteinen<s n="adj"/></l><r>vuáládistum<s n="adj"/></r></p></e>
     <e><p><l>alistuva<s n="adj"/></l><r>vyeligâš<s n="adj"/></r></p></e>
     <e><p><l>alituinen<s n="adj"/></l><r>oovtmanolâš<s n="adj"/></r></p></e>
     <e><p><l>alkeellinen<s n="adj"/></l><r>algâlâš<s n="adj"/></r></p></e>
@@ -2255,6 +2309,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>avuton<s n="adj"/></l><r>kehnittis<s n="adj"/></r></p></e>
     <e><p><l>boreaalinen<s n="adj"/></l><r>boreaallâš<s n="adj"/></r></p></e>
     <e><p><l>demokraattinen<s n="adj"/></l><r>demokraatlâš<s n="adj"/></r></p></e>
+    <e><p><l>deverbaalinen<s n="adj"/></l><r>deverbaal<s n="adj"/></r></p></e>
     <e><p><l>digitaalinen<s n="adj"/></l><r>digitaallâš<s n="adj"/></r></p></e>
     <e><p><l>dramaattinen<s n="adj"/></l><r>dramaatlâš<s n="adj"/></r></p></e>
     <e><p><l>dynaaminen<s n="adj"/></l><r>dyynaamlâš<s n="adj"/></r></p></e>
@@ -2431,6 +2486,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>haalea<s n="adj"/></l><r>luškâd<s n="adj"/></r></p></e>
     <e><p><l>haalea<s n="adj"/></l><r>luuškâs<s n="adj"/></r></p></e>
     <e><p><l>haarainen<s n="adj"/></l><r>suorâg<s n="adj"/></r></p></e>
+    <e><p><l>haastava<s n="adj"/></l><r>hástulâš<s n="adj"/></r></p></e>
     <e><p><l>haasteellinen<s n="adj"/></l><r>hástulâš<s n="adj"/></r></p></e>
     <e><p><l>haavoittuva<s n="adj"/></l><r>háváduvâš<s n="adj"/></r></p></e>
     <e><p><l>-hahmoinen<s n="adj"/></l><r>-hámásâš<s n="adj"/></r></p></e>
@@ -2760,6 +2816,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>höperö<s n="adj"/></l><r>kulhijdum<s n="adj"/></r></p></e>
     <e><p><l>höperö<s n="adj"/></l><r>topsáhât<s n="adj"/></r></p></e>
     <e><p><l>identtinen<s n="adj"/></l><r>identlâš<s n="adj"/></r></p></e>
+    <e><p><l>idiomaattinen<s n="adj"/></l><r>idiomaatlâš<s n="adj"/></r></p></e>
     <e><p><l>ihana<s n="adj"/></l><r>lijkkuuttettee<s n="adj"/></r></p></e>
     <e><p><l>ihana<s n="adj"/></l><r>nánnáá<s n="adj"/></r></p></e>
     <e><p><l>ihmeellinen<s n="adj"/></l><r>iimâš<s n="adj"/></r></p></e>
@@ -2819,12 +2876,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>isosilmäinen<s n="adj"/></l><r>šalmaa<s n="adj"/></r></p></e>
     <e><p><l>isosilmäinen<s n="adj"/></l><r>šalmaa<s n="adj"/></r></p></e>
     <e><p><l>isosilmäinen<s n="adj"/></l><r>stuorrâčaalmâg<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>hirmâdsâš<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>julme<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>kerimâs<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>ruávŋi<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>saijaa<s n="adj"/></r></p></e>
-    <e><p><l>iso<s n="adj"/></l><r>stuárááh<s n="adj"/></r></p></e>
     <e><p><l>iso<s n="adj"/></l><r>styeres<s n="adj"/></r></p></e>
     <e><p><l>iso<s n="adj"/></l><r>styeres<s n="adj"/></r></p></e>
     <e><p><l>isovatsainen<s n="adj"/></l><r>čuávjáá<s n="adj"/></r></p></e>
@@ -3654,6 +3705,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>monipuolinen<s n="adj"/></l><r>maaŋgâpiälálâš<s n="adj"/></r></p></e>
     <e><p><l>monipuolinen<s n="adj"/></l><r>maaŋgâpiälásâš<s n="adj"/></r></p></e>
     <e><p><l>monivuotinen<s n="adj"/></l><r>maaŋgâihásâš<s n="adj"/></r></p></e>
+    <e><p><l>morfologinen<s n="adj"/></l><r>morfologisâš<s n="adj"/></r></p></e>
     <e><p><l>muinainen<s n="adj"/></l><r>toovláš<s n="adj"/></r></p></e>
     <e><p><l>mukainen<s n="adj"/></l><r>miäldásâš<s n="adj"/></r></p></e>
     <e><p><l>mukava<s n="adj"/></l><r>hävski<s n="adj"/></r></p></e>
@@ -3786,7 +3838,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>ohut<s n="adj"/></l><r>seggi<s n="adj"/></r></p></e>
     <e><p><l>oikeanlainen<s n="adj"/></l><r>rievtislágán<s n="adj"/></r></p></e>
     <e><p><l>oikea<s n="adj"/></l><r>olmâ<s n="adj"/></r></p></e>
-    <e><p><l>oikea<s n="adj"/></l><r>penttâ<s n="adv"/></r></p></e>
     <e><p><l>oikea<s n="adj"/></l><r>puigâ<s n="adj"/></r></p></e>
     <e><p><l>oikea<s n="adj"/></l><r>rievtis<s n="adj"/></r></p></e>
     <e><p><l>oikea<s n="adj"/></l><r>vuoigâ<s n="adj"/></r></p></e>
@@ -3920,6 +3971,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>petollinen<s n="adj"/></l><r>piätulâš<s n="adj"/></r></p></e>
     <e><p><l>peurakka<s n="adj"/></l><r>pievrih<s n="adj"/></r></p></e>
     <e><p><l>pienehkö<s n="adj"/></l><r>uceslágán<s n="adj"/></r></p></e>
+    <e><p><l>pienempi<s n="adj"/></l><r>ucceeb<s n="adj"/></r></p></e>
     <e><p><l>pienenläntä<s n="adj"/></l><r>uceslágán<s n="adj"/></r></p></e>
     <e><p><l>pienikokoinen<s n="adj"/></l><r>uces<s n="adj"/></r></p></e>
     <e><p><l>pienimuotoinen<s n="adj"/></l><r>uceslágán<s n="adj"/></r></p></e>
@@ -4237,6 +4289,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>sellainen<s n="adj"/></l><r>taggaar<s n="adj"/></r></p></e>
     <e><p><l>selvitetty<s n="adj"/></l><r>káálgus<s n="adj"/></r></p></e>
     <e><p><l>selvä<s n="adj"/></l><r>čielgâs<s n="adj"/></r></p></e>
+    <e><p><l>semanttinen<s n="adj"/></l><r>semantlâš<s n="adj"/></r></p></e>
     <e><p><l>sensitiivinen<s n="adj"/></l><r>herkki<s n="adj"/></r></p></e>
     <e><p><l>sensitiivinen<s n="adj"/></l><r>sensitiivlâš<s n="adj"/></r></p></e>
     <e><p><l>seuraava<s n="adj"/></l><r>čuávuvâš<s n="adj"/></r></p></e>
@@ -4334,8 +4387,10 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>suolainen<s n="adj"/></l><r>säältis<s n="adj"/></r></p></e>
     <e><p><l>suolaton<s n="adj"/></l><r>sältittem<s n="adj"/></r></p></e>
     <e><p><l>suomalainen<s n="adj"/></l><r>syemmilâš<s n="adj"/></r></p></e>
+    <e><p><l>suomalais-ugrilainen<s n="adj"/></l><r>suomâ-ugrilâš<s n="adj"/></r></p></e>
     <e><p><l>suomenkielinen<s n="adj"/></l><r>suomâkielâg<s n="adj"/></r></p></e>
     <e><p><l>suomenkielinen<s n="adj"/></l><r>suomâkielâlâš<s n="adj"/></r></p></e>
+    <e><p><l>suomenkielinen<s n="adj"/></l><r>suomâkiel<s n="adj"/></r></p></e>
     <e><p><l>suorakaiteinen<s n="adj"/></l><r>njuálguroobdâg<s n="adj"/></r></p></e>
     <e><p><l>suorakulmainen<s n="adj"/></l><r>jiärdukulmásâš<s n="adj"/></r></p></e>
     <e><p><l>suora<s n="adj"/></l><r>njuolgâd<s n="adj"/></r></p></e>
@@ -4529,6 +4584,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>todella<s n="adj"/></l><r>tuođâi<s n="adj"/></r></p></e>
     <e><p><l>todellinen<s n="adj"/></l><r>tuođâlâš<s n="adj"/></r></p></e>
     <e><p><l>todennäköinen<s n="adj"/></l><r>oskottettee<s n="adj"/></r></p></e>
+    <e><p><l>todennäköinen<s n="adj"/></l><r>tuođânálásâš<s n="adj"/></r></p></e>
     <e><p><l>toimeentuleva<s n="adj"/></l><r>piergejeijee<s n="adj"/></r></p></e>
     <e><p><l>toimelias<s n="adj"/></l><r>toimâlâš<s n="adj"/></r></p></e>
     <e><p><l>toimelias<s n="adj"/></l><r>tuámmir<s n="adj"/></r></p></e>
@@ -4637,6 +4693,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>tähtinen<s n="adj"/></l><r>tásnáá<s n="adj"/></r></p></e>
     <e><p><l>tähänastinen<s n="adj"/></l><r>táássáš<s n="adj"/></r></p></e>
     <e><p><l>tällainen<s n="adj"/></l><r>taammuđusâš<s n="adj"/></r></p></e>
+    <e><p><l>tämänhetkinen<s n="adj"/></l><r>taanáigásâš<s n="adj"/></r></p></e>
     <e><p><l>tämänpäiväinen<s n="adj"/></l><r>onnáš<s n="adj"/></r></p></e>
     <e><p><l>tämänvuotinen<s n="adj"/></l><r>tajâgâš<s n="adj"/></r></p></e>
     <e><p><l>tännimmäinen<s n="adj"/></l><r>täbimuš<s n="adj"/></r></p></e>
@@ -4951,6 +5008,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>väärti<s n="adj"/></l><r>verttâ<s n="adj"/></r></p></e>
     <e><p><l>väärä<s n="adj"/></l><r>puástu<s n="adj"/></r></p></e>
     <e><p><l>vääräuskoinen<s n="adj"/></l><r>puástuoskolâš<s n="adj"/></r></p></e>
+    <e><p><l>yhdysvaltalainen<s n="adj"/></l><r>ameriklâš<s n="adj"/></r></p></e>
     <e><p><l>yhteinen<s n="adj"/></l><r>ohtâsâš<s n="adj"/></r></p></e>
     <e><p><l>yhteinen<s n="adj"/></l><r>ohtsâš<s n="adj"/></r></p></e>
     <e><p><l>yhteisöllinen<s n="adj"/></l><r>siärvuslâš<s n="adj"/></r></p></e>
@@ -5074,10 +5132,16 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>irtonainen<s n="adj"/></l><r>pođoi<s n="adj"/></r></p></e>
     <e w="2"><p><l>isokokoinen<s n="adj"/></l><r>stuárááh<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>hirmâdsâš<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>hirmâdsâš<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>julme<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>julme<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>kerimâs<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>kerimâs<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>ruávŋi<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>ruávŋi<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>saijaa<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>saijaa<s n="adj"/></r></p></e>
+    <e w="2"><p><l>iso<s n="adj"/></l><r>stuárááh<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>stuárááh<s n="adj"/></r></p></e>
     <e w="2"><p><l>iso<s n="adj"/></l><r>stuorâh<s n="adj"/></r></p></e>
     <e w="2"><p><l>itämainen<s n="adj"/></l><r>nuorttâeennâmlâš<s n="adj"/></r></p></e>
@@ -5366,15 +5430,69 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- nouns -->
 
+    <e c="check"><p><l>ajattelu<s n="n"/></l><r>jurdda<s n="n"/></r></p></e>
+    <e c="check"><p><l>algoritmi<s n="n"/></l><r>algoritm<s n="n"/></r></p></e>
+    <e c="check"><p><l>data<s n="n"/></l><r>data<s n="n"/></r></p></e>
+    <e c="check"><p><l>elpyminen<s n="n"/></l><r>iällám<s n="n"/></r></p></e>
+    <e c="check"><p><l>go<s n="n"/></l><r>go<s n="n"/></r></p></e>
+    <e c="check"><p><l>harjoittaminen<s n="n"/></l><r>härjittem<s n="n"/></r></p></e>
+    <e c="check"><p><l>jäljittely<s n="n"/></l><r>ađđiistâllâm<s n="n"/></r></p></e>
+    <e c="check?"><p><l>järvi<s n="n"/></l><r>jáávráš<s n="n"/></r></p></e>
+    <e c="check"><p><l>keinoäly<s n="n"/></l><r>kiäinufiättu<s n="n"/></r></p></e>
+    <e c="check"><p><l>kilpaileminen<s n="n"/></l><r>kištodâllâm<s n="n"/></r></p></e>
+    <e c="check"><p><l>koneoppiminen<s n="n"/></l><r>maašinoppâm<s n="n"/></r></p></e>
     <e c="check?"><p><l>kulttuurirahasto<s n="n"/></l><r>kulttuurruttârááju<s n="n"/></r></p></e>
+    <e c="check"><p><l>laskenta<s n="n"/></l><r>rekinistem<s n="n"/></r></p></e>
+    <e c="check"><p><l>logiikka<s n="n"/></l><r>loogiik<s n="n"/></r></p></e>
+    <e c="check"><p><l>lähestymistapa<s n="n"/></l><r>aldanemvyehi<s n="n"/></r></p></e>
     <e c="check?"><p><l>min<s n="n"/></l><r>min<s n="n"/></r></p></e>
+    <e c="check"><p><l>määrittely<s n="n"/></l><r>miäruštâllâm<s n="n"/></r></p></e>
     <e c="check?"><p><l>nro<s n="n"/></l><r>nr<s n="n"/></r></p></e>
+    <e c="check"><p><l>ongelmanratkaisu<s n="n"/></l><r>čuolmâčuávduš<s n="n"/></r></p></e>
+    <e c="check"><p><l>optimismi<s n="n"/></l><r>optimism<s n="n"/></r></p></e>
+    <e c="check"><p><l>päätöksenteko<s n="n"/></l><r>meridem<s n="n"/></r></p></e>
+    <e c="check"><p><l>saavuttaminen<s n="n"/></l><r>juksâm<s n="n"/></r></p></e>
+    <e c="check"><p><l>shakki<s n="n"/></l><r>šakki<s n="n"/></r></p></e>
+    <e c="check"><p><l>simulointi<s n="n"/></l><r>simulistem<s n="n"/></r></p></e>
+    <e c="check"><p><l>skaala<s n="n"/></l><r>skaala<s n="n"/></r></p></e>
+    <e c="check"><p><l>sopeutuminen<s n="n"/></l><r>vuáhádum<s n="n"/></r></p></e>
     <e c="check"><p><l>takatalvi<s n="n"/></l><r>moŋŋjâtälvi<s n="n"/></r></p></e>
+    <e c="check"><p><l>tekoäly<s n="n"/></l><r>tahojiermi<s n="n"/></r></p></e>
+    <e c="check"><p><l>tekoälytutkimus<s n="n"/></l><r>tahofiättutotkâmus<s n="n"/></r></p></e>
+    <e c="check"><p><l>tieteenala<s n="n"/></l><r>tieđâsyergi<s n="n"/></r></p></e>
+    <e c="check"><p><l>tunnistaminen<s n="n"/></l><r>tubdâm<s n="n"/></r></p></e>
+    <e c="check"><p><l>tunnistus<s n="n"/></l><r>tubdâm<s n="n"/></r></p></e>
+    <e c="check"><p><l>tuottaminen<s n="n"/></l><r>pyevtittem<s n="n"/></r></p></e>
+    <e c="check"><p><l>ymmärtäminen<s n="n"/></l><r>iberdem<s n="n"/></r></p></e>
+    <e c="FIXME"><p><l>pidettävä<s n="n"/></l><r>anneelâš<s n="n"/></r></p></e>
     <e c="FIXME"><p><l>tohtori<s n="n"/></l><r>tuávtir<s n="n"/></r></p></e>
     <e c="it's a langauge"><p><l>georgia<s n="n"/></l><r>georgia<s n="n"/></r></p></e>
     <e c="language"><p><l>ranska<s n="n"/></l><r>ranska<s n="n"/></r></p></e>
     <e c="tarpeeksi"><p><l>tarve<s n="n"/></l><r>tuárvi<s n="n"/></r></p></e>
-    <e c="check?"><p><l>järvi<s n="n"/></l><r>jáávráš<s n="n"/></r></p></e>
+    <e><p><l>alus<s n="n"/></l><r>tamppâ<s n="n"/></r></p></e>
+    <e><p><l>autoteollisuus<s n="n"/></l><r>autoráhtálâšvuotâ<s n="n"/></r></p></e>
+    <e><p><l>energiakriisi<s n="n"/></l><r>energiakriisâ<s n="n"/></r></p></e>
+    <e><p><l>hallinta<s n="n"/></l><r>haldâttâh<s n="n"/></r></p></e>
+    <e><p><l>inflaatio<s n="n"/></l><r>inflaatio<s n="n"/></r></p></e>
+    <e><p><l>kannattaja<s n="n"/></l><r>kannatteijee<s n="n"/></r></p></e>
+    <e><p><l>kauppatase<s n="n"/></l><r>kävppitáásus<s n="n"/></r></p></e>
+    <e><p><l>komissio<s n="n"/></l><r>komissio<s n="n"/></r></p></e>
+    <e><p><l>kongressi<s n="n"/></l><r>kongress<s n="n"/></r></p></e>
+    <e><p><l>kongressitalo<s n="n"/></l><r>kongresstáálu<s n="n"/></r></p></e>
+    <e><p><l>kulutus<s n="n"/></l><r>kulâttim<s n="n"/></r></p></e>
+    <e><p><l>maataloustuote<s n="n"/></l><r>eennâmtuálupuovtâ<s n="n"/></r></p></e>
+    <e><p><l>myöntäminen<s n="n"/></l><r>mieđettem<s n="n"/></r></p></e>
+    <e><p><l>oikeusministeri<s n="n"/></l><r>vuoigâdvuođâminister<s n="n"/></r></p></e>
+    <e><p><l>osio<s n="n"/></l><r>uási<s n="n"/></r></p></e>
+    <e><p><l>pasta<s n="n"/></l><r>pasta<s n="n"/></r></p></e>
+    <e><p><l>presidentinvaalit<s n="n"/></l><r>presidentvaaljah<s n="n"/></r></p></e>
+    <e><p><l>sähköauto<s n="n"/></l><r>šleđgâauto<s n="n"/></r></p></e>
+    <e><p><l>tuoja<s n="n"/></l><r>pyehtee<s n="n"/></r></p></e>
+    <e><p><l>työhuone<s n="n"/></l><r>pargoviste<s n="n"/></r></p></e>
+    <e><p><l>vaalitappio<s n="n"/></l><r>vaaljatappâ<s n="n"/></r></p></e>
+    <e><p><l>vaalitulos<s n="n"/></l><r>vaaljapuáđus<s n="n"/></r></p></e>
+    <e><p><l>ylihinta<s n="n"/></l><r>paijeelhadde<s n="n"/></r></p></e>
+    <e><p><l>ympäristöhallinto<s n="n"/></l><r>piirâshaldâttâh<s n="n"/></r></p></e>
 
     <e><p><l>aakkosjärjestys<s n="n"/></l><r>pargo-oornig<s n="n"/></r></p></e>
     <e><p><l>aakkosjärjestys<s n="n"/></l><r>puustavoornig<s n="n"/></r></p></e>
@@ -5444,6 +5562,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>adoptiolapsi<s n="n"/></l><r>adoptiopärni<s n="n"/></r></p></e>
     <e><p><l>adoptio<s n="n"/></l><r>adoptio<s n="n"/></r></p></e>
     <e><p><l>adventti<s n="n"/></l><r>advent<s n="n"/></r></p></e>
+    <e><p><l>advl<s n="n"/></l><r>advl<s n="n"/></r></p></e>
     <e><p><l>aforismi<s n="n"/></l><r>aforismâ<s n="n"/></r></p></e>
     <e><p><l>aforismi<s n="n"/></l><r>aforism<s n="n"/></r></p></e>
     <e><p><l>aggregaatti<s n="n"/></l><r>aggregaat<s n="n"/></r></p></e>
@@ -5724,7 +5843,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>alkuperä<s n="n"/></l><r>algâpuáttim<s n="n"/></r></p></e>
     <e><p><l>alkuperä<s n="n"/></l><r>algâvuolgâ<s n="n"/></r></p></e>
     <e><p><l>alkupuoli<s n="n"/></l><r>algâpeeli<s n="n"/></r></p></e>
-    <e><p><l>alkupäässä<s n="n"/></l><r>áálgukeččin<s n="n"/></r></p></e>
     <e><p><l>alkuräjähdys<s n="n"/></l><r>algâpävkittem<s n="n"/></r></p></e>
     <e><p><l>alkusana<s n="n"/></l><r>algâsääni<s n="n"/></r></p></e>
     <e><p><l>alku<s n="n"/></l><r>algâ<s n="n"/></r></p></e>
@@ -6025,6 +6143,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>asianomistaja<s n="n"/></l><r>äššiomâsteijee<s n="n"/></r></p></e>
     <e><p><l>asianosainen<s n="n"/></l><r>äššiuásálâš<s n="n"/></r></p></e>
     <e><p><l>asiantuntemus<s n="n"/></l><r>äššitubdâmuš<s n="n"/></r></p></e>
+    <e><p><l>asiantuntijajärjestelmä<s n="n"/></l><r>äššitobdeesysteem<s n="n"/></r></p></e>
     <e><p><l>asiantuntija<s n="n"/></l><r>äššitobdee<s n="n"/></r></p></e>
     <e><p><l>asiapaperi<s n="n"/></l><r>äššipááppár<s n="n"/></r></p></e>
     <e><p><l>asia<s n="n"/></l><r>äšši<s n="n"/></r></p></e>
@@ -6036,6 +6155,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>askelma<s n="n"/></l><r>lavkkiittâh<s n="n"/></r></p></e>
     <e><p><l>askel<s n="n"/></l><r>lävkki<s n="n"/></r></p></e>
     <e><p><l>aski<s n="n"/></l><r>rasijâš<s n="n"/></r></p></e>
+    <e><p><l>aspekti<s n="n"/></l><r>aspekt<s n="n"/></r></p></e>
     <e><p><l>assimilaatio<s n="n"/></l><r>assimilaatio<s n="n"/></r></p></e>
     <e><p><l>assimilaatio<s n="n"/></l><r>ohtim<s n="n"/></r></p></e>
     <e><p><l>assimilaatio<s n="n"/></l><r>suddâluttem<s n="n"/></r></p></e>
@@ -6150,7 +6270,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>avain<s n="n"/></l><r>čoovdâ<s n="n"/></r></p></e>
     <e><p><l>avajaiset<s n="n"/></l><r>lekkâmjuhleh<s n="n"/></r></p></e>
     <e><p><l>avajaiset<s n="n"/></l><r>lekkâmtilálâšvuotâ<s n="n"/></r></p></e>
-    <e><p><l>avanto<s n="n"/></l><r>käldee<s n="n"/></r></p></e>
     <e><p><l>avanto<s n="n"/></l><r>maadârunne<s n="n"/></r></p></e>
     <e><p><l>avanto<s n="n"/></l><r>runne<s n="n"/></r></p></e>
     <e><p><l>avanto<s n="n"/></l><r>valgâmrunne<s n="n"/></r></p></e>
@@ -6208,6 +6327,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>BKT<s n="n"/></l><r>BAP<s n="n"/></r></p></e>
     <e><p><l>bleiseri<s n="n"/></l><r>ucctaakiš<s n="n"/></r></p></e>
     <e><p><l>bleiseri<s n="n"/></l><r>ucctakki<s n="n"/></r></p></e>
+    <e><p><l>blogi<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
     <e><p><l>budjetti<s n="n"/></l><r>budjet<s n="n"/></r></p></e>
     <e><p><l>bulevardi<s n="n"/></l><r>bulevard<s n="n"/></r></p></e>
     <e><p><l>bussipysäkki<s n="n"/></l><r>bussiorostâh<s n="n"/></r></p></e>
@@ -6277,6 +6397,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>edunsaaja<s n="n"/></l><r>äävhiuážžoo<s n="n"/></r></p></e>
     <e><p><l>eduskunta<s n="n"/></l><r>ovdâskodde<s n="n"/></r></p></e>
     <e><p><l>eduskuntavaalit<s n="n"/></l><r>ovdâskoddevaaljah<s n="n"/></r></p></e>
+    <e><p><l>edussana<s n="n"/></l><r>ovdâsääni<s n="n"/></r></p></e>
     <e><p><l>edustaja<s n="n"/></l><r>ovdâsteijee<s n="n"/></r></p></e>
     <e><p><l>edustajisto<s n="n"/></l><r>ovdâstemjuávkku<s n="n"/></r></p></e>
     <e><p><l>edusta<s n="n"/></l><r>ovdâ<s n="n"/></r></p></e>
@@ -6385,7 +6506,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>eminorkko<s n="n"/></l><r>emiurbe<s n="n"/></r></p></e>
     <e><p><l>emi<s n="n"/></l><r>eemi<s n="n"/></r></p></e>
     <e><p><l>emokallio<s n="n"/></l><r>emipähti<s n="n"/></r></p></e>
-    <e><p><l>emo<s n="n"/></l><r>enni<s n="n"/></r></p></e>
     <e><p><l>emäksisyys<s n="n"/></l><r>alkaallâšvuotâ<s n="n"/></r></p></e>
     <e><p><l>emäntä<s n="n"/></l><r>eemeed<s n="n"/></r></p></e>
     <e><p><l>emäpuu<s n="n"/></l><r>vuáđumuorâ<s n="n"/></r></p></e>
@@ -6655,6 +6775,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>euroopanlehtikuusi<s n="n"/></l><r>eurooplostâkuosâ<s n="n"/></r></p></e>
     <e><p><l>euroopanmajava<s n="n"/></l><r>euroopmaaijuv<s n="n"/></r></p></e>
     <e><p><l>euro<s n="n"/></l><r>euro<s n="n"/></r></p></e>
+    <e><p><l>euroviisut<s n="n"/></l><r>euroviisuh<s n="n"/></r></p></e>
     <e><p><l>evakko<s n="n"/></l><r>evakko<s n="n"/></r></p></e>
     <e><p><l>evakuointi<s n="n"/></l><r>evakuistem<s n="n"/></r></p></e>
     <e><p><l>evankeliumi<s n="n"/></l><r>evangelium<s n="n"/></r></p></e>
@@ -6687,6 +6808,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>filee<s n="n"/></l><r>sissavotekki<s n="n"/></r></p></e>
     <e><p><l>filmi<s n="n"/></l><r>filmâ<s n="n"/></r></p></e>
     <e><p><l>filosofia<s n="n"/></l><r>filosofia<s n="n"/></r></p></e>
+    <e><p><l>finaali<s n="n"/></l><r>fiinaal<s n="n"/></r></p></e>
     <e><p><l>finni<s n="n"/></l><r>čikâlâs<s n="n"/></r></p></e>
     <e><p><l>finni<s n="n"/></l><r>mäini<s n="n"/></r></p></e>
     <e><p><l>flamingo<s n="n"/></l><r>flamingo<s n="n"/></r></p></e>
@@ -7477,6 +7599,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>home<s n="n"/></l><r>kuopâ<s n="n"/></r></p></e>
     <e><p><l>homma<s n="n"/></l><r>hommá<s n="n"/></r></p></e>
     <e><p><l>homofobia<s n="n"/></l><r>homofobia<s n="n"/></r></p></e>
+    <e><p><l>homonymia<s n="n"/></l><r>homonymia<s n="n"/></r></p></e>
     <e><p><l>homoseksuaalisuus<s n="n"/></l><r>homoseksualvuotâ<s n="n"/></r></p></e>
     <e><p><l>homous<s n="n"/></l><r>homovuotâ<s n="n"/></r></p></e>
     <e><p><l>hongankolistaja<s n="n"/></l><r>njášku<s n="n"/></r></p></e>
@@ -8383,6 +8506,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>juoma<s n="n"/></l><r>juhâmâš<s n="n"/></r></p></e>
     <e><p><l>juoma<s n="n"/></l><r>juhâmuš<s n="n"/></r></p></e>
     <e><p><l>juoma<s n="n"/></l><r>juuhâm<s n="n"/></r></p></e>
+    <e><p><l>juominen<s n="n"/></l><r>juuhâm<s n="n"/></r></p></e>
     <e><p><l>juomingit<s n="n"/></l><r>juvâlmâsah<s n="n"/></r></p></e>
     <e><p><l>juomussalko<s n="n"/></l><r>suárváš<s n="n"/></r></p></e>
     <e><p><l>juomus<s n="n"/></l><r>juoŋâs<s n="n"/></r></p></e>
@@ -9447,6 +9571,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>keko<s n="n"/></l><r>miehtâ<s n="n"/></r></p></e>
     <e><p><l>keksijä<s n="n"/></l><r>utkee<s n="n"/></r></p></e>
     <e><p><l>keksintö<s n="n"/></l><r>hutkos<s n="n"/></r></p></e>
+    <e><p><l>keksi<s n="n"/></l><r>keksi<s n="n"/></r></p></e>
     <e><p><l>kekäle<s n="n"/></l><r>räddi<s n="n"/></r></p></e>
     <e><p><l>kelanreikä<s n="n"/></l><r>keliräigi<s n="n"/></r></p></e>
     <e><p><l>kela<s n="n"/></l><r>keeli<s n="n"/></r></p></e>
@@ -9600,6 +9725,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kerta<s n="n"/></l><r>kerdi<s n="n"/></r></p></e>
     <e><p><l>kerta<s n="n"/></l><r>tohe<s n="n"/></r></p></e>
     <e><p><l>kerta<s n="n"/></l><r>tove<s n="n"/></r></p></e>
+    <e><p><l>kertaus<s n="n"/></l><r>kiärdum<s n="n"/></r></p></e>
     <e><p><l>kertoja<s n="n"/></l><r>kiärdoo<s n="n"/></r></p></e>
     <e><p><l>kertoja<s n="n"/></l><r>mainâsteijee<s n="n"/></r></p></e>
     <e><p><l>kertoja<s n="n"/></l><r>muštâleijee<s n="n"/></r></p></e>
@@ -10205,6 +10331,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kokousmatka<s n="n"/></l><r>čuákkimmätki<s n="n"/></r></p></e>
     <e><p><l>kokous<s n="n"/></l><r>čuákkim<s n="n"/></r></p></e>
     <e><p><l>kokuköysi<s n="n"/></l><r>saimâkievđâ<s n="n"/></r></p></e>
+    <e><p><l>koku<s n="n"/></l><r>kuohâm<s n="n"/></r></p></e>
     <e><p><l>kolari<s n="n"/></l><r>autoluhottesvuotâ<s n="n"/></r></p></e>
     <e><p><l>kolari<s n="n"/></l><r>autopärtti<s n="n"/></r></p></e>
     <e><p><l>kolehti<s n="n"/></l><r>kooleeht<s n="n"/></r></p></e>
@@ -10263,6 +10390,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>komissaari<s n="n"/></l><r>komissaar<s n="n"/></r></p></e>
     <e><p><l>komitatiivi<s n="n"/></l><r>komitativ<s n="n"/></r></p></e>
     <e><p><l>komitea<s n="n"/></l><r>komitea<s n="n"/></r></p></e>
+    <e><p><l>kommentaattori<s n="n"/></l><r>kommentaattor<s n="n"/></r></p></e>
     <e><p><l>kommentti<s n="n"/></l><r>komment<s n="n"/></r></p></e>
     <e><p><l>kommentti<s n="n"/></l><r>lasehuámášuttem<s n="n"/></r></p></e>
     <e><p><l>kommentti<s n="n"/></l><r>robdâhuámášuttem<s n="n"/></r></p></e>
@@ -11308,6 +11436,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>laimennin<s n="n"/></l><r>láivudâs<s n="n"/></r></p></e>
     <e><p><l>laiminlyönti<s n="n"/></l><r>kuáridem<s n="n"/></r></p></e>
     <e><p><l>lainaaja<s n="n"/></l><r>luoihâtteijee<s n="n"/></r></p></e>
+    <e><p><l>lainaaminen<s n="n"/></l><r>lovnim<s n="n"/></r></p></e>
     <e><p><l>lainasana<s n="n"/></l><r>lovnâsääni<s n="n"/></r></p></e>
     <e><p><l>laina<s n="n"/></l><r>lovnâ<s n="n"/></r></p></e>
     <e><p><l>lainatavara<s n="n"/></l><r>luoihâs<s n="n"/></r></p></e>
@@ -14236,6 +14365,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>paskahätä<s n="n"/></l><r>poškâeeti<s n="n"/></r></p></e>
     <e><p><l>paska<s n="n"/></l><r>poškâ<s n="n"/></r></p></e>
     <e><p><l>pasma<s n="n"/></l><r>pálkku<s n="n"/></r></p></e>
+    <e><p><l>passiivi<s n="n"/></l><r>passiv<s n="n"/></r></p></e>
     <e><p><l>passi<s n="n"/></l><r>passâ<s n="n"/></r></p></e>
     <e><p><l>pasuri<s n="n"/></l><r>pasuri<s n="n"/></r></p></e>
     <e><p><l>pata<s n="n"/></l><r>pääti<s n="n"/></r></p></e>
@@ -14293,6 +14423,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>pelastus<s n="n"/></l><r>kááijum<s n="n"/></r></p></e>
     <e><p><l>pelastusvene<s n="n"/></l><r>kááijumkäärbis<s n="n"/></r></p></e>
     <e><p><l>peledsiika<s n="n"/></l><r>peledšapšâ<s n="n"/></r></p></e>
+    <e><p><l>pelijärjestelmä<s n="n"/></l><r>spellâsysteem<s n="n"/></r></p></e>
     <e><p><l>pelikaani<s n="n"/></l><r>pelikaan<s n="n"/></r></p></e>
     <e><p><l>peliohjain<s n="n"/></l><r>spellâstivrim<s n="n"/></r></p></e>
     <e><p><l>peliohjain<s n="n"/></l><r>spellâsuábbi<s n="n"/></r></p></e>
@@ -15020,10 +15151,8 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>porosaamelainen<s n="n"/></l><r>pajesämmilâšá<s n="n"/></r></p></e>
     <e><p><l>porosaamelainen<s n="n"/></l><r>pajesämmilâš<s n="n"/></r></p></e>
     <e><p><l>poroseita<s n="n"/></l><r>puásuisijdâ<s n="n"/></r></p></e>
-    <e><p><l>poro<s n="n"/></l><r>ergi<s n="n"/></r></p></e>
     <e><p><l>poro<s n="n"/></l><r>puásui<s n="n"/></r></p></e>
     <e><p><l>poro<s n="n"/></l><r>puásui<s n="n"/></r></p></e>
-    <e><p><l>poro<s n="n"/></l><r>stuorâh<s n="n"/></r></p></e>
     <e><p><l>porotalous<s n="n"/></l><r>puásuituálu<s n="n"/></r></p></e>
     <e><p><l>porotila<s n="n"/></l><r>puásuitáálu<s n="n"/></r></p></e>
     <e><p><l>porotokka<s n="n"/></l><r>puáissijdâ<s n="n"/></r></p></e>
@@ -15475,6 +15604,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>pätkätyö<s n="n"/></l><r>pittápargo<s n="n"/></r></p></e>
     <e><p><l>pääaine<s n="n"/></l><r>uáiviaamnâs<s n="n"/></r></p></e>
     <e><p><l>pääaine<s n="n"/></l><r>uáivimateriaal<s n="n"/></r></p></e>
+    <e><p><l>pääartikkeli<s n="n"/></l><r>uáiviartikkâl<s n="n"/></r></p></e>
     <e><p><l>pääasia<s n="n"/></l><r>uáiviäšši<s n="n"/></r></p></e>
     <e><p><l>pääasia<s n="n"/></l><r>válduäšši<s n="n"/></r></p></e>
     <e><p><l>päähänpisto<s n="n"/></l><r>huávri<s n="n"/></r></p></e>
@@ -16126,6 +16256,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>rivi<s n="n"/></l><r>ráiđu<s n="n"/></r></p></e>
     <e><p><l>rivitalo<s n="n"/></l><r>ráiđutáálu<s n="n"/></r></p></e>
     <e><p><l>robotti<s n="n"/></l><r>rooboot<s n="n"/></r></p></e>
+    <e><p><l>robottitekniikka<s n="n"/></l><r>rooboottekniik<s n="n"/></r></p></e>
     <e><p><l>rock<s n="n"/></l><r>rock<s n="n"/></r></p></e>
     <e><p><l>rodoniitti<s n="n"/></l><r>rodoniit<s n="n"/></r></p></e>
     <e><p><l>rohkeus<s n="n"/></l><r>ruokkâdvuotâ<s n="n"/></r></p></e>
@@ -16609,6 +16740,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>sammalvarpio<s n="n"/></l><r>vielgistoŋâsrääsi<s n="n"/></r></p></e>
     <e><p><l>sammutin<s n="n"/></l><r>časkâdeijee<s n="n"/></r></p></e>
     <e><p><l>sammutin<s n="n"/></l><r>časkâdempiergâs<s n="n"/></r></p></e>
+    <e><p><l>sanajärjestys<s n="n"/></l><r>sänioornig<s n="n"/></r></p></e>
     <e><p><l>sanakirja<s n="n"/></l><r>sänikirje<s n="n"/></r></p></e>
     <e><p><l>sananjalka<s n="n"/></l><r>sänijyelgi<s n="n"/></r></p></e>
     <e><p><l>sananlasku<s n="n"/></l><r>sänivaajâs<s n="n"/></r></p></e>
@@ -16789,6 +16921,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>seksuaalivähemmistö<s n="n"/></l><r>seksualucceebloho<s n="n"/></r></p></e>
     <e><p><l>sektori<s n="n"/></l><r>sektor<s n="n"/></r></p></e>
     <e><p><l>sekunti<s n="n"/></l><r>seekunt<s n="n"/></r></p></e>
+    <e><p><l>sekunti<s n="n"/></l><r>sekunt<s n="n"/></r></p></e>
     <e><p><l>selaaja<s n="n"/></l><r>läđđee<s n="n"/></r></p></e>
     <e><p><l>selaaminen<s n="n"/></l><r>laađđâm<s n="n"/></r></p></e>
     <e><p><l>selain<s n="n"/></l><r>laađâ<s n="n"/></r></p></e>
@@ -16827,6 +16960,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>selvitys<s n="n"/></l><r>čielgiittâs<s n="n"/></r></p></e>
     <e><p><l>selänne<s n="n"/></l><r>čielgi<s n="n"/></r></p></e>
     <e><p><l>sementti<s n="n"/></l><r>seemeent<s n="n"/></r></p></e>
+    <e><p><l>semifinaali<s n="n"/></l><r>semifiinaal<s n="n"/></r></p></e>
     <e><p><l>seminaari<s n="n"/></l><r>seminaar<s n="n"/></r></p></e>
     <e><p><l>senkka<s n="n"/></l><r>seŋkka<s n="n"/></r></p></e>
     <e><p><l>sensori<s n="n"/></l><r>sensor<s n="n"/></r></p></e>
@@ -17338,6 +17472,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>stressi<s n="n"/></l><r>stressi<s n="n"/></r></p></e>
     <e><p><l>stuertti<s n="n"/></l><r>stuueert<s n="n"/></r></p></e>
     <e><p><l>subjekti<s n="n"/></l><r>subjekt<s n="n"/></r></p></e>
+    <e><p><l>substantiivi<s n="n"/></l><r>substantiv<s n="n"/></r></p></e>
     <e><p><l>substraatti<s n="n"/></l><r>substraat<s n="n"/></r></p></e>
     <e><p><l>substraatti<s n="n"/></l><r>substraat<s n="n"/></r></p></e>
     <e><p><l>sudenkorento<s n="n"/></l><r>kyeškirčuáimâš<s n="n"/></r></p></e>
@@ -17540,6 +17675,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>suora<s n="n"/></l><r>njuálgus<s n="n"/></r></p></e>
     <e><p><l>suoraveloitus<s n="n"/></l><r>njuálguviälgum<s n="n"/></r></p></e>
     <e><p><l>suoritettu<s n="n"/></l><r>čođâldittum<s n="n"/></r></p></e>
+    <e><p><l>suoritin<s n="n"/></l><r>prosessor<s n="n"/></r></p></e>
     <e><p><l>suorittaja<s n="n"/></l><r>tahhee<s n="n"/></r></p></e>
     <e><p><l>suoritus<s n="n"/></l><r>čođâldâs<s n="n"/></r></p></e>
     <e><p><l>suoro<s n="n"/></l><r>kuozzâg<s n="n"/></r></p></e>
@@ -18222,6 +18358,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>tekijä<s n="n"/></l><r>tahhee<s n="n"/></r></p></e>
     <e><p><l>tekniikka<s n="n"/></l><r>tekniik<s n="n"/></r></p></e>
     <e><p><l>teknikko<s n="n"/></l><r>teknikkár<s n="n"/></r></p></e>
+    <e><p><l>teknologia<s n="n"/></l><r>teknologia<s n="n"/></r></p></e>
     <e><p><l>teknologi<s n="n"/></l><r>teknolog<s n="n"/></r></p></e>
     <e><p><l>tekoallas<s n="n"/></l><r>tulvâdemääldis<s n="n"/></r></p></e>
     <e><p><l>tekohampaat<s n="n"/></l><r>tahopäänih<s n="n"/></r></p></e>
@@ -18229,7 +18366,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>tekokuitu<s n="n"/></l><r>tahosáigu<s n="n"/></r></p></e>
     <e><p><l>tekokuu<s n="n"/></l><r>ráhtusmáánu<s n="n"/></r></p></e>
     <e><p><l>tekopohjavesi<s n="n"/></l><r>toohumponnečääci<s n="n"/></r></p></e>
-    <e><p><l>teko<s n="n"/></l><r>pargo<s n="n"/></r></p></e>
     <e><p><l>teko<s n="n"/></l><r>taho<s n="n"/></r></p></e>
     <e><p><l>teko<s n="n"/></l><r>tyeji<s n="n"/></r></p></e>
     <e><p><l>tekosyy<s n="n"/></l><r>aggâ<s n="n"/></r></p></e>
@@ -18277,7 +18413,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>teologia<s n="n"/></l><r>teologia<s n="n"/></r></p></e>
     <e><p><l>teologi<s n="n"/></l><r>teolog<s n="n"/></r></p></e>
     <e><p><l>teoria<s n="n"/></l><r>teoria<s n="n"/></r></p></e>
-    <e><p><l>teos<s n="n"/></l><r>pargo<s n="n"/></r></p></e>
     <e><p><l>teos<s n="n"/></l><r>rááhtus<s n="n"/></r></p></e>
     <e><p><l>teos<s n="n"/></l><r>tyeji<s n="n"/></r></p></e>
     <e><p><l>terapeutti<s n="n"/></l><r>terapeut<s n="n"/></r></p></e>
@@ -18285,6 +18420,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>terhi<s n="n"/></l><r>peljirääsi<s n="n"/></r></p></e>
     <e><p><l>termiitti<s n="n"/></l><r>termiit<s n="n"/></r></p></e>
     <e><p><l>terminaalihoito<s n="n"/></l><r>terminaaltipšo<s n="n"/></r></p></e>
+    <e><p><l>termi<s n="n"/></l><r>termâ<s n="n"/></r></p></e>
     <e><p><l>termospullo<s n="n"/></l><r>termosputtâl<s n="n"/></r></p></e>
     <e><p><l>termostaatti<s n="n"/></l><r>termostaat<s n="n"/></r></p></e>
     <e><p><l>ternimaito<s n="n"/></l><r>terni<s n="n"/></r></p></e>
@@ -18310,6 +18446,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>terveiset<s n="n"/></l><r>tiervuođah<s n="n"/></r></p></e>
     <e><p><l>tervetulotoivotus<s n="n"/></l><r>pyereestpuáttim<s n="n"/></r></p></e>
     <e><p><l>terveydenhoitaja<s n="n"/></l><r>tiervâsvuođâtipšoo<s n="n"/></r></p></e>
+    <e><p><l>terveydenhoito<s n="n"/></l><r>tiervâsvuotâtipšo<s n="n"/></r></p></e>
     <e><p><l>terveydenhuolto<s n="n"/></l><r>tiervâsvuotâtipšo<s n="n"/></r></p></e>
     <e><p><l>terveyskeskus<s n="n"/></l><r>tiervâsvuođâkuávdáš<s n="n"/></r></p></e>
     <e><p><l>terveysoppi<s n="n"/></l><r>tiervâsvuođâoppâ<s n="n"/></r></p></e>
@@ -18377,6 +18514,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>tieteilijä<s n="n"/></l><r>tiettee<s n="n"/></r></p></e>
     <e><p><l>tietoisuus<s n="n"/></l><r>tiäđulâšvuotâ<s n="n"/></r></p></e>
     <e><p><l>tietokanta<s n="n"/></l><r>tiätuvuáđu<s n="n"/></r></p></e>
+    <e><p><l>tietokoneohjelma<s n="n"/></l><r>tiätturohjelm<s n="n"/></r></p></e>
     <e><p><l>tietokone<s n="n"/></l><r>tiättur<s n="n"/></r></p></e>
     <e><p><l>tietokone<s n="n"/></l><r>tiättur<s n="n"/></r></p></e>
     <e><p><l>tietokone<s n="n"/></l><r>tiätumaašin<s n="n"/></r></p></e>
@@ -19715,6 +19853,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>vanhapiika<s n="n"/></l><r>puárisnieidâ<s n="n"/></r></p></e>
     <e><p><l>vanhapoika<s n="n"/></l><r>puáriskandâ<s n="n"/></r></p></e>
     <e><p><l>vanhemmat<s n="n"/></l><r>vaanhimeh<s n="n"/></r></p></e>
+    <e><p><l>vanhemmat<s n="n"/></l><r>vanhimeh<s n="n"/></r></p></e>
     <e><p><l>vanhemmuus<s n="n"/></l><r>vaanhimvuotâ<s n="n"/></r></p></e>
     <e><p><l>vanhempainvapaa<s n="n"/></l><r>vaanhimijrijjâ<s n="n"/></r></p></e>
     <e><p><l>vanhempi<s n="n"/></l><r>vaanhim<s n="n"/></r></p></e>
@@ -20073,6 +20212,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>veräjä<s n="n"/></l><r>äiđiuksâ<s n="n"/></r></p></e>
     <e><p><l>vesakko<s n="n"/></l><r>laanjâs<s n="n"/></r></p></e>
     <e><p><l>vesakko<s n="n"/></l><r>vaše<s n="n"/></r></p></e>
+    <e><p><l>vesa<s n="n"/></l><r>lánjá<s n="n"/></r></p></e>
     <e><p><l>vesa<s n="n"/></l><r>vesa<s n="n"/></r></p></e>
     <e><p><l>vesihernekasvit<s n="n"/></l><r>čäciherttâšadoh<s n="n"/></r></p></e>
     <e><p><l>vesiherne<s n="n"/></l><r>čäciherttâ<s n="n"/></r></p></e>
@@ -20190,7 +20330,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>vierihoito<s n="n"/></l><r>paldâtipšo<s n="n"/></r></p></e>
     <e><p><l>vieri<s n="n"/></l><r>kuorâ<s n="n"/></r></p></e>
     <e><p><l>vieri<s n="n"/></l><r>paldâ<s n="n"/></r></p></e>
-    <e><p><l>vierivieressä<s n="adv"/></l><r>pald-paldluvvâi<s n="adv"/></r></p></e>
     <e><p><l>vierki<s n="n"/></l><r>viergi<s n="n"/></r></p></e>
     <e><p><l>vieroitusoire<s n="n"/></l><r>potkiittemsymptoom<s n="n"/></r></p></e>
     <e><p><l>vieroporo<s n="n"/></l><r>viäruipuásui<s n="n"/></r></p></e>
@@ -20943,6 +21082,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>äitiys<s n="n"/></l><r>ennivuotâ<s n="n"/></r></p></e>
     <e><p><l>äkämä<s n="n"/></l><r>kuddumpuávui<s n="n"/></r></p></e>
     <e><p><l>älykkyysosamäärä<s n="n"/></l><r>fiettimuásimeeri<s n="n"/></r></p></e>
+    <e><p><l>älykkyys<s n="n"/></l><r>fiätulâšvuotâ<s n="n"/></r></p></e>
     <e><p><l>älypuhelin<s n="n"/></l><r>viättupuhelin<s n="n"/></r></p></e>
     <e><p><l>äly<s n="n"/></l><r>fiättu<s n="n"/></r></p></e>
     <e><p><l>ämpäri<s n="n"/></l><r>eebir<s n="n"/></r></p></e>
@@ -21040,6 +21180,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>asia<s n="n"/></l><r>váidámuš<s n="n"/></r></p></e>
     <e w="2"><p><l>asuntola<s n="n"/></l><r>asâttâh<s n="n"/></r></p></e>
     <e w="2"><p><l>auto<s n="n"/></l><r>avdo<s n="n"/></r></p></e>
+    <e w="2"><p><l>avanto<s n="n"/></l><r>käldee<s n="n"/></r></p></e>
     <e w="2"><p><l>aviovaimo<s n="n"/></l><r>kaavâ<s n="n"/></r></p></e>
     <e w="2"><p><l>avustaja<s n="n"/></l><r>išepargee<s n="n"/></r></p></e>
     <e w="2"><p><l>delta<s n="n"/></l><r>juhânjálmádâh<s n="n"/></r></p></e>
@@ -21050,6 +21191,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>elinpiiri<s n="n"/></l><r>paalgâs<s n="n"/></r></p></e>
     <e w="2"><p><l>eläin<s n="n"/></l><r>eeleev<s n="n"/></r></p></e>
     <e w="2"><p><l>elämä<s n="n"/></l><r>eeleed<s n="n"/></r></p></e>
+    <e w="2"><p><l>emo<s n="n"/></l><r>enni<s n="n"/></r></p></e>
     <e w="2"><p><l>englantilainen<s n="n"/></l><r>eŋlandilâš<s n="n"/></r></p></e>
     <e w="2"><p><l>eno<s n="n"/></l><r>eennuš<s n="n"/></r></p></e>
     <e w="2"><p><l>eno<s n="n"/></l><r>vuoppeeli<s n="n"/></r></p></e>
@@ -21591,6 +21733,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>poro<s n="n"/></l><r>čiäskuh<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>čuárvittuđ<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>čuoivâg<s n="n"/></r></p></e>
+    <e w="2"><p><l>poro<s n="n"/></l><r>ergi<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>julle<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>kevličuárvi<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>kieđâlohlááiđuh<s n="n"/></r></p></e>
@@ -21643,6 +21786,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>poro<s n="n"/></l><r>staainâh<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>stokkeuáivi<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>stuárááh<s n="n"/></r></p></e>
+    <e w="2"><p><l>poro<s n="n"/></l><r>stuorâh<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>sukkájyelgi<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>suohisuáivi<s n="n"/></r></p></e>
     <e w="2"><p><l>poro<s n="n"/></l><r>säggi<s n="n"/></r></p></e>
@@ -21931,7 +22075,9 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>tekeminen<s n="n"/></l><r>porgâmuš<s n="n"/></r></p></e>
     <e w="2"><p><l>tekeminen<s n="n"/></l><r>tohâmuš<s n="n"/></r></p></e>
     <e w="2"><p><l>tekijä<s n="n"/></l><r>tovâldâh<s n="n"/></r></p></e>
+    <e w="2"><p><l>teko<s n="n"/></l><r>pargo<s n="n"/></r></p></e>
     <e w="2"><p><l>teko<s n="n"/></l><r>sääni<s n="n"/></r></p></e>
+    <e w="2"><p><l>teos<s n="n"/></l><r>pargo<s n="n"/></r></p></e>
     <e w="2"><p><l>tieto<s n="n"/></l><r>kulostuđ<s n="n"/></r></p></e>
     <e w="2"><p><l>tieto<s n="n"/></l><r>saahâ<s n="n"/></r></p></e>
     <e w="2"><p><l>tikku<s n="n"/></l><r>čuággálm<s n="n"/></r></p></e>
@@ -22168,6 +22314,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>attr.<s n="n"/></l><r>attr<s n="n"/></r></p></e>
     <e><p><l>b<s n="n"/></l><r c="giellalt">balphabet<s n="n"/></r></p></e>
     <e><p><l>cm<s n="n"/></l><r>cm<s n="n"/></r></p></e>
+    <e><p><l>CNN<s n="n"/></l><r>CNN<s n="n"/></r></p></e>
     <e><p><l>c<s n="n"/></l><r c="giellalt">calphabet<s n="n"/></r></p></e>
     <e><p><l>c<s n="n"/></l><r>c<s n="n"/></r></p></e>
     <e><p><l>°C<s n="n"/></l><r>°C<s n="n"/></r></p></e>
@@ -22175,17 +22322,21 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>d<s n="n"/></l><r c="giellalt">dalphabet<s n="n"/></r></p></e>
     <e><p><l>d<s n="n"/></l><r>d<s n="n"/></r></p></e>
     <e><p><l>đ<s n="n"/></l><r>đ<s n="n"/></r></p></e>
+    <e><p><l>DW<s n="n"/></l><r>DW<s n="n"/></r></p></e>
+    <e><p><l>ee<s n="n"/></l><r>ee<s n="n"/></r></p></e>
     <e><p><l>e.m.<s n="n"/></l><r>om<s n="n"/></r></p></e>
     <e><p><l>e<s n="n"/></l><r c="giellalt">ealphabet<s n="n"/></r></p></e>
     <e><p><l>e<s n="n"/></l><r>e<s n="n"/></r></p></e>
-    <e><p><l>ee<s n="n"/></l><r>ee<s n="n"/></r></p></e>
     <e><p><l>Ess<s n="n"/></l><r>Ess<s n="n"/></r></p></e>
+    <e><p><l>EU<s n="n"/></l><r>EU<s n="n"/></r></p></e>
+    <e><p><l>fi<s n="n"/></l><r>fi<s n="n"/></r></p></e>
     <e><p><l>f<s n="n"/></l><r>f<s n="n"/></r></p></e>
     <e><p><l>g<s n="n"/></l><r>g<s n="n"/></r></p></e>
     <e><p><l>h<s n="n"/></l><r>h<s n="n"/></r></p></e>
     <e><p><l>Ill<s n="n"/></l><r>Ill<s n="n"/></r></p></e>
     <e><p><l>Imprt<s n="n"/></l><r>Imprt<s n="n"/></r></p></e>
     <e><p><l>ind.<s n="n"/></l><r>ind<s n="n"/></r></p></e>
+    <e><p><l>ISBN<s n="n"/></l><r>ISBN<s n="n"/></r></p></e>
     <e><p><l>i<s n="n"/></l><r c="giellalt">ialphabet<s n="n"/></r></p></e>
     <e><p><l>i<s n="n"/></l><r>i<s n="n"/></r></p></e>
     <e><p><l>j<s n="n"/></l><r c="giellalt">jalphabet<s n="n"/></r></p></e>
@@ -22206,6 +22357,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>o<s n="n"/></l><r c="giellalt">oalphabet<s n="n"/></r></p></e>
     <e><p><l>o<s n="n"/></l><r>o<s n="n"/></r></p></e>
     <e><p><l>Part<s n="n"/></l><r>Part<s n="n"/></r></p></e>
+    <e><p><l>pdf<s n="n"/></l><r>pdf<s n="n"/></r></p></e>
     <e><p><l>Pl2<s n="n"/></l><r>Pl2<s n="n"/></r></p></e>
     <e><p><l>Pl3<s n="n"/></l><r>Pl3<s n="n"/></r></p></e>
     <e><p><l>Pl<s n="n"/></l><r>Pl<s n="n"/></r></p></e>
@@ -22226,9 +22378,11 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>š<s n="n"/></l><r>š<s n="n"/></r></p></e>
     <e><p><l>t<s n="n"/></l><r c="giellalt">talphabet<s n="n"/></r></p></e>
     <e><p><l>t<s n="n"/></l><r>t<s n="n"/></r></p></e>
+    <e><p><l>USA<s n="n"/></l><r>USA<s n="n"/></r></p></e>
     <e><p><l>u<s n="n"/></l><r>u<s n="n"/></r></p></e>
     <e><p><l>v<s n="n"/></l><r c="giellalt">valphabet<s n="n"/></r></p></e>
     <e><p><l>v<s n="n"/></l><r>v<s n="n"/></r></p></e>
+    <e><p><l>VTT<s n="n"/></l><r>VTT<s n="n"/></r></p></e>
     <e><p><l>w<s n="n"/></l><r>w<s n="n"/></r></p></e>
     <e><p><l>y<s n="n"/></l><r>y<s n="n"/></r></p></e>
     <e><p><l>ä<s n="n"/></l><r>ä<s n="n"/></r></p></e>
@@ -22238,20 +22392,28 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- proper nouns -->
 
+    <e c="person not place"><i>Berlin<s n="np"/></i></e>
     <e><i>Aami<s n="np"/></i></e>
     <e><i>Aantiš<s n="np"/></i></e>
     <e><i>Aasia<s n="np"/></i></e>
+    <e><i>Aaslâk<s n="np"/></i></e>
     <e><i>Aikio<s n="np"/></i></e>
     <e><i>Aili<s n="np"/></i></e>
     <e><i>Áilu<s n="np"/></i></e>
     <e><i>Airu<s n="np"/></i></e>
+    <e><i>AI<s n="np"/></i></e>
     <e><i>Ákku<s n="np"/></i></e>
     <e><i>Akropolis<s n="np"/></i></e>
     <e><i>Alaska<s n="np"/></i></e>
     <e><i>Aleksanteri<s n="np"/></i></e>
+    <e><i>Aleksi<s n="np"/></i></e>
+    <e><i>Alexa<s n="np"/></i></e>
+    <e><i>Alex<s n="np"/></i></e>
     <e><i>Algeria<s n="np"/></i></e>
     <e><i>Alisa<s n="np"/></i></e>
     <e><i>Alma<s n="np"/></i></e>
+    <e><i>Amazon<s n="np"/></i></e>
+    <e><i>Amerika<s n="np"/></i></e>
     <e><i>Amoc<s n="np"/></i></e>
     <e><i>Anarâš-lostâ<s n="np"/></i></e>
     <e><i>Anchorage<s n="np"/></i></e>
@@ -22259,6 +22421,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Andersson<s n="np"/></i></e>
     <e><i>Ande<s n="np"/></i></e>
     <e><i>Ánde<s n="np"/></i></e>
+    <e><i>Andreas<s n="np"/></i></e>
     <e><i>Anja<s n="np"/></i></e>
     <e><i>Anna-Maija<s n="np"/></i></e>
     <e><i>Annan<s n="np"/></i></e>
@@ -22266,22 +22429,36 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Anne<s n="np"/></i></e>
     <e><i>Anni<s n="np"/></i></e>
     <e><i>Annukka<s n="np"/></i></e>
+    <e><i>Anssi<s n="np"/></i></e>
     <e><i>Antti<s n="np"/></i></e>
     <e><i>Apollo<s n="np"/></i></e>
+    <e><i>Apple<s n="np"/></i></e>
+    <e><i>AP<s n="np"/></i></e>
     <e><i>Arma<s n="np"/></i></e>
+    <e><i>Arms<s n="np"/></i></e>
     <e><i>Arthur<s n="np"/></i></e>
     <e><i>Asia<s n="np"/></i></e>
+    <e><i>Asko<s n="np"/></i></e>
     <e><i>Aslak<s n="np"/></i></e>
     <e><i>Aune<s n="np"/></i></e>
     <e><i>Auranen<s n="np"/></i></e>
     <e><i>Australia<s n="np"/></i></e>
     <e><i>Ávvir<s n="np"/></i></e>
+    <e><i>Bach<s n="np"/></i></e>
+    <e><i>Bank<s n="np"/></i></e>
     <e><i>Bari<s n="np"/></i></e>
+    <e><i>Beatles<s n="np"/></i></e>
     <e><i>Bergbom<s n="np"/></i></e>
+    <e><i>Biden<s n="np"/></i></e>
+    <e><i>Big<s n="np"/></i></e>
+    <e><i>Billboard<s n="np"/></i></e>
+    <e><i>Bill<s n="np"/></i></e>
     <e><i>Boine<s n="np"/></i></e>
     <e><i>Bologna<s n="np"/></i></e>
     <e><i>Braunwald<s n="np"/></i></e>
     <e><i>Brecciaroli<s n="np"/></i></e>
+    <e><i>Brown<s n="np"/></i></e>
+    <e><i>Building<s n="np"/></i></e>
     <e><i>Börje<s n="np"/></i></e>
     <e><i>Čaarmâjävri<s n="np"/></i></e>
     <e><i>Cagliari<s n="np"/></i></e>
@@ -22293,15 +22470,32 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Chile<s n="np"/></i></e>
     <e><i>Civitavecchia<s n="np"/></i></e>
     <e><i>Codex<s n="np"/></i></e>
+    <e><i>Committee<s n="np"/></i></e>
+    <e><i>Computer<s n="np"/></i></e>
+    <e><i>Control<s n="np"/></i></e>
+    <e><i>Court<s n="np"/></i></e>
+    <e><i>C<s n="np"/></i></e>
+    <e><i>Danske<s n="np"/></i></e>
     <e><i>Dan<s n="np"/></i></e>
+    <e><i>da<s n="np"/></i></e>
+    <e><i>Data<s n="np"/></i></e>
+    <e><i>Democratization<s n="np"/></i></e>
     <e><i>Denise<s n="np"/></i></e>
     <e><i>de<s n="np"/></i></e>
+    <e><i>Digital<s n="np"/></i></e>
+    <e><i>Dimitrios<s n="np"/></i></e>
     <e><i>Divvun<s n="np"/></i></e>
+    <e><i>Donald<s n="np"/></i></e>
     <e><i>don<s n="np"/></i></e>
+    <e><i>Do<s n="np"/></i></e>
+    <e><i>Doug<s n="np"/></i></e>
+    <e><i>Duke<s n="np"/></i></e>
+    <e><i>Economic<s n="np"/></i></e>
     <e><i>Edgar<s n="np"/></i></e>
     <e><i>Edvin<s n="np"/></i></e>
     <e><i>Edwin<s n="np"/></i></e>
     <e><i>Eemel<s n="np"/></i></e>
+    <e><i>Eetu<s n="np"/></i></e>
     <e><i>Eeva<s n="np"/></i></e>
     <e><i>Eile<s n="np"/></i></e>
     <e><i>Eino<s n="np"/></i></e>
@@ -22310,16 +22504,21 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Ella<s n="np"/></i></e>
     <e><i>Ellen<s n="np"/></i></e>
     <e><i>Elle<s n="np"/></i></e>
+    <e><i>Ellington<s n="np"/></i></e>
     <e><i>Elli<s n="np"/></i></e>
     <e><i>Elma<s n="np"/></i></e>
+    <e><i>Elon<s n="np"/></i></e>
     <e><i>Emilie<s n="np"/></i></e>
+    <e><i>Emmanuel<s n="np"/></i></e>
     <e><i>Entertainment<s n="np"/></i></e>
     <e><i>Erkki<s n="np"/></i></e>
+    <e><i>Ernst<s n="np"/></i></e>
     <e><i>Ervast<s n="np"/></i></e>
     <e><i>Esa<s n="np"/></i></e>
     <e><i>Espanja<s n="np"/></i></e>
     <e><i>Etna<s n="np"/></i></e>
     <e><i>Et<s n="np"/></i></e>
+    <e><i>European<s n="np"/></i></e>
     <e><i>EU<s n="np"/></i></e>
     <e><i>Evans<s n="np"/></i></e>
     <e><i>Fabrizio<s n="np"/></i></e>
@@ -22330,11 +22529,15 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Firenze<s n="np"/></i></e>
     <e><i>Foreca<s n="np"/></i></e>
     <e><i>Frans<s n="np"/></i></e>
+    <e><i>Furman<s n="np"/></i></e>
+    <e><i>Fu<s n="np"/></i></e>
     <e><i>FUT<s n="np"/></i></e>
     <e><i>Gahr<s n="np"/></i></e>
     <e><i>Games<s n="np"/></i></e>
     <e><i>Garth<s n="np"/></i></e>
+    <e><i>Gates<s n="np"/></i></e>
     <e><i>Gauriloff<s n="np"/></i></e>
+    <e><i>Gautam<s n="np"/></i></e>
     <e><i>Gaza<s n="np"/></i></e>
     <e><i>Georgia<s n="np"/></i></e>
     <e><i>Georgia<s n="np"/></i></e>
@@ -22342,21 +22545,28 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Giellatekno<s n="np"/></i></e>
     <e><i>Giovanni<s n="np"/></i></e>
     <e><i>Glarus<s n="np"/></i></e>
+    <e><i>Global<s n="np"/></i></e>
+    <e><i>Google<s n="np"/></i></e>
     <e><i>GT<s n="np"/></i></e>
     <e><i>Guatemala<s n="np"/></i></e>
     <e><i>Gunnvor<s n="np"/></i></e>
+    <e><i>Gustavsson<s n="np"/></i></e>
     <e><i>Gutenberg<s n="np"/></i></e>
     <e><i>Guttorm<s n="np"/></i></e>
     <e><i>Haapaniemi<s n="np"/></i></e>
     <e><i>Hanna<s n="np"/></i></e>
     <e><i>Hannu<s n="np"/></i></e>
     <e><i>Hans<s n="np"/></i></e>
+    <e><i>Harry<s n="np"/></i></e>
     <e><i>Hasle<s n="np"/></i></e>
+    <e><i>Hawking<s n="np"/></i></e>
     <e><i>Hedeby<s n="np"/></i></e>
     <e><i>Hee<s n="np"/></i></e>
     <e><i>Heikkâ<s n="np"/></i></e>
     <e><i>Heikkilä<s n="np"/></i></e>
+    <e><i>Heikkinen<s n="np"/></i></e>
     <e><i>Heikki<s n="np"/></i></e>
+    <e><i>Helaakoski<s n="np"/></i></e>
     <e><i>Helena<s n="np"/></i></e>
     <e><i>Heli<s n="np"/></i></e>
     <e><i>Helle<s n="np"/></i></e>
@@ -22368,22 +22578,38 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>He<s n="np"/></i></e>
     <e><i>Hilja<s n="np"/></i></e>
     <e><i>Hirvasvuopio<s n="np"/></i></e>
+    <e><i>Holber<s n="np"/></i></e>
     <e><i>Holmberg<s n="np"/></i></e>
     <e><i>Hugh<s n="np"/></i></e>
+    <e><i>Human<s n="np"/></i></e>
+    <e><i>Huovinen<s n="np"/></i></e>
     <e><i>Hyvinkää<s n="np"/></i></e>
     <e><i>Häme<s n="np"/></i></e>
     <e><i>Högman<s n="np"/></i></e>
+    <e><i>IBM<s n="np"/></i></e>
     <e><i>Ida<s n="np"/></i></e>
+    <e><i>IEC<s n="np"/></i></e>
     <e><i>Iggá<s n="np"/></i></e>
     <e><i>Iidá<s n="np"/></i></e>
     <e><i>Iisakki<s n="np"/></i></e>
     <e><i>Iisak<s n="np"/></i></e>
     <e><i>Ijâttem<s n="np"/></i></e>
+    <e><i>Ikkala<s n="np"/></i></e>
     <e><i>Ilmari<s n="np"/></i></e>
+    <e><i>Iltalehti<s n="np"/></i></e>
+    <e><i>Ilta-Sanomat<s n="np"/></i></e>
     <e><i>ILWB<s n="np"/></i></e>
+    <e><i>Image<s n="np"/></i></e>
     <e><i>Inga<s n="np"/></i></e>
     <e><i>Inger<s n="np"/></i></e>
+    <e><i>IN<s n="np"/></i></e>
+    <e><i>Intelligence<s n="np"/></i></e>
+    <e><i>International<s n="np"/></i></e>
+    <e><i>Internet<s n="np"/></i></e>
+    <e><i>Irving<s n="np"/></i></e>
+    <e><i>ISO<s n="np"/></i></e>
     <e><i>Issá<s n="np"/></i></e>
+    <e><i>Isä<s n="np"/></i></e>
     <e><i>Italia<s n="np"/></i></e>
     <e><i>Itkonen<s n="np"/></i></e>
     <e><i>Jaakko<s n="np"/></i></e>
@@ -22391,24 +22617,32 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Jacob<s n="np"/></i></e>
     <e><i>Jalvi<s n="np"/></i></e>
     <e><i>Jane<s n="np"/></i></e>
+    <e><i>Janne<s n="np"/></i></e>
     <e><i>Jan<s n="np"/></i></e>
     <e><i>Jansson<s n="np"/></i></e>
     <e><i>Jari<s n="np"/></i></e>
     <e><i>JÁ<s n="np"/></i></e>
+    <e><i>Jason<s n="np"/></i></e>
+    <e><i>Java<s n="np"/></i></e>
     <e><i>Jesi<s n="np"/></i></e>
     <e><i>Joensuu<s n="np"/></i></e>
+    <e><i>Joe<s n="np"/></i></e>
     <e><i>Johanna<s n="np"/></i></e>
+    <e><i>Johann<s n="np"/></i></e>
     <e><i>Johan<s n="np"/></i></e>
     <e><i>John<s n="np"/></i></e>
     <e><i>Jok<s n="np"/></i></e>
     <e><i>Jomppanen<s n="np"/></i></e>
     <e><i>Jonas<s n="np"/></i></e>
+    <e><i>Joonas<s n="np"/></i></e>
     <e><i>Joovsep<s n="np"/></i></e>
     <e><i>Jorma<s n="np"/></i></e>
+    <e><i>Joseph<s n="np"/></i></e>
     <e><i>Jo<s n="np"/></i></e>
     <e><i>Jouni<s n="np"/></i></e>
     <e><i>Jovnâ<s n="np"/></i></e>
     <e><i>Jovnna<s n="np"/></i></e>
+    <e><i>JR<s n="np"/></i></e>
     <e><i>Juhánâs<s n="np"/></i></e>
     <e><i>Juha<s n="np"/></i></e>
     <e><i>Jukka<s n="np"/></i></e>
@@ -22427,6 +22661,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Kaarle<s n="np"/></i></e>
     <e><i>Kaarlo<s n="np"/></i></e>
     <e><i>Kaarret<s n="np"/></i></e>
+    <e><i>Kai<s n="np"/></i></e>
     <e><i>Kakkonen<s n="np"/></i></e>
     <e><i>Kalle<s n="np"/></i></e>
     <e><i>Kallio<s n="np"/></i></e>
@@ -22435,6 +22670,8 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Kani<s n="np"/></i></e>
     <e><i>Kankaanpää<s n="np"/></i></e>
     <e><i>Kan<s n="np"/></i></e>
+    <e><i>Kapea<s n="np"/></i></e>
+    <e><i>Kaplan<s n="np"/></i></e>
     <e><i>Karhula<s n="np"/></i></e>
     <e><i>Karl<s n="np"/></i></e>
     <e><i>Katri<s n="np"/></i></e>
@@ -22445,19 +22682,23 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Kela<s n="np"/></i></e>
     <e><i>Kemi<s n="np"/></i></e>
     <e><i>Kerttu<s n="np"/></i></e>
+    <e><i>Kid<s n="np"/></i></e>
     <e><i>Kielâkäldee<s n="np"/></i></e>
     <e><i>Kierâš-lostâ<s n="np"/></i></e>
     <e><i>Kihlman<s n="np"/></i></e>
+    <e><i>Kiina<s n="np"/></i></e>
     <e><i>Kimmo<s n="np"/></i></e>
     <e><i>King<s n="np"/></i></e>
     <e><i>Kirsti<s n="np"/></i></e>
     <e><i>Kivijärvi<s n="np"/></i></e>
     <e><i>Klemetti<s n="np"/></i></e>
+    <e><i>Kođoluohtâ<s n="np"/></i></e>
     <e><i>Koivisto<s n="np"/></i></e>
     <e><i>Kokkola<s n="np"/></i></e>
     <e><i>Koko<s n="np"/></i></e>
     <e><i>Kola<s n="np"/></i></e>
     <e><i>Kolehmainen<s n="np"/></i></e>
+    <e><i>Korea<s n="np"/></i></e>
     <e><i>Korpi<s n="np"/></i></e>
     <e><i>Korp<s n="np"/></i></e>
     <e><i>Koskimies<s n="np"/></i></e>
@@ -22476,6 +22717,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Kuu<s n="np"/></i></e>
     <e><i>Kuuva<s n="np"/></i></e>
     <e><i>Kvaløysletta<s n="np"/></i></e>
+    <e><i>Kyrö<s n="np"/></i></e>
     <e><i>Ky<s n="np"/></i></e>
     <e><i>Lahti<s n="np"/></i></e>
     <e><i>Laitila<s n="np"/></i></e>
@@ -22486,29 +22728,41 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Latvala<s n="np"/></i></e>
     <e><i>Laurie<s n="np"/></i></e>
     <e><i>Lauri<s n="np"/></i></e>
+    <e><i>Leen<s n="np"/></i></e>
     <e><i>Lee<s n="np"/></i></e>
     <e><i>Lehtola<s n="np"/></i></e>
     <e><i>Leivo<s n="np"/></i></e>
     <e><i>Lemmee<s n="np"/></i></e>
     <e><i>Lesk-Ant<b/>Uulá<s n="np"/></i></e>
+    <e><i>Leskinen<s n="np"/></i></e>
     <e><i>Lewis<s n="np"/></i></e>
     <e><i>Lie<s n="np"/></i></e>
+    <e><i>Life<s n="np"/></i></e>
     <e><i>Liina<s n="np"/></i></e>
     <e><i>Liisa<s n="np"/></i></e>
+    <e><i>LII<s n="np"/></i></e>
     <e><i>Linda<s n="np"/></i></e>
+    <e><i>Lisa<s n="np"/></i></e>
+    <e><i>Lisp<s n="np"/></i></e>
+    <e><i>Liverpool<s n="np"/></i></e>
     <e><i>Live<s n="np"/></i></e>
     <e><i>Lontoo<s n="np"/></i></e>
+    <e><i>Lop<s n="np"/></i></e>
     <e><i>Louhelainen<s n="np"/></i></e>
     <e><i>Lukkari<s n="np"/></i></e>
     <e><i>Luulaja<s n="np"/></i></e>
+    <e><i>Lähdes<s n="np"/></i></e>
     <e><i>Länsman<s n="np"/></i></e>
     <e><i>Maarit<s n="np"/></i></e>
+    <e><i>Machine<s n="np"/></i></e>
     <e><i>Magdalena<s n="np"/></i></e>
     <e><i>Magga<s n="np"/></i></e>
     <e><i>Maija<s n="np"/></i></e>
+    <e><i>Maiju<s n="np"/></i></e>
     <e><i>Mai<s n="np"/></i></e>
     <e><i>Malmö<s n="np"/></i></e>
     <e><i>Malta<s n="np"/></i></e>
+    <e><i>Mandatum<s n="np"/></i></e>
     <e><i>Marche<s n="np"/></i></e>
     <e><i>Marianne<s n="np"/></i></e>
     <e><i>Maria<s n="np"/></i></e>
@@ -22516,21 +22770,27 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Marjaana<s n="np"/></i></e>
     <e><i>Marja<s n="np"/></i></e>
     <e><i>Márjá<s n="np"/></i></e>
+    <e><i>Markku<s n="np"/></i></e>
     <e><i>Mar<s n="np"/></i></e>
     <e><i>Marttila<s n="np"/></i></e>
+    <e><i>Marttinen<s n="np"/></i></e>
+    <e><i>Martti<s n="np"/></i></e>
     <e><i>Mary<s n="np"/></i></e>
     <e><i>Matias<s n="np"/></i></e>
     <e><i>Mato<s n="np"/></i></e>
     <e><i>Matti<s n="np"/></i></e>
     <e><i>Matt<s n="np"/></i></e>
     <e><i>Mattus<s n="np"/></i></e>
+    <e><i>Max<s n="np"/></i></e>
     <e><i>Meg<s n="np"/></i></e>
     <e><i>Melkki<s n="np"/></i></e>
     <e><i>Mercia<s n="np"/></i></e>
+    <e><i>Merilehto<s n="np"/></i></e>
     <e><i>Messina<s n="np"/></i></e>
     <e><i>Metsähallitus<s n="np"/></i></e>
     <e><i>Miami<s n="np"/></i></e>
     <e><i>Michael<s n="np"/></i></e>
+    <e><i>Microsoft<s n="np"/></i></e>
     <e><i>Miina<s n="np"/></i></e>
     <e><i>Mika<s n="np"/></i></e>
     <e><i>Mikkâl<s n="np"/></i></e>
@@ -22544,23 +22804,32 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Monte<s n="np"/></i></e>
     <e><i>Morottaja<s n="np"/></i></e>
     <e><i>Moshagen<s n="np"/></i></e>
+    <e><i>Most<s n="np"/></i></e>
+    <e><i>MTV<s n="np"/></i></e>
     <e><i>Mudusjävri<s n="np"/></i></e>
     <e><i>Mujo<s n="np"/></i></e>
     <e><i>MUOI<s n="np"/></i></e>
     <e><i>Murmansk<s n="np"/></i></e>
+    <e><i>Musk<s n="np"/></i></e>
     <e><i>Mu<s n="np"/></i></e>
     <e><i>Musta<s n="np"/></i></e>
     <e><i>Muumi<s n="np"/></i></e>
     <e><i>Mäntsälä<s n="np"/></i></e>
     <e><i>Nánná<s n="np"/></i></e>
+    <e><i>Narula<s n="np"/></i></e>
     <e><i>Neeta<s n="np"/></i></e>
+    <e><i>Neittaanmäki<s n="np"/></i></e>
+    <e><i>Netflix<s n="np"/></i></e>
     <e><i>New<b/>York<s n="np"/></i></e>
     <e><i>Niemi<s n="np"/></i></e>
     <e><i>Niillas<s n="np"/></i></e>
     <e><i>Niillas<s n="np"/></i></e>
     <e><i>Nii<s n="np"/></i></e>
+    <e><i>Nikolaos<s n="np"/></i></e>
     <e><i>Nils-Aslak<s n="np"/></i></e>
     <e><i>Nils<s n="np"/></i></e>
+    <e><i>Nivala<s n="np"/></i></e>
+    <e><i>Noah<s n="np"/></i></e>
     <e><i>Nobel<s n="np"/></i></e>
     <e><i>Nordic<s n="np"/></i></e>
     <e><i>Nuorttanaste<s n="np"/></i></e>
@@ -22569,6 +22838,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Nylund<s n="np"/></i></e>
     <e><i>Näkkäläjärvi<s n="np"/></i></e>
     <e><i>OA<s n="np"/></i></e>
+    <e><i>Oikarinen<s n="np"/></i></e>
     <e><i>Oiva<s n="np"/></i></e>
     <e><i>Okinawa<s n="np"/></i></e>
     <e><i>Ola<s n="np"/></i></e>
@@ -22579,17 +22849,22 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>On<s n="np"/></i></e>
     <e><i>ON<s n="np"/></i></e>
     <e><i>Orava<s n="np"/></i></e>
+    <e><i>Ortamo<s n="np"/></i></e>
     <e><i>Oscar<s n="np"/></i></e>
     <e><i>Oskar<s n="np"/></i></e>
+    <e><i>OSMA<s n="np"/></i></e>
     <e><i>Osmo<s n="np"/></i></e>
     <e><i>Ostra<s n="np"/></i></e>
     <e><i>Oulu<s n="np"/></i></e>
     <e><i>Outi<s n="np"/></i></e>
     <e><i>Ove<s n="np"/></i></e>
+    <e><i>Oxford<s n="np"/></i></e>
+    <e><i>Oy<s n="np"/></i></e>
     <e><i>Pááđáár<s n="np"/></i></e>
     <e><i>Paadar<s n="np"/></i></e>
     <e><i>Palermo<s n="np"/></i></e>
     <e><i>Paltto<s n="np"/></i></e>
+    <e><i>Panama<s n="np"/></i></e>
     <e><i>Panu<s n="np"/></i></e>
     <e><i>Pappila<s n="np"/></i></e>
     <e><i>Pariisi<s n="np"/></i></e>
@@ -22597,6 +22872,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Paulaharju<s n="np"/></i></e>
     <e><i>Pauli<s n="np"/></i></e>
     <e><i>Paul<s n="np"/></i></e>
+    <e><i>PayPal<s n="np"/></i></e>
     <e><i>Pedar<s n="np"/></i></e>
     <e><i>Pekkanen<s n="np"/></i></e>
     <e><i>Pekka<s n="np"/></i></e>
@@ -22604,10 +22880,14 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Pennanen<s n="np"/></i></e>
     <e><i>Peppi<s n="np"/></i></e>
     <e><i>Pescara<s n="np"/></i></e>
+    <e><i>Peteri<s n="np"/></i></e>
+    <e><i>Peter<s n="np"/></i></e>
     <e><i>Petra<s n="np"/></i></e>
     <e><i>Petter<s n="np"/></i></e>
     <e><i>Pia<s n="np"/></i></e>
     <e><i>Pieski<s n="np"/></i></e>
+    <e><i>Pietiläinen<s n="np"/></i></e>
+    <e><i>Pietro<s n="np"/></i></e>
     <e><i>Piia<s n="np"/></i></e>
     <e><i>Piirit<s n="np"/></i></e>
     <e><i>Pirkanmaa<s n="np"/></i></e>
@@ -22620,10 +22900,12 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Poggio<s n="np"/></i></e>
     <e><i>Polaris<s n="np"/></i></e>
     <e><i>Polly<s n="np"/></i></e>
+    <e><i>Popular<s n="np"/></i></e>
     <e><i>Porto<s n="np"/></i></e>
     <e><i>Puola<s n="np"/></i></e>
     <e><i>Putin<s n="np"/></i></e>
     <e><i>Puu<s n="np"/></i></e>
+    <e><i>Python<s n="np"/></i></e>
     <e><i>Quetzaltenango<s n="np"/></i></e>
     <e><i>Radio<s n="np"/></i></e>
     <e><i>Ranska<s n="np"/></i></e>
@@ -22633,7 +22915,11 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Rauna<s n="np"/></i></e>
     <e><i>Rauni<s n="np"/></i></e>
     <e><i>Recanati<s n="np"/></i></e>
+    <e><i>Research<s n="np"/></i></e>
+    <e><i>Reuters<s n="np"/></i></e>
     <e><i>Reykjavik<s n="np"/></i></e>
+    <e><i>Reynolds<s n="np"/></i></e>
+    <e><i>Rights<s n="np"/></i></e>
     <e><i>Riikonen<s n="np"/></i></e>
     <e><i>Riskilä<s n="np"/></i></e>
     <e><i>Risten<s n="np"/></i></e>
@@ -22643,6 +22929,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Romsa<s n="np"/></i></e>
     <e><i>Rooma<s n="np"/></i></e>
     <e><i>Rose<s n="np"/></i></e>
+    <e><i>Rothovius<s n="np"/></i></e>
     <e><i>Rueter<s n="np"/></i></e>
     <e><i>Ryti<s n="np"/></i></e>
     <e><i>Rämö<s n="np"/></i></e>
@@ -22654,21 +22941,29 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Saksa<s n="np"/></i></e>
     <e><i>Salo<s n="np"/></i></e>
     <e><i>Samanen<s n="np"/></i></e>
+    <e><i>Sam<s n="np"/></i></e>
     <e><i>Samuli<s n="np"/></i></e>
     <e><i>Sana<s n="np"/></i></e>
+    <e><i>Sandell<s n="np"/></i></e>
     <e><i>Sanila<s n="np"/></i></e>
+    <e><i>Sanoma<s n="np"/></i></e>
     <e><i>San<s n="np"/></i></e>
     <e><i>Sant'Angelo<s n="np"/></i></e>
     <e><i>Santa<s n="np"/></i></e>
     <e><i>Sápmelaš-lostâ<s n="np"/></i></e>
+    <e><i>SAP<s n="np"/></i></e>
     <e><i>Sarre<s n="np"/></i></e>
     <e><i>Satakunta<s n="np"/></i></e>
     <e><i>Satu<s n="np"/></i></e>
     <e><i>Savo<s n="np"/></i></e>
     <e><i>Schleswig-Holstein<s n="np"/></i></e>
+    <e><i>Science<s n="np"/></i></e>
+    <e><i>Sebastian<s n="np"/></i></e>
     <e><i>Sen<s n="np"/></i></e>
+    <e><i>Seppo<s n="np"/></i></e>
     <e><i>Seppälä<s n="np"/></i></e>
     <e><i>Serra<s n="np"/></i></e>
+    <e><i>Services<s n="np"/></i></e>
     <e><i>Seurujärvi<s n="np"/></i></e>
     <e><i>Seurujävri<s n="np"/></i></e>
     <e><i>Siberia<s n="np"/></i></e>
@@ -22678,37 +22973,71 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>SIJ<s n="np"/></i></e>
     <e><i>Sikor<s n="np"/></i></e>
     <e><i>Silla<s n="np"/></i></e>
+    <e><i>Silvennoinen<s n="np"/></i></e>
+    <e><i>Simo<s n="np"/></i></e>
+    <e><i>Singapore<s n="np"/></i></e>
+    <e><i>Siri<s n="np"/></i></e>
     <e><i>Sisilia<s n="np"/></i></e>
+    <e><i>Sisu<s n="np"/></i></e>
+    <e><i>Siukonen<s n="np"/></i></e>
     <e><i>Sjur<s n="np"/></i></e>
     <e><i>Skandinavia<s n="np"/></i></e>
+    <e><i>Smith<s n="np"/></i></e>
+    <e><i>Snapchatti<s n="np"/></i></e>
+    <e><i>Social<s n="np"/></i></e>
     <e><i>Sofia<s n="np"/></i></e>
+    <e><i>Soininvaara<s n="np"/></i></e>
+    <e><i>Sony<s n="np"/></i></e>
+    <e><i>Sony<s n="np"/></i></e>
     <e><i>Spielberg<s n="np"/></i></e>
+    <e><i>Spotify<s n="np"/></i></e>
     <e><i>SPR<s n="np"/></i></e>
     <e><i>Stenbäck<s n="np"/></i></e>
+    <e><i>Stephen<s n="np"/></i></e>
+    <e><i>Steve<s n="np"/></i></e>
     <e><i>Stuorrâ<s n="np"/></i></e>
     <e><i>Støre<s n="np"/></i></e>
     <e><i>Sulo<s n="np"/></i></e>
     <e><i>SUN<s n="np"/></i></e>
     <e><i>Suomalainen<s n="np"/></i></e>
+    <e><i>Suominen<s n="np"/></i></e>
+    <e><i>Super<s n="np"/></i></e>
+    <e><i>Suvi<s n="np"/></i></e>
     <e><i>Swan<s n="np"/></i></e>
     <e><i>Sylvi<s n="np"/></i></e>
+    <e><i>Sø<s n="np"/></i></e>
     <e><i>Taipale<s n="np"/></i></e>
+    <e><i>Talent<s n="np"/></i></e>
+    <e><i>Talouselämä<s n="np"/></i></e>
+    <e><i>Taloussanomat<s n="np"/></i></e>
+    <e><i>Talous-Sanomat<s n="np"/></i></e>
+    <e><i>Tanja<s n="np"/></i></e>
     <e><i>Tanska<s n="np"/></i></e>
     <e><i>Tapio<s n="np"/></i></e>
     <e><i>Tarina<s n="np"/></i></e>
     <e><i>Tarzan<s n="np"/></i></e>
+    <e><i>Ta<s n="np"/></i></e>
     <e><i>Tavu<s n="np"/></i></e>
+    <e><i>Technologies<s n="np"/></i></e>
+    <e><i>Teemu<s n="np"/></i></e>
+    <e><i>Term<s n="np"/></i></e>
     <e><i>Tero<s n="np"/></i></e>
+    <e><i>Terra<s n="np"/></i></e>
     <e><i>Tiina<s n="np"/></i></e>
     <e><i>Tiina<s n="np"/></i></e>
+    <e><i>Timo<s n="np"/></i></e>
     <e><i>Tiänu<s n="np"/></i></e>
+    <e><i>Toivonen<s n="np"/></i></e>
     <e><i>Tom<s n="np"/></i></e>
+    <e><i>Toronto<s n="np"/></i></e>
     <e><i>Torre<s n="np"/></i></e>
     <e><i>Tórshavn<s n="np"/></i></e>
     <e><i>Tromsdalen<s n="np"/></i></e>
     <e><i>Tromsø<s n="np"/></i></e>
     <e><i>Trond<s n="np"/></i></e>
     <e><i>Trosterud<s n="np"/></i></e>
+    <e><i>Trump<s n="np"/></i></e>
+    <e><i>Trust<s n="np"/></i></e>
     <e><i>Turi<s n="np"/></i></e>
     <e><i>Turku<s n="np"/></i></e>
     <e><i>Tuula<s n="np"/></i></e>
@@ -22717,20 +23046,26 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Tyttö<s n="np"/></i></e>
     <e><i>Uáđđivei<s n="np"/></i></e>
     <e><i>Uárree<s n="np"/></i></e>
+    <e><i>Uber<s n="np"/></i></e>
     <e><i>UiT<s n="np"/></i></e>
     <e><i>Ukraina<s n="np"/></i></e>
     <e><i>Ulla<s n="np"/></i></e>
     <e><i>UNESCO<s n="np"/></i></e>
     <e><i>Urbino<s n="np"/></i></e>
+    <e><i>Usko<s n="np"/></i></e>
     <e><i>Uula<s n="np"/></i></e>
     <e><i>Uulá<s n="np"/></i></e>
+    <e><i>Uutinen<s n="np"/></i></e>
     <e><i>Vahlqvist<s n="np"/></i></e>
     <e><i>Valdemar<s n="np"/></i></e>
     <e><i>Vale<s n="np"/></i></e>
     <e><i>Valkeapää<s n="np"/></i></e>
+    <e><i>Valkoinen<s n="np"/></i></e>
     <e><i>Valle<s n="np"/></i></e>
+    <e><i>Valley<s n="np"/></i></e>
     <e><i>Varjâvuonâ<s n="np"/></i></e>
     <e><i>Vars<s n="np"/></i></e>
+    <e><i>Vasileios<s n="np"/></i></e>
     <e><i>Veikko<s n="np"/></i></e>
     <e><i>Veli-Pekka<s n="np"/></i></e>
     <e><i>Veneet<s n="np"/></i></e>
@@ -22738,6 +23073,8 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Vesa<s n="np"/></i></e>
     <e><i>Vest<s n="np"/></i></e>
     <e><i>Vidon<s n="np"/></i></e>
+    <e><i>Vie<s n="np"/></i></e>
+    <e><i>Vihavainen<s n="np"/></i></e>
     <e><i>Vihto<s n="np"/></i></e>
     <e><i>Viitonen<s n="np"/></i></e>
     <e><i>Vilhelmi<s n="np"/></i></e>
@@ -22747,15 +23084,26 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><i>Virtanen<s n="np"/></i></e>
     <e><i>Virta<s n="np"/></i></e>
     <e><i>Viterbo<s n="np"/></i></e>
+    <e><i>Vladimir<s n="np"/></i></e>
     <e><i>von<s n="np"/></i></e>
     <e><i>Vuolab<s n="np"/></i></e>
     <e><i>Vuoli<s n="np"/></i></e>
     <e><i>Vuolli<s n="np"/></i></e>
+    <e><i>Vääri<s n="np"/></i></e>
+    <e><i>Watch<s n="np"/></i></e>
+    <e><i>Watson<s n="np"/></i></e>
     <e><i>Wiechetek<s n="np"/></i></e>
+    <e><i>William<s n="np"/></i></e>
     <e><i>Wimme<s n="np"/></i></e>
+    <e><i>Yale<s n="np"/></i></e>
     <e><i>Yle<s n="np"/></i></e>
     <e><i>Ylänne<s n="np"/></i></e>
+    <e><i>York<s n="np"/></i></e>
+    <e><i>Young<s n="np"/></i></e>
+    <e><i>youtube<s n="np"/></i></e>
+    <e><i>YouTube<s n="np"/></i></e>
     <e><i>Yrjö<s n="np"/></i></e>
+    <e><i>Yuval<s n="np"/></i></e>
     <e><i>Zagreb<s n="np"/></i></e>
     <e><i>Äijihjorŋâ<s n="np"/></i></e>
     <e><i>Äijihjävri<s n="np"/></i></e>
@@ -22785,6 +23133,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>PC<s n="np"/></l><r>PC<s n="np"/></r></p></e>
     <e><p><l>OC<s n="np"/></l><r>OC<s n="np"/></r></p></e>
     <e><p><l>PRV<s n="np"/></l><r>PRV<s n="np"/></r></p></e>
+    <e><p><l>STT<s n="np"/></l><r>STT<s n="np"/></r></p></e>
 
     <!-- parts of English etc. names -->
 
@@ -22808,17 +23157,22 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- translated name fragments -->
 
-    <e><p><l>Seelanti<s n="np"/></l><r>Seeland<s n="np"/></r></p></e>
+
+    <e c="talo"><p><l>Valkoinen<s n="np"/></l><r>Vielgâd<s n="np"/></r></p></e>
     <e><p><l>Etelä<s n="np"/></l><r>Maadâ<s n="np"/></r></p></e>
     <e><p><l>Keski<s n="np"/></l><r>Koskâ<s n="np"/></r></p></e>
     <e><p><l>Länsi<s n="np"/></l><r>Viestâr<s n="np"/></r></p></e>
+    <e><p><l>Neuvosto<s n="np"/></l><r>Sovjet<s n="np"/></r></p></e>
     <e><p><l>Pohjoinen<s n="np"/></l><r>Tave<s n="np"/></r></p></e>
     <e><p><l>Raja<s n="np"/></l><r>Räji<s n="np"/></r></p></e>
-    <e><p><l>Neuvosto<s n="np"/></l><r>Sovjet<s n="np"/></r></p></e>
+    <e><p><l>Seelanti<s n="np"/></l><r>Seeland<s n="np"/></r></p></e>
+    <e><p><l>Tartto<s n="np"/></l><r>Tarto<s n="np"/></r></p></e>
+    <e><p><l>Uts<s n="np"/></l><r>Ucc<s n="np"/></r></p></e>
 
     <!-- translated names
       including Inari Saami names that have Finnish counterparts -->
 
+    <e><p><l>Aalto-yliopisto<s n="np"/></l><r>Aalto-ollâopâttâh<s n="np"/></r></p></e>
     <e><p><l>Afrikka<s n="np"/></l><r>Afrika<s n="np"/></r></p></e>
     <e><p><l>Afrikka<s n="np"/></l><r>Afrik<s n="np"/></r></p></e>
     <e><p><l>Ahvenanmaa<s n="np"/></l><r>Åland<s n="np"/></r></p></e>
@@ -22829,10 +23183,12 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>Egypti<s n="np"/></l><r>Egypt<s n="np"/></r></p></e>
     <e><p><l>Englanti<s n="np"/></l><r>England<s n="np"/></r></p></e>
     <e><p><l>Enontekiö<s n="np"/></l><r>Iänudâh<s n="np"/></r></p></e>
+    <e><p><l>Etelä-Korea<s n="np"/></l><r>Maadâ-Korea<s n="np"/></r></p></e>
     <e><p><l>Eurooppa<s n="np"/></l><r>Euroop<s n="np"/></r></p></e>
     <e><p><l>Fredrik<s n="np"/></l><r>Reedrik<s n="np"/></r></p></e>
     <e><p><l>Färsaaret<s n="np"/></l><r>Färsuolluuh<s n="np"/></r></p></e>
     <e><p><l>Golf-virta<s n="np"/></l><r>Golfvirde<s n="np"/></r></p></e>
+    <e><p><l>Grönlanti<s n="np"/></l><r>Grönland<s n="np"/></r></p></e>
     <e><p><l>Hammastunturi<s n="np"/></l><r>Pänituodâr<s n="np"/></r></p></e>
     <e><p><l>Helsinki<s n="np"/></l><r>Helsig<s n="np"/></r></p></e>
     <e><p><l>Inarinjärvi<s n="np"/></l><r>Aanaarjävri<s n="np"/></r></p></e>
@@ -22857,6 +23213,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>Nappinenä<s n="np"/></l><r>Puállunjune<s n="np"/></r></p></e>
     <e><p><l>Nellim<s n="np"/></l><r>Njellim<s n="np"/></r></p></e>
     <e><p><l>Norja<s n="np"/></l><r>Taažâ<s n="np"/></r></p></e>
+    <e><p><l>Paksumaa<s n="np"/></l><r>Kosseennâm<s n="np"/></r></p></e>
     <e><p><l>Palestiina<s n="np"/></l><r>Palestinâ<s n="np"/></r></p></e>
     <e><p><l>Partakko<s n="np"/></l><r>Päärtih<s n="np"/></r></p></e>
     <e><p><l>Petsamo<s n="np"/></l><r>Piäccám<s n="np"/></r></p></e>
@@ -22890,6 +23247,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <e><p><l>aikoa<s n="vaux"/></l><r>áiguđ<s n="vblex"/></r></p></e>
     <e><p><l>alkaa<s n="vaux"/></l><r>älgiđ<s n="vblex"/></r></p></e>
+    <e><p><l>ruveta<s n="vaux"/></l><r>älgiđ<s n="vblex"/></r></p></e>
     <e><p><l>ei<s n="vaux"/></l><r>ij<s n="vblex"/></r></p></e>
     <e><p><l>joutua<s n="vaux"/></l><r>juovdâđ<s n="vblex"/></r></p></e>
     <e><p><l>mahtaa<s n="vaux"/></l><r>kostâđ<s n="vblex"/></r></p></e>
@@ -22912,10 +23270,17 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
     <!-- normal verbs -->
 
-    <e r="RL"><p><l c="saamesta">puhua<s n="vblex"/></l><r>sámástiđ<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>allekirjoittaa<s n="vblex"/></l><r>vuáláčäälliđ<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>listata<s n="vblex"/></l><r>listâstiđ<s n="vblex"/></r></p></e>
+    <e c="check"><p><l>operoida<s n="vblex"/></l><r>operistiđ<s n="vblex"/></r></p></e>
     <e c="checl"><p><l>tarttua<s n="vblex"/></l><r>čuoggâsiđ<s n="vblex"/></r></p></e>
+    <e c="FIXME"><p><l>datata<s n="vblex"/></l><r>datastiđ<s n="vblex"/></r></p></e>
+    <e c="FIXME"><p><l>koneistaa<s n="vblex"/></l><r>maašinistiđ<s n="vblex"/></r></p></e>
+    <e c="FIXME"><p><l>suomentaa<s n="vblex"/></l><r>suomâlistiđ<s n="vblex"/></r></p></e>
     <e c="FIXME"><p><l>tarttua<s n="vblex"/></l><r>čurvođ<s n="vblex"/></r></p></e>
     <e c="XXX"><p><l>antaa<s n="vblex"/></l><r>adelistiđ<s n="vblex"/></r></p></e>
+    <e r="RL" c="check"><p><l>pyryttää<s n="vblex"/></l><r>purgeđ<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l c="saamesta">puhua<s n="vblex"/></l><r>sámástiđ<s n="vblex"/></r></p></e>
 
 
     <e><p><l>aallota<s n="vblex"/></l><r>párustiđ<s n="vblex"/></r></p></e>
@@ -23062,7 +23427,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>arvella<s n="vblex"/></l><r>arvâlištiđ<s n="vblex"/></r></p></e>
     <e><p><l>arveluttaa<s n="vblex"/></l><r>iäpádâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>arvioida<s n="vblex"/></l><r>árvuštâllâđ<s n="vblex"/></r></p></e>
-    <e><p><l>arvioida<s n="vblex"/></l><r>miäruštâllâđ<s n="vblex"/></r></p></e>
+    <e w="2"><p><l>arvioida<s n="vblex"/></l><r>miäruštâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>arvostella<s n="vblex"/></l><r>árvustâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>arvostella<s n="vblex"/></l><r>árvuštâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>arvuutella<s n="vblex"/></l><r>iärvádâllâđ<s n="vblex"/></r></p></e>
@@ -23401,7 +23766,6 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>harppoa<s n="vblex"/></l><r>hárččuliđ<s n="vblex"/></r></p></e>
     <e><p><l>harppoa<s n="vblex"/></l><r>hárččuliđ<s n="vblex"/></r></p></e>
     <e><p><l>harppoa<s n="vblex"/></l><r>hárruđ<s n="vblex"/></r></p></e>
-    <e><p><l>harppoa<s n="vblex"/></l><r>väzziđ<s n="vblex"/></r></p></e>
     <e><p><l>harsia<s n="vblex"/></l><r>salbâstiđ<s n="vblex"/></r></p></e>
     <e><p><l>harsia<s n="vblex"/></l><r>sulgâđ<s n="vblex"/></r></p></e>
     <e><p><l>harsuuntua<s n="vblex"/></l><r>njárbuđ<s n="vblex"/></r></p></e>
@@ -24600,6 +24964,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>kiehuttaa<s n="vblex"/></l><r>tuoldâttiđ<s n="vblex"/></r></p></e>
     <e><p><l>kiekaista<s n="vblex"/></l><r>piškádiđ<s n="vblex"/></r></p></e>
     <e><p><l>kiekua<s n="vblex"/></l><r>piškođ<s n="vblex"/></r></p></e>
+    <e><p><l>kieliä<s n="vblex"/></l><r>šlobârdiđ<s n="vblex"/></r></p></e>
     <e><p><l>kieltäytyä<s n="vblex"/></l><r>kiäldádâttâđ<s n="vblex"/></r></p></e>
     <e><p><l>kieltäytyä<s n="vblex"/></l><r>pietâdiđ<s n="vblex"/></r></p></e>
     <e><p><l>kieltäytyä<s n="vblex"/></l><r>piettâliđ<s n="vblex"/></r></p></e>
@@ -25319,6 +25684,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>köyhdyttää<s n="vblex"/></l><r>kiävhudittiđ<s n="vblex"/></r></p></e>
     <e><p><l>köyhtyä<s n="vblex"/></l><r>kievhâttuđ<s n="vblex"/></r></p></e>
     <e><p><l>köyhtyä<s n="vblex"/></l><r>kievhuđ<s n="vblex"/></r></p></e>
+    <e><p><l>köyhtyä<s n="vblex"/></l><r>kiävhuđ<s n="vblex"/></r></p></e>
     <e><p><l>köyristellä<s n="vblex"/></l><r>kavrađ<s n="vblex"/></r></p></e>
     <e><p><l>köyristellä<s n="vblex"/></l><r>kovrijdiđ<s n="vblex"/></r></p></e>
     <e><p><l>köyristyä<s n="vblex"/></l><r>kavreluđ<s n="vblex"/></r></p></e>
@@ -26668,6 +27034,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>perua<s n="vblex"/></l><r>macâttiđ<s n="vblex"/></r></p></e>
     <e><p><l>perustaa<s n="vblex"/></l><r>vuáđudiđ<s n="vblex"/></r></p></e>
     <e><p><l>perustella<s n="vblex"/></l><r>agâstâllâđ<s n="vblex"/></r></p></e>
+    <e><p><l>perustella<s n="vblex"/></l><r>vuáđuštâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>perustella<s n="vblex"/></l><r>vuáđustiđ<s n="vblex"/></r></p></e>
     <e><p><l>perustella<s n="vblex"/></l><r>vuáđustiđ<s n="vblex"/></r></p></e>
     <e><p><l>perustua<s n="vblex"/></l><r>vuáđuduđ<s n="vblex"/></r></p></e>
@@ -26911,6 +27278,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>puhkaista<s n="vblex"/></l><r>raigiđ<s n="vblex"/></r></p></e>
     <e><p><l>puhkaista<s n="vblex"/></l><r>räigidiđ<s n="vblex"/></r></p></e>
     <e><p><l>puhkua<s n="vblex"/></l><r>roččoođ<s n="vblex"/></r></p></e>
+    <e><p><l>puhua<s n="vblex"/></l><r>sárnuđ<s n="vblex"/><s n="iv"/></r></p></e>
     <e><p><l>puhua<s n="vblex"/></l><r>sárnuđ<s n="vblex"/><s n="tv"/></r></p></e>
     <e><p><l>puhutella<s n="vblex"/></l><r>sahhiittâllâđ<s n="vblex"/></r></p></e>
     <e><p><l>puhutella<s n="vblex"/></l><r>sárnuttâllâđ<s n="vblex"/></r></p></e>
@@ -27908,6 +28276,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>suomustaa<s n="vblex"/></l><r>čuomâstiđ<s n="vblex"/></r></p></e>
     <e><p><l>suoristua<s n="vblex"/></l><r>njuolgâđ<s n="vblex"/></r></p></e>
     <e><p><l>suorittaa<s n="vblex"/></l><r>čođâldittiđ<s n="vblex"/></r></p></e>
+    <e><p><l>suoriutua<s n="vblex"/></l><r>čielgâđ<s n="vblex"/></r></p></e>
     <e><p><l>suosia<s n="vblex"/></l><r>pivnohistiđ<s n="vblex"/></r></p></e>
     <e><p><l>suositella<s n="vblex"/></l><r>avžuuttiđ<s n="vblex"/></r></p></e>
     <e><p><l>suosittaa<s n="vblex"/></l><r>avžuuttiđ<s n="vblex"/></r></p></e>
@@ -29353,6 +29722,7 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>hankkia<s n="vblex"/></l><r>muorriđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>hankkia<s n="vblex"/></l><r>nulhediđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>harjoittaa<s n="vblex"/></l><r>anneeđ<s n="vblex"/></r></p></e>
+    <e w="2"><p><l>harppoa<s n="vblex"/></l><r>väzziđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>haukkua<s n="vblex"/></l><r>cielâttiđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>haukkua<s n="vblex"/></l><r>hávkkuđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>haukkua<s n="vblex"/></l><r>hälhistiđ<s n="vblex"/></r></p></e>
@@ -30990,9 +31360,10 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e w="2"><p><l>ärhennellä<s n="vblex"/></l><r>harijdiđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>ärhennellä<s n="vblex"/></l><r>kyecistiđ<s n="vblex"/></r></p></e>
     <e w="2"><p><l>ärhennellä<s n="vblex"/></l><r>rohhoođ<s n="vblex"/></r></p></e>
+    <e w="3"><p><l>mahdollistaa<s n="vblex"/></l><r>toohâđ<g><b/>mahdulâžžân</g><s n="vblex"/></r></p></e>
 
 
-    <e r="RL"><p><l>puhua<s n="vblex"/></l><r>suomâstiđ<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l c="suomeksi">puhua<s n="vblex"/></l><r>suomâstiđ<s n="vblex"/></r></p></e>
 
 
 
@@ -31000,22 +31371,23 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
 
 
     <e><p><l>ah<s n="ij"/></l><r>kah<s n="ij"/></r></p></e>
-    <e><p><l>ai<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
     <e><p><l>ainii<s n="ij"/></l><r>amahmis<s n="ij"/></r></p></e>
+    <e><p><l>ai<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
     <e><p><l c="voi että">että<s n="ij"/></l><r>itám<s n="ij"/></r></p></e>
     <e><p><l>hei<s n="ij"/></l><r>hei<s n="ij"/></r></p></e>
     <e><p><l>hei<s n="ij"/></l><r>tiervâ<s n="ij"/></r></p></e>
     <e><p><l>hitsi<s n="ij"/></l><r>sittágin<s n="ij"/></r></p></e>
     <e><p><l>hm<s n="ij"/></l><r>hm<s n="ij"/></r></p></e>
     <e><p><l>hoi<s n="ij"/></l><r>ai<s n="ij"/></r></p></e>
+    <e><p><l>huh<s n="ij"/></l><r>huh<s n="ij"/></r></p></e>
     <e><p><l>hus<s n="ij"/></l><r>fuos<s n="ij"/></r></p></e>
     <e><p><l>hus<s n="ij"/></l><r>hos<s n="ij"/></r></p></e>
-    <e><p><l>huh<s n="ij"/></l><r>huh<s n="ij"/></r></p></e>
     <e><p><l>jaa<s n="ij"/></l><r>jáá<s n="ij"/></r></p></e>
     <e><p><l>jaha<s n="ij"/></l><r>jáhá<s n="ij"/></r></p></e>
     <e><p><l>joo<s n="ij"/></l><r>joo<s n="ij"/></r></p></e>
     <e><p><l>jukolauta<s n="ij"/></l><r>motjanan<s n="ij"/></r></p></e>
     <e><p><l>kas<s n="ij"/></l><r>kiäh<s n="ij"/></r></p></e>
+    <e><p><l>kenties<s n="ij"/></l><r>kiitiätá<s n="ij"/></r></p></e>
     <e><p><l>kiitos<s n="ij"/></l><r>takkâ<s n="ij"/></r></p></e>
     <e><p><l>kippis<s n="ij"/></l><r>skool<s n="ij"/></r></p></e>
     <e><p><l>kuulemma<s n="ij"/></l><r>kulloo<s n="ij"/></r></p></e>
@@ -31041,17 +31413,23 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><re>[0-9A-Fa-f]+</re><i><s n="num"/></i></e>
     <e><i>– </i><re>[0-9]+</re><i><s n="num"/></i></e>
     <e><i>-</i><re>[0-9]+</re><i><s n="num"/></i></e>
+    <e><i>–</i><re>[0-9]+</re><i><s n="num"/></i></e>
+    <e><i></i><re>[0-9]+–</re><i><s n="num"/></i></e>
     <e><re>[0-9/]+</re><i><s n="num"/></i></e>
     <e><re>[0-9][0-9  ]+</re><i><s n="num"/></i></e>
     <e><re>[0-9]+</re><p><l>.<s n="adj"/></l><r><s n="adj"/></r></p></e>
     <e><re>[0-9.–]+</re><p><l>.<s n="adj"/></l><r><s n="adj"/></r></p></e>
 
+    <e><re>[0-9]+</re><i><b/>%<s n="num"/></i></e>
     <e><re>[0-9]+</re><i>,</i><re>[0-9]+</re><i><s n="num"/></i></e>
     <e><re>[0-9]+</re><i>-</i><re>[0-9]+</re><i><s n="num"/></i></e>
     <e><re>[0-9]+</re><i>–</i><re>[0-9]+</re><i><s n="num"/></i></e>
     <e><re>[0-9]+</re><i>:</i><re>[0-9]+</re><i><s n="num"/></i></e>
+    <e><re>[0-9]+</re><i>.</i><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+</re><i>.</i><re>[0-9]+</re><p><l>.<s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+</re><i>.</i><re>[0-9]+</re><i>.</i><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+    <e><re>[0-9]+</re><i><b/>x<b/></i><re>[0-9]+</re><i><s n="num"/></i></e>
 
     <!-- romance -->
 
@@ -31089,11 +31467,13 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>+<s n="sym"/><s n="abbr"/><s n="sg"/><s n="nom"/></l><r>+<s n="punct"/></r></p></e>
     <e><p><l>%<s n="sym"/><s n="n"/><s n="sg"/><s n="nom"/></l><r>%<s n="punct"/></r></p></e>
     <e><p><l>_<s n="sym"/><s n="sg"/><s n="nom"/></l><r>_<s n="punct"/></r></p></e>
+    <e><p><l>&amp;<s n="sym"/></l><r>&amp;<s n="punct"/></r></p></e>
     <e><p><l>–<s n="punct"/></l><r>–<s n="punct"/></r></p></e>
     <e><p><l>°<s n="punct"/></l><r>°<s n="punct"/></r></p></e>
     <e><p><l>=<s n="punct"/></l><r>=<s n="punct"/></r></p></e>
     <e><p><l>&amp;<s n="punct"/></l><r>&amp;<s n="punct"/></r></p></e>
     <e><p><l>·<s n="punct"/></l><r>·<s n="punct"/></r></p></e>
+    <e><p><l>−<s n="punct"/></l><r>−<s n="punct"/></r></p></e>
     <e><p><l>‐<s n="punct"/></l><r>‐<s n="punct"/></r></p></e>
     <e><p><l>—<s n="punct"/></l><r>—<s n="punct"/></r></p></e>
     <e><p><l>●<s n="punct"/></l><r>●<s n="punct"/></r></p></e>
@@ -31106,14 +31486,20 @@ Work by Marja-Liisa Olthuis and Taarna Valtonen, and by Giellatekno at UiT,
     <e><p><l>•<s n="punct"/></l><r>•<s n="punct"/></r></p></e>
     <e><p><l>¶<s n="punct"/></l><r>¶<s n="sent"/></r></p></e>
     <e><p><l>¶<s n="punct"/></l><r>¶<s n="sym"/></r></p></e>
+    <e><p><l>|<s n="punct"/></l><r>|<s n="sym"/></r></p></e>
+
+    <e><p><l>:-)<s n="sym"/></l><r>:-)<s n="n"/></r></p></e>
 
     <e r="LR" c="apertium bug"><p><l>..<s n="punct"/></l><r>.<s n="sent"/></r></p></e>
     <e r="RL" c="apertium bug"><p><l>.<s n="punct"/></l><r>..<s n="sent"/></r></p></e>
+
+    <e r="LR"><p><l>:ssa<s n="x"/></l><r>st<s n="x"/></r></p></e>
 
     <e><i>https:</i><re>[\-_a-z0-9.:/]+</re><i><s n="url"/></i></e>
     <e><i>http:</i><re>[\-_a-z0-9.:/]+</re><i><s n="url"/></i></e>
     <e><i>www.</i><re>[\-_a-z0-9.::/]+</re><i><s n="url"/></i></e>
     <e><re>[\-_a-z0-9.::/]+</re><i>.fi<s n="url"/></i></e>
+    <e><re>[\-_a-z0-9.::/]+</re><i>.com<s n="url"/></i></e>
   </section>
 </dictionary>
 
