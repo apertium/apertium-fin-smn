@@ -68,7 +68,7 @@ NUMP: _;
 !!!!!!!!!!!!!!!
 
 tensemood > tensemood: pres pri , pret past, cond cni ;
-case > case: loc ine, acc gen ;
+case > case: loc ine, acc gen, com ade ;
 inf > inf: inf infa ; 
 pcp > pcp: prfprc pp, prsprc pprs ;
 number > number: du pl ;
@@ -122,18 +122,16 @@ PRN -> 10: %prn.pers.*.du.* { %1 _ molemmat@prn.pl.[1.case] } |
         2: maggaar@prn.itg.$number.$case { 1(proadj)[number=(if (1.case=com) "" else 1.number)] } |
         jieš@pcle [$case=nom,$number=sg] { %1(prn) } ;
 N -> n.*.cmp n.*.cmp %n { 1[number=sg,case=nom] 2[number=sg,case=nom] 
-               3[number=(if (3.case=com) "" 
-                         elif (3.case=ess) "sg"
+               3[number=(
+                         if (3.case=ess) "sg"
                          elif (3.case=par) "sg"
                          else 3.number)] } |
      n.*.cmp %n { 1[number=sg,case=nom] 2[number=(
-            if (2.case=com) ""
-            elif (2.case=ess) "sg"
+            if (2.case=ess) "sg"
             elif (2.case=par) "sg"
             else 2.number)] } |
      %n { %1[number=(
-            if (1.case=com) ""
-            elif (1.case=ess) "sg" 
+            if (1.case=ess) "sg" 
             elif (1.case=par) "sg" 
             else 1.number),
             case=(
@@ -144,7 +142,8 @@ N -> n.*.cmp n.*.cmp %n { 1[number=sg,case=nom] 2[number=sg,case=nom]
 A -> adj.*.attr { 1[case=nom,number=sg] } |
      adj { 1[number=(
         if (1.case=ess) "sg"
-        elif (1.case=com) ""
+        elif (1.case=par) "sg"
+        elif (1.case/tl=com) ""
         else 1.number)] } ;
 IJ -> ij { 1 } |
       pcle { 1 } ;
