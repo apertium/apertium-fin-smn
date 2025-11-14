@@ -36,6 +36,7 @@ vblex_massa: _.<actv>.<infma>.<sg>.<ine>;
 vblex_matta: _.<actv>.<infma>.<sg>.<abe>;
 vblex_agent: _.<agent>.comparison.number.case;
 vblex_nomact: _.<infminen>;
+vblex_pasv: _.<pasv>.tensemood.<impers>;
 negv: _.<neg>.<actv>.person.number;
 conneg: _.<actv>.tensemood.number.<conneg>;
 ij: _;
@@ -113,6 +114,7 @@ V -> leđe@vblex vblex.*.actio.ess { 1 _ 2(vblex_massa) } |
      vblex.*.qst { 1 +ko@qst } |
      vblex.*.foc_uv { 1 +ko@qst } |
      vblex.*.der_nomact { 1(vblex_nomact) } |
+     vblex.*.der_pass.* { 1(vblex_pasv) } |
      vblex { 1 } |
      vaux { 1 } ;
 PRN -> 10: %prn.pers.*.du.* { %1 _ molemmat@prn.pl.[1.case] } |
