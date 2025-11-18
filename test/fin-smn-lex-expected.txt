@@ -1,0 +1,116 @@
+[-D9i9HP3-yFo#0] ^ottaa<vblex><actv><pprs><pst><pl><nom>/väldiđ<vblex><actv><pprs><pst><pl><nom>/valduđ<vblex><actv><pprs><pst><pl><nom>/njeidiđ<vblex><actv><pprs><pst><pl><nom>/pahaduđ<vblex><actv><pprs><pst><pl><nom>/suonniđ<vblex><actv><pprs><pst><pl><nom>/täbidiđ<vblex><actv><pprs><pst><pl><nom>/nuáđásiđ<vblex><actv><pprs><pst><pl><nom>/njunáduđ<vblex><actv><pprs><pst><pl><nom>/muáráttuđ<vblex><actv><pprs><pst><pl><nom>/pahâdistiđ<vblex><actv><pprs><pst><pl><nom>/kesijâššâđ<vblex><actv><pprs><pst><pl><nom>/kävilâššâđ<vblex><actv><pprs><pst><pl><nom>/ciärkkádiđ<vblex><actv><pprs><pst><pl><nom>$
+[/-D9i9HP3-yFo]
+[-DG4QL3iezNw#0] ^koira<n><sg><nom>/peenuv<n><sg><nom>/pennâgâš<n><sg><nom>$
+[/-DG4QL3iezNw]
+[0YXeqgzl9S2B#0] ^sininen<adj><pst><sg><nom>/čuovjâd<adj><pst><sg><nom>$
+[/0YXeqgzl9S2B]
+[2HzyaoE60z5M#0] ^nuo<prn><dem><pl><nom>/tot<prn><dem><pl><dem><pl><nom>$
+[/2HzyaoE60z5M]
+[4ORUjfiKNdWF#0] ^iso<adj><pst><sg><nom>/styeres<adj><pst><sg><nom>/ruávŋi<adj><pst><sg><nom>/saijaa<adj><pst><sg><nom>/julme<adj><pst><sg><nom>/stuorâh<adj><pst><sg><nom>/kerimâs<adj><pst><sg><nom>/stuárááh<adj><pst><sg><nom>/hirmâdsâš<adj><pst><sg><nom>$
+[/4ORUjfiKNdWF]
+[4VXXW1nU4E4Q#0] ^kolme<num><card><sg><nom>/kulmâ<num><sg><nom>$
+[/4VXXW1nU4E4Q]
+[4vQTVU7BKenh#0] ^talo<n><sg><nom>/táálu<n><sg><nom>/viäsu<n><sg><nom>$
+[/4vQTVU7BKenh]
+[5ZS5Cj1OoMhA#0] ^juoda<vblex><actv><pri><p2><sg>/juuhâđ<vblex><tv><actv><pri><p2><sg>/šloggâđ<vblex><actv><pri><p2><sg>/šloggođ<vblex><actv><pri><p2><sg>/šávduđ<vblex><actv><pri><p2><sg>/šliráhuttiđ<vblex><actv><pri><p2><sg>/škuráhittiđ<vblex><actv><pri><p2><sg>/skuárččuđ<vblex><actv><pri><p2><sg>$
+[/5ZS5Cj1OoMhA]
+[9N3RlcqwRDDU#0] ^tai<cnjcoo>/tâi<cnjcoo>/adai<cnjcoo>/teikâ<cnjcoo>/teikkâ<cnjcoo>$
+[/9N3RlcqwRDDU]
+[Ap_uv739h-Gi#0] ^toinen<adj><ord><pst><sg><nom>/nubbe<adj><ord><pst><sg><nom>$
+[/Ap_uv739h-Gi]
+[BFj1L8j5q791#0] ^punainen<adj><pst><sg><nom>/ruopsâd<adj><pst><sg><nom>$
+[/BFj1L8j5q791]
+[BzmAqtg7k8r9#0] ^*α/*α$-^*dimetyylibentsyyli/*dimetyylibentsyyli$-^*isosyanaateistasipa/*isosyanaateistasipa$
+[/BzmAqtg7k8r9]
+[CksbBDI5yeRI#0] ^kaksi<num><card><sg><nom>/kyehti<num><sg><nom>$
+[/CksbBDI5yeRI]
+[FpntkU0d0o-l#0] ^neljä<num><card><sg><nom>/nelji<num><sg><nom>$
+[/FpntkU0d0o-l]
+[GEy5FwlNFo54#0] ^kolmas<adj><ord><pst><sg><nom>/koolmâs<adj><ord><pst><sg><nom>/kuálmád<adj><ord><pst><sg><nom>$
+[/GEy5FwlNFo54]
+[IWWLHGjpztG5#0] ^musta<adj><pst><sg><nom>/čappâd<adj><pst><sg><nom>$
+[/IWWLHGjpztG5]
+[IacM7h-tanMW#0] ^hyvä<adj><pst><sg><nom>/šiev<adj><pst><sg><nom>/pyeri<adj><pst><sg><nom>$
+[/IacM7h-tanMW]
+[J0TM0Qx1M71z#0] ^me<prn><pers><p1><pl><nom>/mun<prn><pers><p1><pl><nom>$
+[/J0TM0Qx1M71z]
+[KwtpdT8R4fCy#0] ^mikä<prn><itg><sp><ess>/mii<prn><itg><itg><sp><ess>/monmit<prn><itg><sp><ess>$
+[/KwtpdT8R4fCy]
+[LWyakN049oUl#0] ^te<prn><pers><p2><pl><nom>/tun<prn><pers><p2><pl><nom>$
+[/LWyakN049oUl]
+[M45eBIcyynGr#0] ^myydä<vblex><actv><pri><p2><sg>/vyebdiđ<vblex><actv><pri><p2><sg>/jođettiđ<vblex><actv><pri><p2><sg>$
+[/M45eBIcyynGr]
+[MaB_wa9V-51n#0] ^neljäs<adj><ord><pst><sg><nom>/niäljád<adj><ord><pst><sg><nom>$
+[/MaB_wa9V-51n]
+[NqnAMcgyd7tv#0] ^ei<vblex><neg><actv><p1><pl>/ij<vblex><neg><actv><p1><pl>$
+[/NqnAMcgyd7tv]
+[NwL8GGZjB5YF#0] ^ja<cnjcoo>/já<cnjcoo>/jeđe<cnjcoo>$
+[/NwL8GGZjB5YF]
+[Ny9-L9LQHOKh#0] ^he<prn><pers><p3><pl><nom>/sun<prn><pers><p3><pl><nom>$
+[/Ny9-L9LQHOKh]
+[OKZFxMSsbtRL#0] ^tuoda<vblex><actv><imp><p2><sg>/pyehtiđ<vblex><actv><imp><p2><sg>/pohteđ<vblex><actv><imp><p2><sg>$
+[/OKZFxMSsbtRL]
+[OLAlyZcAcnJn#0] ^poro<n><sg><nom>/puásui<n><sg><nom>/áldu<n><sg><nom>/pille<n><sg><nom>/säggi<n><sg><nom>/vyesi<n><sg><nom>/ronno<n><sg><nom>/näidi<n><sg><nom>/kodos<n><sg><nom>/kobbâ<n><sg><nom>/julle<n><sg><nom>/međkki<n><sg><nom>/ergi<n><sg><nom>/liivâh<n><sg><nom>/sarves<n><sg><nom>/skuibâ<n><sg><nom>/norkkâ<n><sg><nom>/naalâh<n><sg><nom>/njahče<n><sg><nom>/njirro<n><sg><nom>/kiisur<n><sg><nom>/kužžii<n><sg><nom>/uđamâg<n><sg><nom>/äämmil<n><sg><nom>/maakkan<n><sg><nom>/muuzzig<n><sg><nom>/luostâg<n><sg><nom>/stuorâh<n><sg><nom>/viälguh<n><sg><nom>/vaareeh<n><sg><nom>/vuonjâl<n><sg><nom>/vuájáán<n><sg><nom>/koistâs<n><sg><nom>/kääskih<n><sg><nom>/čiermih<n><sg><nom>/čiäskuh<n><sg><nom>/čuoivâg<n><sg><nom>/šiälguh<n><sg><nom>/spääilih<n><sg><nom>/stuárááh<n><sg><nom>/staainâh<n><sg><nom>/vyeveers<n><sg><nom>/läbžiloje<n><sg><nom>/ruánuáldu<n><sg><nom>/kädisergi<n><sg><nom>/kättiergi<n><sg><nom>/puásuittuđ<n><sg><nom>/septinjune<n><sg><nom>/nommâloppâ<n><sg><nom>/nalâčuárvi<n><sg><nom>/kielâuáivi<n><sg><nom>/kälbinjune<n><sg><nom>/čuárvittuđ<n><sg><nom>/piddojyelgi<n><sg><nom>/pokkečuárvi<n><sg><nom>/läbžipallee<n><sg><nom>/sieiŋânjune<n><sg><nom>/suohisuáivi<n><sg><nom>/sukkájyelgi<n><sg><nom>/stokkeuáivi<n><sg><nom>/kiärdučalme<n><sg><nom>/kevličuárvi<n><sg><nom>/pielâsčuárvi<n><sg><nom>/liekkičielgi<n><sg><nom>/skuirepuásui<n><sg><nom>/tuálikyerree<n><sg><nom>/njarbisuáivi<n><sg><nom>/kiällupuásui<n><sg><nom>/kiärdučuárvi<n><sg><nom>/muuzzigjievjâ<n><sg><nom>/njuolgâčuárvi<n><sg><nom>/muuzzigčuoivâg<n><sg><nom>/kieđâlohlááiđuh<n><sg><nom>$
+[/OLAlyZcAcnJn]
+[OdYz3JzwFfuZ#0] ^ei<vblex><neg><actv><p3><sg>/ij<vblex><neg><actv><p3><sg>$
+[/OdYz3JzwFfuZ]
+[Pmx6Jz83Nfjp#0] ^hyvin<adv>/uáli<adv>/čuuvtij<adv>/pyereest<adv>/šievnáál<adv>$
+[/Pmx6Jz83Nfjp]
+[RXvLSl2ZHoZa#0] ^pieni<adj><pst><sg><nom>/ucce<adj><pst><sg><nom>/siemin<adj><pst><sg><nom>/smaavâs<adj><pst><sg><nom>/cibináš<adj><pst><sg><nom>$
+[/RXvLSl2ZHoZa]
+[Rxrr-uyI6htZ#0] ^valkea<adj><pst><sg><nom>/českâd<adj><pst><sg><nom>$
+[/Rxrr-uyI6htZ]
+[aNqFvktearvY#0] ^huono<adj><pst><sg><nom>/hyeni<adj><pst><sg><nom>/nievri<adj><pst><sg><nom>/kiähnu<adj><pst><sg><nom>/heeitug<adj><pst><sg><nom>/niävráá<adj><pst><sg><nom>$
+[/aNqFvktearvY]
+[bQTmX4kI6WkR#0] ^mennä<vblex><actv><pri><p1><pl>/moonnâđ<vblex><actv><pri><p1><pl>/mattâđ<vblex><actv><pri><p1><pl>/nalgâđ<vblex><actv><pri><p1><pl>/monâliđ<vblex><actv><pri><p1><pl>/monâdiđ<vblex><actv><pri><p1><pl>/tabediđ<vblex><actv><pri><p1><pl>/hurgettiđ<vblex><actv><pri><p1><pl>$
+[/bQTmX4kI6WkR]
+[cBAsJ42IdDMi#0] ^tämä<prn><dem><sg><nom>/taat<prn><dem><sg><nom>/táát<prn><dem><sg><dem><sg><nom>/tämmit<prn><dem><sg><nom>/taađaat<prn><dem><sg><nom>$
+[/cBAsJ42IdDMi]
+[d6_zp72J-yVu#0] ^huonosti<adv>/hyeneeht<adv>/illá<adv>/nievriht<adv>$
+[/d6_zp72J-yVu]
+[da6WMUR4vflT#0] ^ostaa<vblex><actv><pri><p1><sg>/uástiđ<vblex><actv><pri><p1><sg>/ostâliđ<vblex><actv><pri><p1><sg>$
+[/da6WMUR4vflT]
+[gzXaZkceFPDa#0] ^lyhyt<adj><pst><sg><nom>/uáneeh<adj><pst><sg><nom>/uánihâš<adj><pst><sg><nom>/uániháá<adj><pst><sg><nom>$
+[/gzXaZkceFPDa]
+[h4uDgnsHK2qW#0] ^hän<prn><pers><p3><sg><nom>/sun<prn><pers><p3><sg><nom>$
+[/h4uDgnsHK2qW]
+[jx_ZlSTahznz#0] ^antaa<vblex><actv><pprs><pst><pl><nom>/adeliđ<vblex><actv><pprs><pst><pl><nom>/adelistiđ<vblex><actv><pprs><pst><pl><nom>/tipteđ<vblex><actv><pprs><pst><pl><nom>/lijgodiđ<vblex><actv><pprs><pst><pl><nom>/iänáduttiđ<vblex><actv><pprs><pst><pl><nom>$
+[/jx_ZlSTahznz]
+[l24cC00G04Bj#0] ^,<punct>/,<cm>$ ^.<punct>/.<sent>$ ^?<punct>/?<sent>$
+[/l24cC00G04Bj]
+[ly42hIyYjU_s#0] ^ensimmäinen<adj><ord><pst><sg><nom>/vuosmuš<adj><ord><pst><sg><nom>/vuossâmuš<adj><ord><pst><sg><nom>$
+[/ly42hIyYjU_s]
+[mOfMON1IpN6G#0] ^hitaasti<adv>/hittáht<adv>/hitásávt<adv>/njuásiht<adv>/šiettuht<adv>/melguui<adv>/miälgui<adv>$
+[/mOfMON1IpN6G]
+[mf1gampnMqXs#0] ^olut<n><sg><nom>/vuolâ<n><sg><nom>$
+[/mf1gampnMqXs]
+[nwVBspwJBuGi#0] ^mutta<cnjcoo>/mut<cnjcoo>/pic<cnjcoo>$
+[/nwVBspwJBuGi]
+[oVCnzqL--Nn7#0] ^pitkä<adj><pst><sg><nom>/kukke<adj><pst><sg><nom>/kuhij<adj><pst><sg><nom>/njuigo<adj><pst><sg><nom>/skurččuu<adj><pst><sg><nom>$
+[/oVCnzqL--Nn7]
+[omSuMu_k5Ofg#0] ^syödä<vblex><actv><imp><p2><sg>/puurrâđ<vblex><actv><imp><p2><sg>/purruđ<vblex><actv><imp><p2><sg>/hámbuđ<vblex><actv><imp><p2><sg>/kozzâđ<vblex><actv><imp><p2><sg>/skođmođ<vblex><actv><imp><p2><sg>/purâdiđ<vblex><actv><imp><p2><sg>/movssiđ<vblex><actv><imp><p2><sg>/kuáttuđ<vblex><actv><imp><p2><sg>/šávduliđ<vblex><actv><imp><p2><sg>/časkâdiđ<vblex><actv><imp><p2><sg>/niälgádiđ<vblex><actv><imp><p2><sg>/perbildiđ<vblex><actv><imp><p2><sg>/smiärgááttiđ<vblex><actv><imp><p2><sg>/snjirriittiđ<vblex><actv><imp><p2><sg>$
+[/omSuMu_k5Ofg]
+[pDh9khSVB4-3#0] ^se<prn><dem><sg><ess>/tot<prn><dem><sg><ess>/tiet<prn><dem><dem><sg><ess>/tietot<prn><dem><sg><ess>/ta<prn><dem><sg><ess>/peeicâ<prn><dem><sg><ess>/muidego<prn><dem><sg><ess>$
+[/pDh9khSVB4-3]
+[r2H2Udqdpx22#0] ^yksi<num><card><sg><nom>/ohtâ<num><sg><nom>$
+[/r2H2Udqdpx22]
+[rZpn_vqEfeh3#0] ^se<prn><dem><sg><nom>/tot<prn><dem><sg><nom>/tiet<prn><dem><dem><sg><nom>/tietot<prn><dem><sg><nom>/ta<prn><dem><sg><nom>/peeicâ<prn><dem><sg><nom>/muidego<prn><dem><sg><nom>$
+[/rZpn_vqEfeh3]
+[s90HIW9eml0G#0] ^nämä<prn><dem><pl><nom>/táát<prn><dem><pl><dem><pl><nom>$
+[/s90HIW9eml0G]
+[sTJJfVOnyAGH#0] ^olla<vblex><actv><pri><p1><sg>/leđe<vblex><actv><pri><p1><sg>/orroođ<vblex><actv><pri><p1><sg>/suitteđ<vblex><actv><pri><p1><sg>/orostistiđ<vblex><actv><pri><p1><sg>$
+[/sTJJfVOnyAGH]
+[tsMMhNmOIIZm#0] ^tulla<vblex><actv><pri><p2><pl>/šoddâđ<vblex><actv><pri><p2><pl>/puáttiđ<vblex><actv><pri><p2><pl>/kuiváđ<vblex><actv><pri><p2><pl>/almâsiđ<vblex><actv><pri><p2><pl>/šaammâđ<vblex><actv><pri><p2><pl>/talâttiđ<vblex><actv><pri><p2><pl>/puátiliđ<vblex><actv><pri><p2><pl>/pođâččiđ<vblex><actv><pri><p2><pl>/valgâniđ<vblex><actv><pri><p2><pl>/šävittiđ<vblex><actv><pri><p2><pl>/šämittiđ<vblex><actv><pri><p2><pl>/tiäláttiđ<vblex><actv><pri><p2><pl>/puáđistiđ<vblex><actv><pri><p2><pl>/šiämáttiđ<vblex><actv><pri><p2><pl>/škuáŋkkuđ<vblex><actv><pri><p2><pl>/kuikettiđ<vblex><actv><pri><p2><pl>/cáhádâttâđ<vblex><actv><pri><p2><pl>/puátlistiđ<vblex><actv><pri><p2><pl>/puátilistiđ<vblex><actv><pri><p2><pl>$
+[/tsMMhNmOIIZm]
+[uo2pyrmXMhAI#0] ^*µs/*µs$
+[/uo2pyrmXMhAI]
+[vMnGi4AnDZpk#0] ^*Østerdalen/*Østerdalen$
+[/vMnGi4AnDZpk]
+[w5_c1Pu1WDZQ#0] ^*æ/*æ$^-<punct>/-<guio>$^*ò/*ò$
+[/w5_c1Pu1WDZQ]
+[wFOkGqrAeEQA#0] ^nopeasti<adv>/rotoi<adv>/jotelávt<adv>/huáppust<adv>/parohávt<adv>/häppilávt<adv>/kirrâsávt<adv>$
+[/wFOkGqrAeEQA]
+[y1jkYAvwFCy-#0] ^ne<prn><dem><pl><nom>/tiet<prn><dem><dem><pl><nom>$
+[/y1jkYAvwFCy-]
+[y6aPsDOmbFJu#0] ^kissa<n><sg><nom>/kissá<n><sg><nom>/kaasi<n><sg><nom>$
+[/y6aPsDOmbFJu]

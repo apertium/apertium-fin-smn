@@ -1,2 +1,61 @@
 táálu
 , . \n ? # test punctuation
+# pronouns
+mun
+tun
+sun
+muoi
+tuoi
+suoi
+mij
+tij
+sij
+taat
+tot
+# top verbs
+mun lam
+tun juuvah
+sun porá
+mij moonnâp
+tij puátivetteđ
+mun uástám
+tun vuábdáh
+sij väldih
+sij adeleh
+ij
+ep
+# conjunctions
+já
+vâi
+mut
+# top nouns
+táálu
+kissá
+peenuv
+vuolâ
+puásui
+# top adjectives
+kukke
+uánihâš
+styeres
+väldee
+ruopsâd
+čuovjâd
+vielgâd
+čappâd
+pyeri
+hyenes
+# top numerals
+ohtâ
+kyehti
+kulmâ
+nelji
+vuosmuš
+nubbe
+kuálmád
+niäljád
+# top adverbs
+pyereest
+hyeneeht
+jotelávt
+hittáht

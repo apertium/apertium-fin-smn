@@ -1,0 +1,107 @@
+[0uju2gOfH9R1#0] ^kukke<adj><sg><nom><@X>$
+[/0uju2gOfH9R1]
+[19LCy38TzooU#0] ^hyeneeht<adv><@ADVL>$
+[/19LCy38TzooU]
+[1c_C5I8lf1wg#0] ^taat<prn><dem><sg><nom><@X>$
+[/1c_C5I8lf1wg]
+[3WUeOdno22r3#0] ^vuosmuš<adj><ord><sg><nom><@HNOUN>$
+[/3WUeOdno22r3]
+[5JnzMuA9hpXp#0] ^sun<prn><pers><p3><pl><nom><@SUBJ→>$ ^adeliđ<vblex><tv><indic><pres><p3><pl><@+FMAINV>$
+[/5JnzMuA9hpXp]
+[5rPytdmUdCH9#0] ^čuovjâd<adj><sg><gen><@X>$
+[/5rPytdmUdCH9]
+[7__IWRM7vO3c#0] ^hittáht<adv><@ADVL>$
+[/7__IWRM7vO3c]
+[8mjJ29C2JgAG#0] ^pyereest<adv><@ADVL>$
+[/8mjJ29C2JgAG]
+[BbPURgeKwnVq#0] ^kissá<n><sem_ani><sg><nom><@HNOUN>$
+[/BbPURgeKwnVq]
+[C0opvD7iAeIV#0] ^hyeni<adj><attr><@X>$
+[/C0opvD7iAeIV]
+[C7Nkx68dCHU7#0] ^väldiđ<vblex><tv><imp><p2><du><@+FMAINV>$
+[/C7Nkx68dCHU7]
+[DEfYEZ4gauKw#0] ^táálu<n><sem_build><sg><nom><@HNOUN>$
+[/DEfYEZ4gauKw]
+[DLC_1wAK4Aof#0] ^kulmâ<num><sg><nom><@HNOUN>$
+[/DLC_1wAK4Aof]
+[DY1Q7OFzZLKK#0] ^já<cnjcoo><@CVP>$
+[/DY1Q7OFzZLKK]
+[DibzcLViVvLH#0] ^ij<vblex><iv><neg><indic><p1><pl><@+FAUXV>$
+[/DibzcLViVvLH]
+[GGda4ns2tncJ#0] ^vâi<cnjsub><@CVP>$
+[/GGda4ns2tncJ]
+[GpH_hXdtAxBP#0] ^mun<prn><pers><p1><pl><nom><@SUBJ→>$ ^moonnâđ<vblex><iv><indic><pres><p1><pl><@+FMAINV>$
+[/GpH_hXdtAxBP]
+[HoSwjFm_JLIN#0] ^tot<prn><dem><sg><nom><@X>$
+[/HoSwjFm_JLIN]
+[J3VvBQ4Uocsc#0] ^sun<prn><pers><p3><sg><nom><@X>$
+[/J3VvBQ4Uocsc]
+[K8QqDBE0DUfE#0] ^mun<prn><pers><p1><du><nom><@X>$
+[/K8QqDBE0DUfE]
+[LNo25mZWaf34#0] ^mun<prn><pers><p1><sg><nom><@HNOUN>$
+[/LNo25mZWaf34]
+[M74DrGfi2MmO#0] ^nubbe<prn><ind><sg><nom><@X>$
+[/M74DrGfi2MmO]
+[O9-8LFEh2oRW#0] ^vuollâđ<vblex><tv><imp><p2><sg><@+FMAINV>$
+[/O9-8LFEh2oRW]
+[PO6Gbhc_-o5T#0] ^tun<prn><pers><p2><sg><nom><@X>$
+[/PO6Gbhc_-o5T]
+[SHE-n2686bI7#0] ^tun<prn><pers><p2><du><nom><@X>$
+[/SHE-n2686bI7]
+[STHW3AV0aulm#0] ^pyeri<n><sem_semcon><sg><nom><@HNOUN>$
+[/STHW3AV0aulm]
+[Sh5E7paXo9ao#0] ^mun<prn><pers><p1><sg><nom><@SUBJ→>$ ^leđe<vblex><iv><indic><pres><p1><sg><@+FMAINV>$
+[/Sh5E7paXo9ao]
+[U8vC-XiaKPKc#0] ^peenuv<n><sem_ani><sg><nom><@HNOUN>$
+[/U8vC-XiaKPKc]
+[UAEKKWirssYX#0] ^mun<prn><pers><p1><sg><nom><@SUBJ→>$ ^uástiđ<vblex><tv><indic><pres><p1><sg><@+FMAINV>$
+[/UAEKKWirssYX]
+[WFY8aN_ifu0c#0] ^tun<prn><pers><p2><sg><nom><@SUBJ→>$ ^juuhâđ<vblex><tv><indic><pres><p2><sg><@+FMAINV>$
+[/WFY8aN_ifu0c]
+[Y6RxXwlroO6S#0] ^kyehti<num><sg><nom><@HNOUN>$
+[/Y6RxXwlroO6S]
+[YxwcQAqmjCAL#0] ^mut<cnjcoo><@CVP>$
+[/YxwcQAqmjCAL]
+[_c7s_M_U4_6A#0] ^vielgâd<adj><sg><gen><@X>$
+[/_c7s_M_U4_6A]
+[bDO4Sk_DmsJG#0] ^,<cm>$ ^.<sent>$ 
+ ^?<sent>$
+[/bDO4Sk_DmsJG]
+[bPDCiz0G_TAY#0] ^puásui<n><sem_ani><sg><nom><@HNOUN>$
+[/bPDCiz0G_TAY]
+[cVvykH5vaG9u#0] ^tun<prn><pers><p2><pl><nom><@HNOUN>$
+[/cVvykH5vaG9u]
+[cZuoqq2HoqoC#0] ^ruopsâd<adj><sg><gen><@X>$
+[/cZuoqq2HoqoC]
+[ctT-yTBaDKLc#0] ^nelji<num><sg><nom><@HNOUN>$
+[/ctT-yTBaDKLc]
+[hFrq3lVPmpn3#0] ^sun<prn><pers><p3><du><nom><@X>$
+[/hFrq3lVPmpn3]
+[j2bC0AQDEdEG#0] ^ohtâ<num><sg><nom><@HNOUN>$
+[/j2bC0AQDEdEG]
+[jG0lszL4km4O#0] ^tun<prn><pers><p2><pl><nom><@SUBJ→>$ ^puáttiđ<vblex><iv><indic><pres><p2><pl><@+FMAINV>$
+[/jG0lszL4km4O]
+[mije2S69gXjZ#0] ^tun<prn><pers><p2><sg><nom><@SUBJ→>$ ^vyebdiđ<vblex><tv><indic><pres><p2><sg><@+FMAINV>$
+[/mije2S69gXjZ]
+[nK4cePk1I8Qb#0] ^niäljád<adj><ord><sg><nom><@HNOUN>$
+[/nK4cePk1I8Qb]
+[qOvvfOjFJPOT#0] ^kuálmád<adj><ord><sg><nom><@HNOUN>$
+[/qOvvfOjFJPOT]
+[tt-aWMmesInQ#0] ^styeres<adj><sg><nom><@X>$
+[/tt-aWMmesInQ]
+[txeKyEvZwqnz#0] ^mun<prn><pers><p1><pl><nom><@HNOUN>$
+[/txeKyEvZwqnz]
+[uVLeJLT1UImR#0] ^jotelávt<adv><@ADVL>$
+[/uVLeJLT1UImR]
+[xMw2ajhE51yL#0] ^sun<prn><pers><p3><pl><nom><@HNOUN>$
+[/xMw2ajhE51yL]
+[xR54YmeHXl1a#0] ^uánihâš<adj><sg><nom><@X>$
+[/xR54YmeHXl1a]
+[yNNEinztivzI#0] ^čappâd<adj><sg><gen><@X>$
+[/yNNEinztivzI]
+[yOBXsXC9sctX#0] ^sun<prn><pers><p3><sg><nom><@SUBJ→>$ ^puurrâđ<vblex><tv><indic><pres><p3><sg><@+FMAINV>$
+[/yOBXsXC9sctX]
+[yd-cPyljsZub#0] ^ij<vblex><iv><neg><indic><p3><sg><@+FAUXV>$
+[/yd-cPyljsZub]
+[zkCGtsI6Kpla#0] ^sun<prn><pers><p3><pl><nom><@SUBJ→>$ ^väldiđ<vblex><tv><indic><pres><p3><pl><@+FMAINV>$
+[/zkCGtsI6Kpla]

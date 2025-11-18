@@ -1,0 +1,107 @@
+[0uju2gOfH9R1#0] ^pitkä<adj><pst><sg><nom>$
+[/0uju2gOfH9R1]
+[19LCy38TzooU#0] ^huonosti<adv>$
+[/19LCy38TzooU]
+[1c_C5I8lf1wg#0] ^tämä<prn><dem><sg><nom>$
+[/1c_C5I8lf1wg]
+[3WUeOdno22r3#0] ^ensimmäinen<adj><pst><sg><nom>$
+[/3WUeOdno22r3]
+[5JnzMuA9hpXp#0] ^he<prn><pers><p3><pl><nom>$ ^antaa<vblex><actv><pri><p3><pl>$
+[/5JnzMuA9hpXp]
+[5rPytdmUdCH9#0] ^sininen<adj><pst><sg><gen>$
+[/5rPytdmUdCH9]
+[7__IWRM7vO3c#0] ^hitaasti<adv>$
+[/7__IWRM7vO3c]
+[8mjJ29C2JgAG#0] ^hyvin<adv>$
+[/8mjJ29C2JgAG]
+[BbPURgeKwnVq#0] ^kissa<n><sg><nom>$
+[/BbPURgeKwnVq]
+[C0opvD7iAeIV#0] ^huono<adj><pst><sg><nom>$
+[/C0opvD7iAeIV]
+[C7Nkx68dCHU7#0] ^ottaa<vblex><actv><imp><p2><pl>$
+[/C7Nkx68dCHU7]
+[DEfYEZ4gauKw#0] ^talo<n><sg><nom>$
+[/DEfYEZ4gauKw]
+[DLC_1wAK4Aof#0] ^kolme<num><card><sg><nom>$
+[/DLC_1wAK4Aof]
+[DY1Q7OFzZLKK#0] ^ja<cnjcoo>$
+[/DY1Q7OFzZLKK]
+[DibzcLViVvLH#0] ^ei<vaux><neg><actv><p1><pl>$
+[/DibzcLViVvLH]
+[GGda4ns2tncJ#0] ^jotta<cnjsub>$
+[/GGda4ns2tncJ]
+[GpH_hXdtAxBP#0] ^me<prn><pers><p1><pl><nom>$ ^mennä<vblex><actv><pri><p1><pl>$
+[/GpH_hXdtAxBP]
+[HoSwjFm_JLIN#0] ^tuo<prn><dem><sg><nom>$
+[/HoSwjFm_JLIN]
+[J3VvBQ4Uocsc#0] ^hän<prn><pers><p3><sg><nom>$
+[/J3VvBQ4Uocsc]
+[K8QqDBE0DUfE#0] ^me<prn><pers><p1><pl><nom>$ ^molemmat<prn><pl><nom>$
+[/K8QqDBE0DUfE]
+[LNo25mZWaf34#0] ^minä<prn><pers><p1><sg><nom>$
+[/LNo25mZWaf34]
+[M74DrGfi2MmO#0] ^toinen<prn><ind><sg><nom>$
+[/M74DrGfi2MmO]
+[O9-8LFEh2oRW#0] ^vuolla<vblex><actv><imp><p2><sg>$
+[/O9-8LFEh2oRW]
+[PO6Gbhc_-o5T#0] ^sinä<prn><pers><p2><sg><nom>$
+[/PO6Gbhc_-o5T]
+[SHE-n2686bI7#0] ^te<prn><pers><p2><pl><nom>$ ^molemmat<prn><pl><nom>$
+[/SHE-n2686bI7]
+[STHW3AV0aulm#0] ^hyvä<n><sg><nom>$
+[/STHW3AV0aulm]
+[Sh5E7paXo9ao#0] ^minä<prn><pers><p1><sg><nom>$ ^olla<vblex><actv><pri><p1><sg>$
+[/Sh5E7paXo9ao]
+[U8vC-XiaKPKc#0] ^koira<n><sg><nom>$
+[/U8vC-XiaKPKc]
+[UAEKKWirssYX#0] ^minä<prn><pers><p1><sg><nom>$ ^ostaa<vblex><actv><pri><p1><sg>$
+[/UAEKKWirssYX]
+[WFY8aN_ifu0c#0] ^sinä<prn><pers><p2><sg><nom>$ ^juoda<vblex><actv><pri><p2><sg>$
+[/WFY8aN_ifu0c]
+[Y6RxXwlroO6S#0] ^kaksi<num><card><sg><nom>$
+[/Y6RxXwlroO6S]
+[YxwcQAqmjCAL#0] ^vaan<cnjcoo>$
+[/YxwcQAqmjCAL]
+[_c7s_M_U4_6A#0] ^valkoinen<adj><pst><sg><gen>$
+[/_c7s_M_U4_6A]
+[bDO4Sk_DmsJG#0] ^,<punct>$ ^.<punct>$ 
+ ^?<punct>$
+[/bDO4Sk_DmsJG]
+[bPDCiz0G_TAY#0] ^poro<n><sg><nom>$
+[/bPDCiz0G_TAY]
+[cVvykH5vaG9u#0] ^te<prn><pers><p2><pl><nom>$
+[/cVvykH5vaG9u]
+[cZuoqq2HoqoC#0] ^punainen<adj><pst><sg><gen>$
+[/cZuoqq2HoqoC]
+[ctT-yTBaDKLc#0] ^neljä<num><card><sg><nom>$
+[/ctT-yTBaDKLc]
+[hFrq3lVPmpn3#0] ^he<prn><pers><p3><pl><nom>$ ^molemmat<prn><pl><nom>$
+[/hFrq3lVPmpn3]
+[j2bC0AQDEdEG#0] ^yksi<det><sg><nom>$
+[/j2bC0AQDEdEG]
+[jG0lszL4km4O#0] ^te<prn><pers><p2><pl><nom>$ ^saapua<vblex><actv><pri><p2><pl>$
+[/jG0lszL4km4O]
+[mije2S69gXjZ#0] ^sinä<prn><pers><p2><sg><nom>$ ^myydä<vblex><actv><pri><p2><sg>$
+[/mije2S69gXjZ]
+[nK4cePk1I8Qb#0] ^neljäs<adj><pst><sg><nom>$
+[/nK4cePk1I8Qb]
+[qOvvfOjFJPOT#0] ^kolmas<adj><pst><sg><nom>$
+[/qOvvfOjFJPOT]
+[tt-aWMmesInQ#0] ^suuri<adj><pst><sg><nom>$
+[/tt-aWMmesInQ]
+[txeKyEvZwqnz#0] ^me<prn><pers><p1><pl><nom>$
+[/txeKyEvZwqnz]
+[uVLeJLT1UImR#0] ^joutuin<adv>$
+[/uVLeJLT1UImR]
+[xMw2ajhE51yL#0] ^he<prn><pers><p3><pl><nom>$
+[/xMw2ajhE51yL]
+[xR54YmeHXl1a#0] ^lyhyt<adj><pst><sg><nom>$
+[/xR54YmeHXl1a]
+[yNNEinztivzI#0] ^musta<adj><pst><sg><gen>$
+[/yNNEinztivzI]
+[yOBXsXC9sctX#0] ^hän<prn><pers><p3><sg><nom>$ ^syödä<vblex><actv><pri><p3><sg>$
+[/yOBXsXC9sctX]
+[yd-cPyljsZub#0] ^ei<vaux><neg><actv><p3><sg>$
+[/yd-cPyljsZub]
+[zkCGtsI6Kpla#0] ^he<prn><pers><p3><pl><nom>$ ^ottaa<vblex><actv><pri><p3><pl>$
+[/zkCGtsI6Kpla]

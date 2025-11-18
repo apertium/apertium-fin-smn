@@ -1,0 +1,107 @@
+[0uju2gOfH9R1#0] ^kukke/kukke<adj><sg><nom>$
+[/0uju2gOfH9R1]
+[19LCy38TzooU#0] ^hyeneeht/hyeneeht<adv>$
+[/19LCy38TzooU]
+[1c_C5I8lf1wg#0] ^taat/taat<prn><dem><sg><nom>$
+[/1c_C5I8lf1wg]
+[3WUeOdno22r3#0] ^vuosmuš/vuosmuš<adj><ord><attr>/vuosmuš<adj><ord><sg><nom>$
+[/3WUeOdno22r3]
+[5JnzMuA9hpXp#0] ^sij/sun<prn><pers><p3><pl><nom>$ ^adeleh/adeliđ<vblex><tv><indic><pres><p3><pl>$
+[/5JnzMuA9hpXp]
+[5rPytdmUdCH9#0] ^čuovjâd/čuovjâd<adj><sg><acc>/čuovjâd<adj><sg><gen>/čuovjâd<adj><sg><nom>$
+[/5rPytdmUdCH9]
+[7__IWRM7vO3c#0] ^hittáht/hittáht<adv>$
+[/7__IWRM7vO3c]
+[8mjJ29C2JgAG#0] ^pyereest/pyereest<adv>/pyeri<adj><sg><loc>/pyeri<n><sem_semcon><sg><loc>$
+[/8mjJ29C2JgAG]
+[BbPURgeKwnVq#0] ^kissá/kissá<n><sem_ani><sg><nom>$
+[/BbPURgeKwnVq]
+[C0opvD7iAeIV#0] ^hyenes/hyeni<adj><attr>$
+[/C0opvD7iAeIV]
+[C7Nkx68dCHU7#0] ^väldee/väldiđ<vblex><tv><imp><p2><du>/väldiđ<vblex><tv><prsprc>$
+[/C7Nkx68dCHU7]
+[DEfYEZ4gauKw#0] ^táálu/táálu<n><sem_build><sg><acc>/táálu<n><sem_build><sg><gen>/táálu<n><sem_build><sg><nom>$
+[/DEfYEZ4gauKw]
+[DLC_1wAK4Aof#0] ^kulmâ/kulmâ<num><sg><acc>/kulmâ<num><sg><nom>$
+[/DLC_1wAK4Aof]
+[DY1Q7OFzZLKK#0] ^já/já<cnjcoo>$
+[/DY1Q7OFzZLKK]
+[DibzcLViVvLH#0] ^ep/ij<vblex><iv><neg><indic><p1><pl>$
+[/DibzcLViVvLH]
+[GGda4ns2tncJ#0] ^vâi/vâi<cnjcoo>/vâi<cnjsub>$
+[/GGda4ns2tncJ]
+[GpH_hXdtAxBP#0] ^mij/mun<prn><pers><p1><pl><nom>$ ^moonnâp/moonnâđ<vblex><iv><indic><pres><p1><pl>$
+[/GpH_hXdtAxBP]
+[HoSwjFm_JLIN#0] ^tot/tot<prn><dem><sg><nom>$
+[/HoSwjFm_JLIN]
+[J3VvBQ4Uocsc#0] ^sun/sun<prn><pers><p3><sg><nom>$
+[/J3VvBQ4Uocsc]
+[K8QqDBE0DUfE#0] ^muoi/mun<prn><pers><p1><du><nom>$
+[/K8QqDBE0DUfE]
+[LNo25mZWaf34#0] ^mun/mun<prn><pers><p1><sg><nom>$
+[/LNo25mZWaf34]
+[M74DrGfi2MmO#0] ^nubbe/nubbe<adj><ord><sg><nom>/nubbe<prn><ind><attr>/nubbe<prn><ind><sg><nom>/nubbe<prn><res><attr>/nubbe<prn><res><sg><nom>$
+[/M74DrGfi2MmO]
+[O9-8LFEh2oRW#0] ^vuolâ/vuollâđ<vblex><tv><imp><conneg>/vuollâđ<vblex><tv><imp><p2><sg>/vuollâđ<vblex><tv><indic><pres><conneg>/vuolâ<n><sem_drink><sg><acc>/vuolâ<n><sem_drink><sg><gen>/vuolâ<n><sem_drink><sg><nom>$
+[/O9-8LFEh2oRW]
+[PO6Gbhc_-o5T#0] ^tun/tun<prn><pers><p2><sg><nom>$
+[/PO6Gbhc_-o5T]
+[SHE-n2686bI7#0] ^tuoi/tun<prn><pers><p2><du><nom>/tuot<prn><dem><pl><com><attr>/tuot<prn><dem><pl><gen>$
+[/SHE-n2686bI7]
+[STHW3AV0aulm#0] ^pyeri/pyeri<adj><attr>/pyeri<adj><sg><nom>/pyeri<n><sem_semcon><sg><nom>$
+[/STHW3AV0aulm]
+[Sh5E7paXo9ao#0] ^mun/mun<prn><pers><p1><sg><nom>$ ^lam/leđe<vblex><iv><indic><pres><p1><sg>/leđe<vblex><iv><indic><pret><conneg>/leđe<vblex><iv><prfprc>$
+[/Sh5E7paXo9ao]
+[U8vC-XiaKPKc#0] ^peenuv/peenuv<n><sem_ani><sg><nom>$
+[/U8vC-XiaKPKc]
+[UAEKKWirssYX#0] ^mun/mun<prn><pers><p1><sg><nom>$ ^uástám/uástiđ<vblex><tv><indic><pres><p1><sg>/uástiđ<vblex><tv><indic><pret><conneg>/uástiđ<vblex><tv><prfprc>$
+[/UAEKKWirssYX]
+[WFY8aN_ifu0c#0] ^tun/tun<prn><pers><p2><sg><nom>$ ^juuvah/juuhâđ<vblex><tv><indic><pres><p2><sg>/juuhâ<n><sem_plc><pl><nom>$
+[/WFY8aN_ifu0c]
+[Y6RxXwlroO6S#0] ^kyehti/kyehti<num><sg><acc>/kyehti<num><sg><nom>$
+[/Y6RxXwlroO6S]
+[YxwcQAqmjCAL#0] ^mut/mut<cnjcoo>$
+[/YxwcQAqmjCAL]
+[_c7s_M_U4_6A#0] ^vielgâd/vielgâd<adj><sg><acc>/vielgâd<adj><sg><gen>/vielgâd<adj><sg><nom>$
+[/_c7s_M_U4_6A]
+[bDO4Sk_DmsJG#0] ^,/,<cm>$ ^./.<sent>$ 
+ ^?/?<sent>$
+[/bDO4Sk_DmsJG]
+[bPDCiz0G_TAY#0] ^puásui/puásui<n><sem_ani><sg><nom>$
+[/bPDCiz0G_TAY]
+[cVvykH5vaG9u#0] ^tij/tun<prn><pers><p2><pl><nom>$
+[/cVvykH5vaG9u]
+[cZuoqq2HoqoC#0] ^ruopsâd/ruopsâd<adj><sg><acc>/ruopsâd<adj><sg><gen>/ruopsâd<adj><sg><nom>$
+[/cZuoqq2HoqoC]
+[ctT-yTBaDKLc#0] ^nelji/nelji<num><sg><acc>/nelji<num><sg><nom>$
+[/ctT-yTBaDKLc]
+[hFrq3lVPmpn3#0] ^suoi/sun<prn><pers><p3><du><nom>$
+[/hFrq3lVPmpn3]
+[j2bC0AQDEdEG#0] ^ohtâ/ohtâ<num><sg><nom>/ohtâ<prn><ind><attr>/ohtâ<prn><ind><sg><nom>$
+[/j2bC0AQDEdEG]
+[jG0lszL4km4O#0] ^tij/tun<prn><pers><p2><pl><nom>$ ^puátivetteđ/puáttiđ<vblex><iv><indic><pres><p2><pl>$
+[/jG0lszL4km4O]
+[mije2S69gXjZ#0] ^tun/tun<prn><pers><p2><sg><nom>$ ^vuábdáh/vyebdiđ<vblex><tv><indic><pres><p2><sg>$
+[/mije2S69gXjZ]
+[nK4cePk1I8Qb#0] ^niäljád/niäljád<adj><ord><attr>/niäljád<adj><ord><sg><acc>/niäljád<adj><ord><sg><gen>/niäljád<adj><ord><sg><nom>/niäljáš<n><sem_sign><sg><acc><px2du>/niäljáš<n><sem_sign><sg><acc><px2pl>/niäljáš<n><sem_sign><sg><acc><px2sg>/niäljáš<n><sem_sign><sg><gen><px2du>/niäljáš<n><sem_sign><sg><gen><px2pl>/niäljáš<n><sem_sign><sg><gen><px2sg>$
+[/nK4cePk1I8Qb]
+[qOvvfOjFJPOT#0] ^kuálmád/kuálmád<adj><ord><attr>/kuálmád<adj><ord><sg><acc>/kuálmád<adj><ord><sg><gen>/kuálmád<adj><ord><sg><nom>$
+[/qOvvfOjFJPOT]
+[tt-aWMmesInQ#0] ^styeres/styeres<adj><sg><nom>$
+[/tt-aWMmesInQ]
+[txeKyEvZwqnz#0] ^mij/mun<prn><pers><p1><pl><nom>$
+[/txeKyEvZwqnz]
+[uVLeJLT1UImR#0] ^jotelávt/jotelávt<adv>$
+[/uVLeJLT1UImR]
+[xMw2ajhE51yL#0] ^sij/sun<prn><pers><p3><pl><nom>$
+[/xMw2ajhE51yL]
+[xR54YmeHXl1a#0] ^uánihâš/uánihâš<adj><sg><nom>$
+[/xR54YmeHXl1a]
+[yNNEinztivzI#0] ^čappâd/čappâd<adj><sg><acc>/čappâd<adj><sg><gen>/čappâd<adj><sg><nom>$
+[/yNNEinztivzI]
+[yOBXsXC9sctX#0] ^sun/sun<prn><pers><p3><sg><nom>$ ^porá/puurrâđ<vblex><tv><indic><pres><p3><sg>$
+[/yOBXsXC9sctX]
+[yd-cPyljsZub#0] ^ij/ij<vblex><iv><neg><indic><p3><sg>$
+[/yd-cPyljsZub]
+[zkCGtsI6Kpla#0] ^sij/sun<prn><pers><p3><pl><nom>$ ^väldih/väldiđ<vblex><tv><indic><pres><p3><pl>$
+[/zkCGtsI6Kpla]
