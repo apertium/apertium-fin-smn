@@ -23,7 +23,7 @@ if ! test -d "$GTLANGS/corpus-fin/" ; then
     exit 2
 fi
 
-ccat -f fin "$GTLANGS/corpus-fin" |\
+ccat -l fin "$GTLANGS/corpus-fin" |\
     apertium -d . @fin-smn-dgen > freecorpus-fin.analysed
 grep -E -o '\*[^ ]*' < freecorpus-fin.analysed | sort | uniq -c | sort -nr \
     > freecorpus-fin.analyses.missinglist
